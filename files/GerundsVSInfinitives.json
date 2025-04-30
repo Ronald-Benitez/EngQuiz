@@ -1,0 +1,2112 @@
+[
+    {
+        "verb": "acknowledge",
+        "question": "She acknowledged ${} the mistake.",
+        "options": [
+            "making",
+            "to make",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "admit",
+        "question": "He admitted ${} the money.",
+        "options": [
+            "taking",
+            "to take",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "advise",
+        "question": "I advise ${} more often.",
+        "options": [
+            "exercising",
+            "to exercise",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "appreciate",
+        "question": "We appreciate ${} your time with us.",
+        "options": [
+            "spending",
+            "to spend",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "avoid",
+        "question": "They avoided ${} the issue.",
+        "options": [
+            "discussing",
+            "to discuss",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "can't help",
+        "question": "She can't help ${} when she watches that movie.",
+        "options": [
+            "crying",
+            "to cry",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "celebrate",
+        "question": "We celebrated ${} the contract.",
+        "options": [
+            "signing",
+            "to sign",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "complete",
+        "question": "He completed ${} the assignment.",
+        "options": [
+            "writing",
+            "to write",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "consider",
+        "question": "They considered ${} abroad.",
+        "options": [
+            "moving",
+            "to move",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "delay",
+        "question": "She delayed ${} the decision.",
+        "options": [
+            "making",
+            "to make",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "deny",
+        "question": "He denied ${} the window.",
+        "options": [
+            "breaking",
+            "to break",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "detest",
+        "question": "I detest ${} early.",
+        "options": [
+            "waking up",
+            "to wake up",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "discontinue",
+        "question": "They discontinued ${} that model.",
+        "options": [
+            "producing",
+            "to produce",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "discuss",
+        "question": "Let's discuss ${} the issue later.",
+        "options": [
+            "resolving",
+            "to resolve",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "dislike",
+        "question": "She dislikes ${} alone.",
+        "options": [
+            "eating",
+            "to eat",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "don't mind",
+        "question": "I don't mind ${} you later.",
+        "options": [
+            "calling",
+            "to call",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "endure",
+        "question": "He can't endure ${} so much noise.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "enjoy",
+        "question": "We enjoy ${} the sunset.",
+        "options": [
+            "watching",
+            "to watch",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "escape",
+        "question": "They escaped ${} by climbing the wall.",
+        "options": [
+            "getting caught",
+            "to get caught",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "explain",
+        "question": "He explained ${} the rules.",
+        "options": [
+            "breaking",
+            "to break",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "feel like",
+        "question": "I feel like ${} out tonight.",
+        "options": [
+            "going",
+            "to go",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "finish",
+        "question": "She finished ${} her homework.",
+        "options": [
+            "doing",
+            "to do",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "forgive",
+        "question": "We forgive you for ${} late.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "give up",
+        "question": "He gave up ${} for good.",
+        "options": [
+            "smoking",
+            "to smoke",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "imagine",
+        "question": "Imagine ${} on the beach right now.",
+        "options": [
+            "relaxing",
+            "to relax",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "justify",
+        "question": "He tried to justify ${} the report late.",
+        "options": [
+            "submitting",
+            "to submit",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "keep",
+        "question": "They kept ${} even when tired.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "mention",
+        "question": "Did he mention ${} the files?",
+        "options": [
+            "sending",
+            "to send",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "mind",
+        "question": "Do you mind ${} here?",
+        "options": [
+            "waiting",
+            "to wait",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "miss",
+        "question": "I miss ${} with you.",
+        "options": [
+            "talking",
+            "to talk",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "postpone",
+        "question": "They postponed ${} the trip.",
+        "options": [
+            "taking",
+            "to take",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "practice",
+        "question": "She practices ${} every day.",
+        "options": [
+            "playing",
+            "to play",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "prevent",
+        "question": "He prevented them from ${} the door.",
+        "options": [
+            "opening",
+            "to open",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "prohibit",
+        "question": "They prohibit ${} in this area.",
+        "options": [
+            "smoking",
+            "to smoke",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "propose",
+        "question": "I propose ${} the meeting.",
+        "options": [
+            "rescheduling",
+            "to reschedule",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "quit",
+        "question": "He quit ${} football.",
+        "options": [
+            "playing",
+            "to play",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "recall",
+        "question": "I recall ${} him yesterday.",
+        "options": [
+            "meeting",
+            "to meet",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "recommend",
+        "question": "She recommends ${} more.",
+        "options": [
+            "studying",
+            "to study",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "report",
+        "question": "He reported ${} in late.",
+        "options": [
+            "coming",
+            "to come",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "resent",
+        "question": "She resents ${} orders.",
+        "options": [
+            "taking",
+            "to take",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "resist",
+        "question": "I can't resist ${} chocolate.",
+        "options": [
+            "eating",
+            "to eat",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "risk",
+        "question": "He risked ${} everything.",
+        "options": [
+            "losing",
+            "to lose",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "suggest",
+        "question": "I suggest ${} earlier next time.",
+        "options": [
+            "leaving",
+            "to leave",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "support",
+        "question": "We support ${} the cause.",
+        "options": [
+            "fighting",
+            "to fight",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "tolerate",
+        "question": "They tolerate ${} in the hall.",
+        "options": [
+            "talking",
+            "to talk",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "understand",
+        "question": "I understand ${} his point of view.",
+        "options": [
+            "accepting",
+            "to accept",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "be excited about",
+        "question": "She is excited about ${} abroad.",
+        "options": [
+            "studying",
+            "to study",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "be worried about",
+        "question": "He is worried about ${} his job.",
+        "options": [
+            "losing",
+            "to lose",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "be responsible for",
+        "question": "You are responsible for ${} the files.",
+        "options": [
+            "organizing",
+            "to organize",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "be interested in",
+        "question": "She is interested in ${} art.",
+        "options": [
+            "learning",
+            "to learn",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "be accused of",
+        "question": "He was accused of ${} the money.",
+        "options": [
+            "stealing",
+            "to steal",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "be capable of",
+        "question": "She is capable of ${} a solution.",
+        "options": [
+            "finding",
+            "to find",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "be tired of",
+        "question": "I'm tired of ${} the same thing every day.",
+        "options": [
+            "doing",
+            "to do",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "be accustomed to",
+        "question": "They are accustomed to ${} early.",
+        "options": [
+            "waking up",
+            "to wake up",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "be committed to",
+        "question": "We are committed to ${} high standards.",
+        "options": [
+            "maintaining",
+            "to maintain",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "be opposed to",
+        "question": "She is opposed to ${} the plan.",
+        "options": [
+            "changing",
+            "to change",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "be used to",
+        "question": "He is used to ${} late.",
+        "options": [
+            "staying up",
+            "to stay up",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "complain about",
+        "question": "They complained about ${} again.",
+        "options": [
+            "working late",
+            "to work late",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "dream about/of",
+        "question": "I dream about ${} the world.",
+        "options": [
+            "traveling",
+            "to travel",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "talk about/of",
+        "question": "They talked about ${} a new strategy.",
+        "options": [
+            "developing",
+            "to develop",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "think about/of",
+        "question": "She is thinking about ${} her career.",
+        "options": [
+            "changing",
+            "to change",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "apologize for",
+        "question": "He apologized for ${} late.",
+        "options": [
+            "arriving",
+            "to arrive",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "make an excuse for",
+        "question": "She made an excuse for ${} her homework.",
+        "options": [
+            "forgetting",
+            "to forget",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "have a reason for",
+        "question": "We had a reason for ${} early.",
+        "options": [
+            "leaving",
+            "to leave",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "believe in",
+        "question": "I believe in ${} hard.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "participate in",
+        "question": "She participated in ${} the event.",
+        "options": [
+            "organizing",
+            "to organize",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "succeed in",
+        "question": "He succeeded in ${} the exam.",
+        "options": [
+            "passing",
+            "to pass",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "take advantage of",
+        "question": "They took advantage of ${} the offer.",
+        "options": [
+            "accepting",
+            "to accept",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "take care of",
+        "question": "She takes care of ${} the baby.",
+        "options": [
+            "feeding",
+            "to feed",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "insist on",
+        "question": "He insists on ${} everything himself.",
+        "options": [
+            "doing",
+            "to do",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "look forward to",
+        "question": "I'm looking forward to ${} you.",
+        "options": [
+            "meeting",
+            "to meet",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "blame [someone or something] for",
+        "question": "They blamed him for ${} the vase.",
+        "options": [
+            "breaking",
+            "to break",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "forgive [someone or something] for",
+        "question": "She forgave me for ${} her birthday.",
+        "options": [
+            "forgetting",
+            "to forget",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "thank [someone or something] for",
+        "question": "I thanked her for ${} me.",
+        "options": [
+            "helping",
+            "to help",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "keep [someone or something] from",
+        "question": "They kept him from ${} the truth.",
+        "options": [
+            "learning",
+            "to learn",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "prevent [someone or something] from",
+        "question": "She prevented me from ${} the button.",
+        "options": [
+            "pressing",
+            "to press",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "stop [someone or something] from",
+        "question": "They stopped her from ${} the answer.",
+        "options": [
+            "revealing",
+            "to reveal",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "afford",
+        "question": "They can't afford ${} a new car.",
+        "options": [
+            "buying",
+            "to buy",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "agree",
+        "question": "He agreed ${} the offer.",
+        "options": [
+            "taking",
+            "to take",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "appear",
+        "question": "She appeared ${} nervous.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "arrange",
+        "question": "They arranged ${} early.",
+        "options": [
+            "meeting",
+            "to meet",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "ask",
+        "question": "He asked ${} a question.",
+        "options": [
+            "answering",
+            "to answer",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "attempt",
+        "question": "She attempted ${} the task.",
+        "options": [
+            "solving",
+            "to solve",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "can't wait",
+        "question": "I can't wait ${} you.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "care",
+        "question": "Do you care ${} with us?",
+        "options": [
+            "coming",
+            "to come",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "choose",
+        "question": "They chose ${} the other route.",
+        "options": [
+            "taking",
+            "to take",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "claim",
+        "question": "She claimed ${} the truth.",
+        "options": [
+            "knowing",
+            "to know",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "consent",
+        "question": "He consented ${} in the study.",
+        "options": [
+            "participating",
+            "to participate",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "decide",
+        "question": "They decided ${} the meeting.",
+        "options": [
+            "canceling",
+            "to cancel",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "demand",
+        "question": "She demanded ${} the truth.",
+        "options": [
+            "knowing",
+            "to know",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "deserve",
+        "question": "You deserve ${} a break.",
+        "options": [
+            "getting",
+            "to get",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "expect",
+        "question": "I expect ${} on time.",
+        "options": [
+            "arriving",
+            "to arrive",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "fail",
+        "question": "They failed ${} the message.",
+        "options": [
+            "understanding",
+            "to understand",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "grow",
+        "question": "He grew ${} the piano well.",
+        "options": [
+            "playing",
+            "to play",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "hesitate",
+        "question": "She hesitated ${} the button.",
+        "options": [
+            "pressing",
+            "to press",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "hope",
+        "question": "We hope ${} soon.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "hurry",
+        "question": "He hurried ${} the document.",
+        "options": [
+            "finishing",
+            "to finish",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "intend",
+        "question": "I intend ${} more carefully.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "learn",
+        "question": "She learned ${} fast.",
+        "options": [
+            "typing",
+            "to type",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "manage",
+        "question": "He managed ${} the issue quickly.",
+        "options": [
+            "solving",
+            "to solve",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "mean",
+        "question": "I didn’t mean ${} you.",
+        "options": [
+            "hurting",
+            "to hurt",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "need",
+        "question": "You need ${} more rest.",
+        "options": [
+            "getting",
+            "to get",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "neglect",
+        "question": "They neglected ${} their duties.",
+        "options": [
+            "doing",
+            "to do",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "offer",
+        "question": "He offered ${} us.",
+        "options": [
+            "helping",
+            "to help",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "pay",
+        "question": "She paid ${} attention.",
+        "options": [
+            "giving",
+            "to give",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "plan",
+        "question": "We plan ${} to the beach.",
+        "options": [
+            "going",
+            "to go",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "prepare",
+        "question": "He prepared ${} a speech.",
+        "options": [
+            "giving",
+            "to give",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "pretend",
+        "question": "The child pretended ${} asleep.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "promise",
+        "question": "She promised ${} early.",
+        "options": [
+            "arriving",
+            "to arrive",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "refuse",
+        "question": "He refused ${} his name.",
+        "options": [
+            "giving",
+            "to give",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "request",
+        "question": "I request ${} a leave.",
+        "options": [
+            "taking",
+            "to take",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "seem",
+        "question": "She seems ${} confused.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "struggle",
+        "question": "He struggles ${} English.",
+        "options": [
+            "learning",
+            "to learn",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "swear",
+        "question": "I swear ${} the truth.",
+        "options": [
+            "telling",
+            "to tell",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "threaten",
+        "question": "She threatened ${} the secret.",
+        "options": [
+            "revealing",
+            "to reveal",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "volunteer",
+        "question": "They volunteered ${} the project.",
+        "options": [
+            "leading",
+            "to lead",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "wait",
+        "question": "He waited ${} the answer.",
+        "options": [
+            "getting",
+            "to get",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "want",
+        "question": "I want ${} something new.",
+        "options": [
+            "trying",
+            "to try",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "wish",
+        "question": "She wishes ${} famous.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "would like",
+        "question": "Would you like ${} now?",
+        "options": [
+            "eating",
+            "to eat",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "yearn",
+        "question": "They yearn ${} again.",
+        "options": [
+            "traveling",
+            "to travel",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "advise",
+        "question": "They advised her ${} a lawyer.",
+        "options": [
+            "hiring",
+            "to hire",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "allow",
+        "question": "We don't allow students ${} late.",
+        "options": [
+            "arriving",
+            "to arrive",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "ask",
+        "question": "She asked him ${} earlier.",
+        "options": [
+            "coming",
+            "to come",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "beg",
+        "question": "He begged her ${} back.",
+        "options": [
+            "coming",
+            "to come",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "cause",
+        "question": "The noise caused them ${} focus.",
+        "options": [
+            "losing",
+            "to lose",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "challenge",
+        "question": "They challenged him ${} harder.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "choose",
+        "question": "She chose them ${} first.",
+        "options": [
+            "going",
+            "to go",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "convince",
+        "question": "We convinced her ${} the plan.",
+        "options": [
+            "accepting",
+            "to accept",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "enable",
+        "question": "This tool enables us ${} faster.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "encourage",
+        "question": "They encouraged the team ${} more.",
+        "options": [
+            "trying",
+            "to try",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "expect",
+        "question": "I expected him ${} on time.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "forbid",
+        "question": "They forbade us ${} here.",
+        "options": [
+            "staying",
+            "to stay",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "force",
+        "question": "The situation forced them ${} quickly.",
+        "options": [
+            "reacting",
+            "to react",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "get",
+        "question": "She got him ${} the homework.",
+        "options": [
+            "doing",
+            "to do",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "help",
+        "question": "He helped her ${} the form.",
+        "options": [
+            "filling",
+            "to fill",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "hire",
+        "question": "They hired someone ${} the website.",
+        "options": [
+            "building",
+            "to build",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "instruct",
+        "question": "She instructed them ${} silently.",
+        "options": [
+            "walking",
+            "to walk",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "invite",
+        "question": "We invited him ${} with us.",
+        "options": [
+            "coming",
+            "to come",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "need",
+        "question": "They needed her ${} earlier.",
+        "options": [
+            "arriving",
+            "to arrive",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "order",
+        "question": "The captain ordered them ${} still.",
+        "options": [
+            "standing",
+            "to stand",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "pay",
+        "question": "He paid her ${} the bills.",
+        "options": [
+            "handling",
+            "to handle",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "permit",
+        "question": "They permitted us ${} the building.",
+        "options": [
+            "entering",
+            "to enter",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "persuade",
+        "question": "We persuaded him ${} the trip.",
+        "options": [
+            "taking",
+            "to take",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "promise",
+        "question": "She promised him ${} again.",
+        "options": [
+            "calling",
+            "to call",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "remind",
+        "question": "Please remind me ${} it later.",
+        "options": [
+            "doing",
+            "to do",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "request",
+        "question": "They requested him ${} a speech.",
+        "options": [
+            "giving",
+            "to give",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "require",
+        "question": "The school requires students ${} uniforms.",
+        "options": [
+            "wearing",
+            "to wear",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "teach",
+        "question": "He taught us ${} code.",
+        "options": [
+            "writing",
+            "to write",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "tell",
+        "question": "She told me ${} the lights.",
+        "options": [
+            "turning off",
+            "to turn off",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "urge",
+        "question": "They urged her ${} quickly.",
+        "options": [
+            "moving",
+            "to move",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "want",
+        "question": "We want you ${} happy.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "warn",
+        "question": "He warned them ${} the risks.",
+        "options": [
+            "avoiding",
+            "to avoid",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "wish",
+        "question": "I wish him ${} the best.",
+        "options": [
+            "getting",
+            "to get",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "would like",
+        "question": "We would like you ${} ready.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "afraid",
+        "question": "She is afraid ${} alone at night.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "alarmed",
+        "question": "He felt alarmed ${} the truth.",
+        "options": [
+            "learning",
+            "to learn",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "amazed",
+        "question": "We were amazed ${} the news.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "angry",
+        "question": "She was angry ${} the invitation.",
+        "options": [
+            "refusing",
+            "to refuse",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "anxious",
+        "question": "They are anxious ${} their results.",
+        "options": [
+            "knowing",
+            "to know",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "ashamed",
+        "question": "He felt ashamed ${} such words.",
+        "options": [
+            "saying",
+            "to say",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "certain",
+        "question": "She is certain ${} the right choice.",
+        "options": [
+            "making",
+            "to make",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "content",
+        "question": "He is content ${} alone.",
+        "options": [
+            "living",
+            "to live",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "curious",
+        "question": "They were curious ${} more.",
+        "options": [
+            "knowing",
+            "to know",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "delighted",
+        "question": "She was delighted ${} you.",
+        "options": [
+            "meeting",
+            "to meet",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "depressed",
+        "question": "He felt depressed ${} the opportunity.",
+        "options": [
+            "missing",
+            "to miss",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "determined",
+        "question": "They were determined ${} the goal.",
+        "options": [
+            "achieving",
+            "to achieve",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "disappointed",
+        "question": "We were disappointed ${} that.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "distressed",
+        "question": "She felt distressed ${} her family.",
+        "options": [
+            "leaving",
+            "to leave",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "disturbed",
+        "question": "He was disturbed ${} about the accident.",
+        "options": [
+            "thinking",
+            "to think",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "eager",
+        "question": "She is eager ${} the team.",
+        "options": [
+            "joining",
+            "to join",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "easy",
+        "question": "It's easy ${} mistakes.",
+        "options": [
+            "making",
+            "to make",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "embarrased",
+        "question": "He was embarrassed ${} in public.",
+        "options": [
+            "speaking",
+            "to speak",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "encouraged",
+        "question": "She felt encouraged ${} again.",
+        "options": [
+            "trying",
+            "to try",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "excited",
+        "question": "They are excited ${} the concert.",
+        "options": [
+            "attending",
+            "to attend",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "fortunate",
+        "question": "He was fortunate ${} help.",
+        "options": [
+            "receiving",
+            "to receive",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "glad",
+        "question": "I'm glad ${} you.",
+        "options": [
+            "meeting",
+            "to meet",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "happy",
+        "question": "She's happy ${} with us.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "hesitant",
+        "question": "He is hesitant ${} the answer.",
+        "options": [
+            "giving",
+            "to give",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "likely",
+        "question": "He is likely ${} first.",
+        "options": [
+            "arriving",
+            "to arrive",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "lucky",
+        "question": "We were lucky ${} tickets.",
+        "options": [
+            "getting",
+            "to get",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "pleased",
+        "question": "She was pleased ${} the report.",
+        "options": [
+            "reading",
+            "to read",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "prepared",
+        "question": "We are prepared ${} action.",
+        "options": [
+            "taking",
+            "to take",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "proud",
+        "question": "He's proud ${} the contest.",
+        "options": [
+            "winning",
+            "to win",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "ready",
+        "question": "She is ready ${} now.",
+        "options": [
+            "leaving",
+            "to leave",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "relieved",
+        "question": "He was relieved ${} safe.",
+        "options": [
+            "arriving",
+            "to arrive",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "reluctant",
+        "question": "They were reluctant ${} anything.",
+        "options": [
+            "saying",
+            "to say",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "sad",
+        "question": "I was sad ${} him go.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "shocked",
+        "question": "She was shocked ${} the news.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "sorry",
+        "question": "I'm sorry ${} that.",
+        "options": [
+            "saying",
+            "to say",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "surprised",
+        "question": "They were surprised ${} so early.",
+        "options": [
+            "leaving",
+            "to leave",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "touched",
+        "question": "She was touched ${} such kindness.",
+        "options": [
+            "receiving",
+            "to receive",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "upset",
+        "question": "He was upset ${} the chance.",
+        "options": [
+            "losing",
+            "to lose",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "willing",
+        "question": "Are you willing ${} us?",
+        "options": [
+            "helping",
+            "to help",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "forget",
+        "question": "I'll never forget ${} that day.",
+        "options": [
+            "being there",
+            "to be there",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "forget",
+        "question": "Don't forget ${} your homework.",
+        "options": [
+            "doing",
+            "to do",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "regret",
+        "question": "I regret ${} what I said.",
+        "options": [
+            "saying",
+            "to say",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "regret",
+        "question": "We regret ${} you that the event is cancelled.",
+        "options": [
+            "informing",
+            "to inform",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "remember",
+        "question": "I remember ${} my first job.",
+        "options": [
+            "starting",
+            "to start",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "remember",
+        "question": "Remember ${} your ticket.",
+        "options": [
+            "bringing",
+            "to bring",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "stop",
+        "question": "He stopped ${} to music.",
+        "options": [
+            "listening",
+            "to listen",
+            "both"
+        ],
+        "correct": 0
+    },
+    {
+        "verb": "stop",
+        "question": "He stopped ${} a drink.",
+        "options": [
+            "getting",
+            "to get",
+            "both"
+        ],
+        "correct": 1
+    },
+    {
+        "verb": "begin",
+        "question": "He began ${} loudly.",
+        "options": [
+            "speaking",
+            "to speak",
+            "both"
+        ],
+        "correct": 2
+    },
+    {
+        "verb": "can't stand",
+        "question": "I can't stand ${} in traffic.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 2
+    },
+    {
+        "verb": "continue",
+        "question": "She continued ${} after a short break.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 2
+    },
+    {
+        "verb": "hate",
+        "question": "I hate ${} early.",
+        "options": [
+            "waking up",
+            "to wake up",
+            "both"
+        ],
+        "correct": 2
+    },
+    {
+        "verb": "like",
+        "question": "They like ${} outdoors.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 2
+    },
+    {
+        "verb": "love",
+        "question": "We love ${} new recipes.",
+        "options": [
+            "trying",
+            "to try",
+            "both"
+        ],
+        "correct": 2
+    },
+    {
+        "verb": "prefer",
+        "question": "I prefer ${} coffee in the morning.",
+        "options": [
+            "drinking",
+            "to drink",
+            "both"
+        ],
+        "correct": 2
+    },
+    {
+        "verb": "start",
+        "question": "He started ${} harder after the feedback.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 2
+    },
+    {
+        "verb": "try",
+        "question": "You should try ${} meditation.",
+        "options": [
+            "practicing",
+            "to practice",
+            "both"
+        ],
+        "correct": 2
+    }
+]

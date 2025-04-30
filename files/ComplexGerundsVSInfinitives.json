@@ -1,0 +1,2498 @@
+[
+    {
+        "main": "acknowledge",
+        "question": "She acknowledged ____ the mistake.",
+        "options": [
+            "making",
+            "to make",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'acknowledge' is typically followed by a gerund."
+    },
+    {
+        "main": "admit",
+        "question": "He admitted ____ the truth.",
+        "options": [
+            "telling",
+            "to tell",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'admit' is typically followed by a gerund."
+    },
+    {
+        "main": "advise",
+        "question": "They advised ____ professional help.",
+        "options": [
+            "seeking",
+            "to seek",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'advise' is typically followed by a gerund when it refers to a general action."
+    },
+    {
+        "main": "appreciate",
+        "question": "I appreciate you ____ me.",
+        "options": [
+            "helping",
+            "to help",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'appreciate' is typically followed by a gerund."
+    },
+    {
+        "main": "avoid",
+        "question": "She tries to avoid ____ him.",
+        "options": [
+            "meeting",
+            "to meet",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'avoid' is always followed by a gerund."
+    },
+    {
+        "main": "can't help",
+        "question": "I can't help ____.",
+        "options": [
+            "laughing",
+            "to laugh",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The expression 'can't help' is always followed by a gerund."
+    },
+    {
+        "main": "celebrate",
+        "question": "We celebrated ____ the victory.",
+        "options": [
+            "winning",
+            "to win",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'celebrate' is typically followed by a gerund when referring to the action that is celebrated."
+    },
+    {
+        "main": "complete",
+        "question": "He finally completed ____ the project.",
+        "options": [
+            "finishing",
+            "to finish",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'complete' is typically followed by a gerund."
+    },
+    {
+        "main": "consider",
+        "question": "They are considering ____ abroad.",
+        "options": [
+            "moving",
+            "to move",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'consider' is always followed by a gerund."
+    },
+    {
+        "main": "delay",
+        "question": "They decided to delay ____ the decision.",
+        "options": [
+            "making",
+            "to make",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'delay' is typically followed by a gerund."
+    },
+    {
+        "main": "deny",
+        "question": "She denied ____ the accusations.",
+        "options": [
+            "knowing",
+            "to know",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'deny' is always followed by a gerund."
+    },
+    {
+        "main": "detest",
+        "question": "I detest ____ early in the morning.",
+        "options": [
+            "waking up",
+            "to wake up",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'detest' is always followed by a gerund."
+    },
+    {
+        "main": "discontinue",
+        "question": "The company discontinued ____ that product.",
+        "options": [
+            "manufacturing",
+            "to manufacture",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'discontinue' is typically followed by a gerund."
+    },
+    {
+        "main": "discuss",
+        "question": "We discussed ____ the options.",
+        "options": [
+            "exploring",
+            "to explore",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'discuss' is typically followed by a gerund."
+    },
+    {
+        "main": "dislike",
+        "question": "He dislikes ____ in crowded places.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'dislike' is always followed by a gerund."
+    },
+    {
+        "main": "don't mind",
+        "question": "I don't mind ____ the dishes.",
+        "options": [
+            "washing",
+            "to wash",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The expression 'don't mind' is always followed by a gerund."
+    },
+    {
+        "main": "endure",
+        "question": "She can't endure ____ such noise.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'endure' is typically followed by a gerund."
+    },
+    {
+        "main": "enjoy",
+        "question": "They enjoy ____ time together.",
+        "options": [
+            "spending",
+            "to spend",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'enjoy' is always followed by a gerund."
+    },
+    {
+        "main": "escape",
+        "question": "He managed to escape ____ punishment.",
+        "options": [
+            "receiving",
+            "to receive",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'escape' is typically followed by a gerund when referring to avoiding something."
+    },
+    {
+        "main": "explain",
+        "question": "He explained ____ the problem.",
+        "options": [
+            "solving",
+            "to solve",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'explain' is typically followed by a gerund when the gerund acts as a noun describing the content of the explanation."
+    },
+    {
+        "main": "feel like",
+        "question": "I feel like ____ a pizza.",
+        "options": [
+            "ordering",
+            "to order",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The expression 'feel like' is always followed by a gerund."
+    },
+    {
+        "main": "finish",
+        "question": "She finished ____ the book.",
+        "options": [
+            "reading",
+            "to read",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'finish' is always followed by a gerund."
+    },
+    {
+        "main": "forgive",
+        "question": "I hope they forgive ____ so rudely.",
+        "options": [
+            "behaving",
+            "to behave",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'forgive' is typically followed by a gerund when referring to the action being forgiven."
+    },
+    {
+        "main": "give up",
+        "question": "He gave up ____ smoking.",
+        "options": [
+            "trying",
+            "to try",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The phrasal verb 'give up' is always followed by a gerund."
+    },
+    {
+        "main": "imagine",
+        "question": "Can you imagine ____ living here?",
+        "options": [
+            "living",
+            "to live",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'imagine' is always followed by a gerund."
+    },
+    {
+        "main": "justify",
+        "question": "He tried to justify ____ his actions.",
+        "options": [
+            "defending",
+            "to defend",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'justify' is typically followed by a gerund."
+    },
+    {
+        "main": "keep",
+        "question": "She keeps ____ interrupting me.",
+        "options": [
+            "doing",
+            "to do",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'keep' is often followed by a gerund to indicate a continuous action."
+    },
+    {
+        "main": "mention",
+        "question": "He mentioned ____ the new policy.",
+        "options": [
+            "discussing",
+            "to discuss",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'mention' is typically followed by a gerund."
+    },
+    {
+        "main": "mind",
+        "question": "Do you mind ____ the window?",
+        "options": [
+            "opening",
+            "to open",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'mind' (when asking about being bothered by something) is always followed by a gerund."
+    },
+    {
+        "main": "miss",
+        "question": "I miss ____ my friends.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'miss' is always followed by a gerund when referring to longing for an activity."
+    },
+    {
+        "main": "postpone",
+        "question": "They postponed ____ the meeting.",
+        "options": [
+            "holding",
+            "to hold",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'postpone' is always followed by a gerund."
+    },
+    {
+        "main": "practice",
+        "question": "She needs to practice ____ the piano.",
+        "options": [
+            "playing",
+            "to play",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'practice' is typically followed by a gerund."
+    },
+    {
+        "main": "prevent",
+        "question": "The rain prevented us from ____ outside.",
+        "options": [
+            "going",
+            "to go",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'prevent' is typically followed by a gerund after the object."
+    },
+    {
+        "main": "prohibit",
+        "question": "The sign prohibits ____.",
+        "options": [
+            "smoking",
+            "to smoke",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'prohibit' is typically followed by a gerund."
+    },
+    {
+        "main": "propose",
+        "question": "He proposed ____ a new strategy.",
+        "options": [
+            "developing",
+            "to develop",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'propose' is typically followed by a gerund when suggesting an action."
+    },
+    {
+        "main": "quit",
+        "question": "She quit ____ her job.",
+        "options": [
+            "doing",
+            "to do",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'quit' is typically followed by a gerund."
+    },
+    {
+        "main": "recall",
+        "question": "I don't recall ____ that.",
+        "options": [
+            "saying",
+            "to say",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'recall' is always followed by a gerund."
+    },
+    {
+        "main": "recommend",
+        "question": "They recommend ____ this restaurant.",
+        "options": [
+            "trying",
+            "to try",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'recommend' is typically followed by a gerund."
+    },
+    {
+        "main": "report",
+        "question": "She reported ____ the incident.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'report' is typically followed by a gerund when describing the action reported."
+    },
+    {
+        "main": "resent",
+        "question": "He resents ____ treated unfairly.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'resent' is always followed by a gerund."
+    },
+    {
+        "main": "resist",
+        "question": "I couldn't resist ____ the temptation.",
+        "options": [
+            "eating",
+            "to eat",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'resist' is typically followed by a gerund."
+    },
+    {
+        "main": "risk",
+        "question": "They risked ____ everything.",
+        "options": [
+            "losing",
+            "to lose",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'risk' is typically followed by a gerund."
+    },
+    {
+        "main": "suggest",
+        "question": "She suggested ____ a movie.",
+        "options": [
+            "watching",
+            "to watch",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'suggest' is always followed by a gerund."
+    },
+    {
+        "main": "support",
+        "question": "They support ____ local businesses.",
+        "options": [
+            "buying from",
+            "to buy from",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'support' is typically followed by a gerund when referring to a general activity."
+    },
+    {
+        "main": "tolerate",
+        "question": "I can't tolerate ____ rudeness.",
+        "options": [
+            "experiencing",
+            "to experience",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'tolerate' is typically followed by a gerund."
+    },
+    {
+        "main": "understand",
+        "question": "I understand ____ the situation.",
+        "options": [
+            "feeling",
+            "to feel",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The verb 'understand' is typically followed by a gerund when referring to understanding an experience or action."
+    },
+    {
+        "main": "be excited about",
+        "question": "She is excited about ____ to the party.",
+        "options": [
+            "going",
+            "to go",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'about' is followed by a gerund."
+    },
+    {
+        "main": "be worried about",
+        "question": "He is worried about ____ the exam.",
+        "options": [
+            "failing",
+            "to fail",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'about' is followed by a gerund."
+    },
+    {
+        "main": "be responsible for",
+        "question": "They are responsible for ____ the project.",
+        "options": [
+            "managing",
+            "to manage",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'for' is followed by a gerund."
+    },
+    {
+        "main": "be interested in",
+        "question": "She is interested in ____ new languages.",
+        "options": [
+            "learning",
+            "to learn",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'in' is followed by a gerund."
+    },
+    {
+        "main": "be accused of",
+        "question": "He was accused of ____ the money.",
+        "options": [
+            "stealing",
+            "to steal",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'of' is followed by a gerund."
+    },
+    {
+        "main": "be capable of",
+        "question": "She is capable of ____ the task.",
+        "options": [
+            "completing",
+            "to complete",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'of' is followed by a gerund."
+    },
+    {
+        "main": "be tired of",
+        "question": "I am tired of ____ the same thing every day.",
+        "options": [
+            "doing",
+            "to do",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'of' is followed by a gerund."
+    },
+    {
+        "main": "be accustomed to",
+        "question": "They are accustomed to ____ early.",
+        "options": [
+            "waking up",
+            "to wake up",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'to' (in this context, indicating habit) is followed by a gerund."
+    },
+    {
+        "main": "be committed to",
+        "question": "The company is committed to ____ sustainability.",
+        "options": [
+            "promoting",
+            "to promote",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'to' (in this context, indicating dedication) is followed by a gerund."
+    },
+    {
+        "main": "be opposed to",
+        "question": "He is opposed to ____ the new regulations.",
+        "options": [
+            "implementing",
+            "to implement",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'to' (in this context, indicating opposition) is followed by a gerund."
+    },
+    {
+        "main": "be used to",
+        "question": "She is used to ____ long hours.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'to' (in this context, indicating habit) is followed by a gerund."
+    },
+    {
+        "main": "complain about",
+        "question": "They complained about ____ the noise.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'about' is followed by a gerund."
+    },
+    {
+        "main": "dream about/of",
+        "question": "I dream about ____ traveling the world.",
+        "options": [
+            "someday",
+            "to someday",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The prepositions 'about' and 'of' are followed by a gerund."
+    },
+    {
+        "main": "talk about/of",
+        "question": "They were talking about ____ the new project.",
+        "options": [
+            "starting",
+            "to start",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The prepositions 'about' and 'of' are followed by a gerund."
+    },
+    {
+        "main": "think about/of",
+        "question": "She is thinking about ____ moving to a new city.",
+        "options": [
+            "actually",
+            "to actually",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The prepositions 'about' and 'of' are followed by a gerund."
+    },
+    {
+        "main": "apologize for",
+        "question": "He apologized for ____ late.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'for' is followed by a gerund."
+    },
+    {
+        "main": "make an excuse for",
+        "question": "She made an excuse for ____ the meeting.",
+        "options": [
+            "missing",
+            "to miss",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'for' is followed by a gerund."
+    },
+    {
+        "main": "have a reason for",
+        "question": "They have a reason for ____ upset.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'for' is followed by a gerund."
+    },
+    {
+        "main": "believe in",
+        "question": "Do you believe in ____ ghosts?",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'in' is followed by a gerund."
+    },
+    {
+        "main": "participate in",
+        "question": "He wants to participate in ____ the marathon.",
+        "options": [
+            "running",
+            "to run",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'in' is followed by a gerund."
+    },
+    {
+        "main": "succeed in",
+        "question": "She succeeded in ____ the exam.",
+        "options": [
+            "passing",
+            "to pass",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'in' is followed by a gerund."
+    },
+    {
+        "main": "take advantage of",
+        "question": "They took advantage of ____ the discount.",
+        "options": [
+            "using",
+            "to use",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'of' is followed by a gerund."
+    },
+    {
+        "main": "take care of",
+        "question": "He needs to take care of ____ his health.",
+        "options": [
+            "improving",
+            "to improve",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'of' is followed by a gerund."
+    },
+    {
+        "main": "insist on",
+        "question": "She insisted on ____ the bill.",
+        "options": [
+            "paying",
+            "to pay",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'on' is followed by a gerund."
+    },
+    {
+        "main": "look forward to",
+        "question": "We are looking forward to ____ you.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'to' (in this context, indicating anticipation) is followed by a gerund."
+    },
+    {
+        "main": "blame [someone or something] for",
+        "question": "They blamed the weather for ____ the event.",
+        "options": [
+            "canceling",
+            "to cancel",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'for' is followed by a gerund."
+    },
+    {
+        "main": "forgive [someone or something] for",
+        "question": "She forgave him for ____ her.",
+        "options": [
+            "lying to",
+            "to lie to",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'for' is followed by a gerund."
+    },
+    {
+        "main": "thank [someone or something] for",
+        "question": "I thanked them for ____ me.",
+        "options": [
+            "helping",
+            "to help",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'for' is followed by a gerund."
+    },
+    {
+        "main": "keep [someone or something] from",
+        "question": "The rain kept us from ____ outside.",
+        "options": [
+            "going",
+            "to go",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'from' is followed by a gerund."
+    },
+    {
+        "main": "prevent [someone or something] from",
+        "question": "The security system prevents people from ____ unauthorized areas.",
+        "options": [
+            "entering",
+            "to enter",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'from' is followed by a gerund."
+    },
+    {
+        "main": "stop [someone or something] from",
+        "question": "They stopped him from ____ the building.",
+        "options": [
+            "leaving",
+            "to leave",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "The preposition 'from' is followed by a gerund."
+    },
+    {
+        "main": "afford",
+        "question": "They can't afford ____ a new car.",
+        "options": [
+            "buying",
+            "to buy",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'afford' is typically followed by an infinitive."
+    },
+    {
+        "main": "agree",
+        "question": "She agreed ____ us.",
+        "options": [
+            "helping",
+            "to help",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'agree' is typically followed by an infinitive."
+    },
+    {
+        "main": "appear",
+        "question": "He appeared ____ tired.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'appear' is typically followed by an infinitive."
+    },
+    {
+        "main": "arrange",
+        "question": "They arranged ____ a meeting.",
+        "options": [
+            "having",
+            "to have",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'arrange' is typically followed by an infinitive."
+    },
+    {
+        "main": "ask",
+        "question": "He asked ____ a question.",
+        "options": [
+            "asking",
+            "to ask",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'ask' is typically followed by an infinitive."
+    },
+    {
+        "main": "attempt",
+        "question": "She attempted ____ the climb.",
+        "options": [
+            "finishing",
+            "to finish",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'attempt' is typically followed by an infinitive."
+    },
+    {
+        "main": "can't wait",
+        "question": "I can't wait ____ the movie.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The expression 'can't wait' is always followed by an infinitive."
+    },
+    {
+        "main": "care",
+        "question": "Would you care ____ dance?",
+        "options": [
+            "to",
+            "dancing",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'care' (in this usage) is typically followed by an infinitive."
+    },
+    {
+        "main": "choose",
+        "question": "They chose ____ the blue one.",
+        "options": [
+            "taking",
+            "to take",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'choose' is typically followed by an infinitive."
+    },
+    {
+        "main": "claim",
+        "question": "He claimed ____ innocent.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'claim' is typically followed by an infinitive."
+    },
+    {
+        "main": "consent",
+        "question": "She consented ____ the surgery.",
+        "options": [
+            "having",
+            "to have",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'consent' is typically followed by an infinitive."
+    },
+    {
+        "main": "decide",
+        "question": "We decided ____ on vacation.",
+        "options": [
+            "going",
+            "to go",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'decide' is always followed by an infinitive."
+    },
+    {
+        "main": "demand",
+        "question": "They demanded ____ an explanation.",
+        "options": [
+            "receiving",
+            "to receive",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'demand' is typically followed by an infinitive."
+    },
+    {
+        "main": "deserve",
+        "question": "You deserve ____ a break.",
+        "options": [
+            "having",
+            "to have",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'deserve' is typically followed by an infinitive."
+    },
+    {
+        "main": "expect",
+        "question": "I expect him ____ on time.",
+        "options": [
+            "arriving",
+            "to arrive",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'expect' is typically followed by an infinitive."
+    },
+    {
+        "main": "fail",
+        "question": "She failed ____ the test.",
+        "options": [
+            "passing",
+            "to pass",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'fail' is typically followed by an infinitive."
+    },
+    {
+        "main": "grow",
+        "question": "He grew ____ a doctor.",
+        "options": [
+            "becoming",
+            "to become",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'grow' (in the sense of becoming) is typically followed by an infinitive."
+    },
+    {
+        "main": "hesitate",
+        "question": "Don't hesitate ____ if you need help.",
+        "options": [
+            "asking",
+            "to ask",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'hesitate' is typically followed by an infinitive."
+    },
+    {
+        "main": "hope",
+        "question": "We hope ____ you soon.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'hope' is typically followed by an infinitive."
+    },
+    {
+        "main": "hurry",
+        "question": "They hurried ____ catch the train.",
+        "options": [
+            "catching",
+            "to catch",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'hurry' is typically followed by an infinitive."
+    },
+    {
+        "main": "intend",
+        "question": "I intend ____ to Europe next year.",
+        "options": [
+            "traveling",
+            "to travel",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'intend' is typically followed by an infinitive."
+    },
+    {
+        "main": "learn",
+        "question": "She wants to learn ____ the guitar.",
+        "options": [
+            "playing",
+            "to play",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'learn' is typically followed by an infinitive."
+    },
+    {
+        "main": "manage",
+        "question": "He managed ____ the problem.",
+        "options": [
+            "solving",
+            "to solve",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'manage' is typically followed by an infinitive."
+    },
+    {
+        "main": "mean",
+        "question": "I didn't mean ____ you.",
+        "options": [
+            "hurting",
+            "to hurt",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'mean' (in the sense of intend) is typically followed by an infinitive."
+    },
+    {
+        "main": "need",
+        "question": "They need ____ more information.",
+        "options": [
+            "getting",
+            "to get",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'need' is typically followed by an infinitive."
+    },
+    {
+        "main": "neglect",
+        "question": "He neglected ____ his duties.",
+        "options": [
+            "doing",
+            "to do",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'neglect' is typically followed by an infinitive."
+    },
+    {
+        "main": "offer",
+        "question": "She offered ____ her help.",
+        "options": [
+            "giving",
+            "to give",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'offer' is typically followed by an infinitive."
+    },
+    {
+        "main": "pay",
+        "question": "I need to pay ____ the bills.",
+        "options": [
+            "to",
+            "paying",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'pay' is typically followed by an infinitive."
+    },
+    {
+        "main": "plan",
+        "question": "They plan ____ a trip next month.",
+        "options": [
+            "taking",
+            "to take",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'plan' is typically followed by an infinitive."
+    },
+    {
+        "main": "prepare",
+        "question": "We need to prepare ____ the presentation.",
+        "options": [
+            "giving",
+            "to give",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'prepare' is typically followed by an infinitive."
+    },
+    {
+        "main": "pretend",
+        "question": "He pretended ____ asleep.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'pretend' is typically followed by an infinitive."
+    },
+    {
+        "main": "promise",
+        "question": "She promised ____ me.",
+        "options": [
+            "calling",
+            "to call",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'promise' is typically followed by an infinitive."
+    },
+    {
+        "main": "refuse",
+        "question": "He refused ____ their offer.",
+        "options": [
+            "accepting",
+            "to accept",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'refuse' is always followed by an infinitive."
+    },
+    {
+        "main": "request",
+        "question": "They requested ____ more time.",
+        "options": [
+            "having",
+            "to have",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'request' is typically followed by an infinitive."
+    },
+    {
+        "main": "seem",
+        "question": "It seems ____ interesting.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'seem' is typically followed by an infinitive."
+    },
+    {
+        "main": "struggle",
+        "question": "They struggled ____ the heavy box.",
+        "options": [
+            "carrying",
+            "to carry",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'struggle' is typically followed by an infinitive."
+    },
+    {
+        "main": "swear",
+        "question": "He swore ____ the truth.",
+        "options": [
+            "telling",
+            "to tell",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'swear' is typically followed by an infinitive."
+    },
+    {
+        "main": "threaten",
+        "question": "She threatened ____ the police.",
+        "options": [
+            "calling",
+            "to call",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'threaten' is typically followed by an infinitive."
+    },
+    {
+        "main": "volunteer",
+        "question": "He volunteered ____ at the shelter.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'volunteer' is typically followed by an infinitive."
+    },
+    {
+        "main": "wait",
+        "question": "I can't wait ____ you.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'wait' is typically followed by an infinitive."
+    },
+    {
+        "main": "want",
+        "question": "They want ____ a new house.",
+        "options": [
+            "buying",
+            "to buy",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'want' is typically followed by an infinitive."
+    },
+    {
+        "main": "wish",
+        "question": "I wish ____ home.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'wish' is typically followed by an infinitive."
+    },
+    {
+        "main": "would like",
+        "question": "She would like ____ some coffee.",
+        "options": [
+            "having",
+            "to have",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The expression 'would like' is always followed by an infinitive."
+    },
+    {
+        "main": "yearn",
+        "question": "He yearns ____ his homeland.",
+        "options": [
+            "returning to",
+            "to return to",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'yearn' is typically followed by an infinitive."
+    },
+    {
+        "main": "advise",
+        "question": "They advised him ____ a lawyer.",
+        "options": [
+            "hiring",
+            "to hire",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'advise' followed by an object usually takes an infinitive."
+    },
+    {
+        "main": "allow",
+        "question": "Her parents allowed her ____ out late.",
+        "options": [
+            "staying",
+            "to stay",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'allow' followed by an object takes an infinitive."
+    },
+    {
+        "main": "ask",
+        "question": "She asked me ____ her.",
+        "options": [
+            "helping",
+            "to help",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'ask' followed by an object usually takes an infinitive."
+    },
+    {
+        "main": "beg",
+        "question": "He begged her ____.",
+        "options": [
+            "staying",
+            "to stay",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'beg' followed by an object takes an infinitive."
+    },
+    {
+        "main": "cause",
+        "question": "The accident caused him ____ late.",
+        "options": [
+            "arriving",
+            "to arrive",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'cause' followed by an object takes an infinitive."
+    },
+    {
+        "main": "challenge",
+        "question": "They challenged us ____ their record.",
+        "options": [
+            "breaking",
+            "to break",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'challenge' followed by an object takes an infinitive."
+    },
+    {
+        "main": "choose",
+        "question": "She chose him ____ on the team.",
+        "options": [
+            "playing",
+            "to play",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'choose' followed by an object usually takes an infinitive."
+    },
+    {
+        "main": "convince",
+        "question": "They convinced her ____ the job.",
+        "options": [
+            "taking",
+            "to take",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'convince' followed by an object takes an infinitive."
+    },
+    {
+        "main": "enable",
+        "question": "The new software enabled us ____ faster.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'enable' followed by an object takes an infinitive."
+    },
+    {
+        "main": "encourage",
+        "question": "His teachers encouraged him ____ his dreams.",
+        "options": [
+            "following",
+            "to follow",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'encourage' followed by an object takes an infinitive."
+    },
+    {
+        "main": "expect",
+        "question": "We expect them ____ on time.",
+        "options": [
+            "arriving",
+            "to arrive",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'expect' followed by an object takes an infinitive."
+    },
+    {
+        "main": "forbid",
+        "question": "The rules forbid students ____ during exams.",
+        "options": [
+            "talking",
+            "to talk",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'forbid' followed by an object takes an infinitive."
+    },
+    {
+        "main": "force",
+        "question": "They forced him ____ the contract.",
+        "options": [
+            "signing",
+            "to sign",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'force' followed by an object takes an infinitive."
+    },
+    {
+        "main": "get",
+        "question": "I need to get him ____ the truth.",
+        "options": [
+            "telling",
+            "to tell",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'get' followed by an object often takes an infinitive."
+    },
+    {
+        "main": "help",
+        "question": "Can you help me ____ this box?",
+        "options": [
+            "carrying",
+            "to carry",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'help' followed by an object can take either the base form or the infinitive."
+    },
+    {
+        "main": "hire",
+        "question": "The company hired her ____ the new department.",
+        "options": [
+            "managing",
+            "to manage",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'hire' followed by an object usually takes an infinitive."
+    },
+    {
+        "main": "instruct",
+        "question": "The teacher instructed the students ____ quietly.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'instruct' followed by an object takes an infinitive."
+    },
+    {
+        "main": "invite",
+        "question": "They invited us ____ their wedding.",
+        "options": [
+            "attending",
+            "to attend",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'invite' followed by an object takes an infinitive."
+    },
+    {
+        "main": "need",
+        "question": "I need you ____ me with this.",
+        "options": [
+            "helping",
+            "to help",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'need' followed by an object takes an infinitive."
+    },
+    {
+        "main": "order",
+        "question": "The boss ordered them ____ the report immediately.",
+        "options": [
+            "finishing",
+            "to finish",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'order' followed by an object takes an infinitive."
+    },
+    {
+        "main": "pay",
+        "question": "They paid the workers ____ extra hours.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'pay' followed by an object usually takes an infinitive."
+    },
+    {
+        "main": "permit",
+        "question": "The school doesn't permit students ____ during class.",
+        "options": [
+            "using",
+            "to use",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'permit' followed by an object takes an infinitive."
+    },
+    {
+        "main": "persuade",
+        "question": "She persuaded him ____ her decision.",
+        "options": [
+            "supporting",
+            "to support",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'persuade' followed by an object takes an infinitive."
+    },
+    {
+        "main": "promise",
+        "question": "He promised her ____ her soon.",
+        "options": [
+            "calling",
+            "to call",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'promise' followed by an object takes an infinitive."
+    },
+    {
+        "main": "remind",
+        "question": "She reminded him ____ the tickets.",
+        "options": [
+            "bringing",
+            "to bring",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'remind' followed by an object takes an infinitive."
+    },
+    {
+        "main": "request",
+        "question": "They requested us ____ our IDs.",
+        "options": [
+            "showing",
+            "to show",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'request' followed by an object takes an infinitive."
+    },
+    {
+        "main": "require",
+        "question": "The regulations require all participants ____ a form.",
+        "options": [
+            "completing",
+            "to complete",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'require' followed by an object takes an infinitive."
+    },
+    {
+        "main": "teach",
+        "question": "My father taught me ____.",
+        "options": [
+            "swimming",
+            "to swim",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'teach' followed by an object takes an infinitive."
+    },
+    {
+        "main": "tell",
+        "question": "She told him ____ the truth.",
+        "options": [
+            "saying",
+            "to say",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'tell' followed by an object takes an infinitive."
+    },
+    {
+        "main": "urge",
+        "question": "They urged him ____ immediately.",
+        "options": [
+            "leaving",
+            "to leave",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'urge' followed by an object takes an infinitive."
+    },
+    {
+        "main": "want",
+        "question": "I want you ____ here on time.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'want' followed by an object takes an infinitive."
+    },
+    {
+        "main": "warn",
+        "question": "They warned us ____ the danger.",
+        "options": [
+            "avoiding",
+            "to avoid",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'warn' followed by an object takes an infinitive."
+    },
+    {
+        "main": "wish",
+        "question": "I wish you ____ a great time.",
+        "options": [
+            "having",
+            "to have",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The verb 'wish' followed by an object takes an infinitive."
+    },
+    {
+        "main": "would like",
+        "question": "I would like you ____ this report.",
+        "options": [
+            "finishing",
+            "to finish",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The expression 'would like' followed by an object takes an infinitive."
+    },
+    {
+        "main": "afraid",
+        "question": "She is afraid ____ in the dark.",
+        "options": [
+            "being",
+            "to be",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'afraid' is often followed by an infinitive."
+    },
+    {
+        "main": "alarmed",
+        "question": "He was alarmed ____ the news.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'alarmed' is often followed by an infinitive."
+    },
+    {
+        "main": "amazed",
+        "question": "They were amazed ____ the performance.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'amazed' is often followed by an infinitive."
+    },
+    {
+        "main": "angry",
+        "question": "He was angry ____ the mistake.",
+        "options": [
+            "making",
+            "to make",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'angry' is often followed by an infinitive."
+    },
+    {
+        "main": "anxious",
+        "question": "She is anxious ____ the results.",
+        "options": [
+            "knowing",
+            "to know",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'anxious' is often followed by an infinitive."
+    },
+    {
+        "main": "ashamed",
+        "question": "He was ashamed ____ his behavior.",
+        "options": [
+            "admitting",
+            "to admit",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'ashamed' is often followed by an infinitive."
+    },
+    {
+        "main": "certain",
+        "question": "They are certain ____ the truth.",
+        "options": [
+            "finding out",
+            "to find out",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'certain' is often followed by an infinitive."
+    },
+    {
+        "main": "content",
+        "question": "She is content ____ her life.",
+        "options": [
+            "living",
+            "to live",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'content' is often followed by an infinitive."
+    },
+    {
+        "main": "curious",
+        "question": "He was curious ____ what happened.",
+        "options": [
+            "knowing",
+            "to know",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'curious' is often followed by an infinitive."
+    },
+    {
+        "main": "delighted",
+        "question": "We were delighted ____ you.",
+        "options": [
+            "meeting",
+            "to meet",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'delighted' is often followed by an infinitive."
+    },
+    {
+        "main": "depressed",
+        "question": "He was depressed ____ the news.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'depressed' is often followed by an infinitive."
+    },
+    {
+        "main": "determined",
+        "question": "She is determined ____ her goals.",
+        "options": [
+            "achieving",
+            "to achieve",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'determined' is often followed by an infinitive."
+    },
+    {
+        "main": "disappointed",
+        "question": "They were disappointed ____ the results.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'disappointed' is often followed by an infinitive."
+    },
+    {
+        "main": "distressed",
+        "question": "He was distressed ____ the situation.",
+        "options": [
+            "learning about",
+            "to learn about",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'distressed' is often followed by an infinitive."
+    },
+    {
+        "main": "disturbed",
+        "question": "She was disturbed ____ the noise.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'disturbed' is often followed by an infinitive."
+    },
+    {
+        "main": "eager",
+        "question": "They are eager ____ the new movie.",
+        "options": [
+            "watching",
+            "to watch",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'eager' is always followed by an infinitive."
+    },
+    {
+        "main": "easy",
+        "question": "It is easy ____ mistakes.",
+        "options": [
+            "making",
+            "to make",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'easy' is often followed by an infinitive."
+    },
+    {
+        "main": "embarrassed",
+        "question": "He was embarrassed ____ his mistake.",
+        "options": [
+            "admitting",
+            "to admit",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'embarrassed' is often followed by an infinitive."
+    },
+    {
+        "main": "encouraged",
+        "question": "She was encouraged ____ her dreams.",
+        "options": [
+            "following",
+            "to follow",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'encouraged' is often followed by an infinitive."
+    },
+    {
+        "main": "excited",
+        "question": "They are excited ____ the trip.",
+        "options": [
+            "going on",
+            "to go on",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'excited' is often followed by an infinitive."
+    },
+    {
+        "main": "fortunate",
+        "question": "We were fortunate ____ tickets.",
+        "options": [
+            "getting",
+            "to get",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'fortunate' is often followed by an infinitive."
+    },
+    {
+        "main": "glad",
+        "question": "I am glad ____ you.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'glad' is often followed by an infinitive."
+    },
+    {
+        "main": "happy",
+        "question": "She was happy ____ the news.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'happy' is often followed by an infinitive."
+    },
+    {
+        "main": "hesitant",
+        "question": "He was hesitant ____ the offer.",
+        "options": [
+            "accepting",
+            "to accept",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'hesitant' is often followed by an infinitive."
+    },
+    {
+        "main": "likely",
+        "question": "It is likely ____ rain.",
+        "options": [
+            "raining",
+            "to rain",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'likely' is often followed by an infinitive."
+    },
+    {
+        "main": "lucky",
+        "question": "You are lucky ____ such a great opportunity.",
+        "options": [
+            "having",
+            "to have",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'lucky' is often followed by an infinitive."
+    },
+    {
+        "main": "pleased",
+        "question": "They were pleased ____ the results.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'pleased' is often followed by an infinitive."
+    },
+    {
+        "main": "prepared",
+        "question": "She is prepared ____ the presentation.",
+        "options": [
+            "giving",
+            "to give",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'prepared' is often followed by an infinitive."
+    },
+    {
+        "main": "proud",
+        "question": "He was proud ____ his son.",
+        "options": [
+            "graduating",
+            "to graduate",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'proud' is often followed by an infinitive."
+    },
+    {
+        "main": "ready",
+        "question": "We are ready ____.",
+        "options": [
+            "starting",
+            "to start",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'ready' is always followed by an infinitive."
+    },
+    {
+        "main": "relieved",
+        "question": "They were relieved ____ the danger.",
+        "options": [
+            "escaping",
+            "to escape",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'relieved' is often followed by an infinitive."
+    },
+    {
+        "main": "reluctant",
+        "question": "She was reluctant ____ the proposal.",
+        "options": [
+            "accepting",
+            "to accept",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'reluctant' is often followed by an infinitive."
+    },
+    {
+        "main": "sad",
+        "question": "He was sad ____ the news.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'sad' is often followed by an infinitive."
+    },
+    {
+        "main": "shocked",
+        "question": "We were shocked ____ what happened.",
+        "options": [
+            "learning",
+            "to learn",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'shocked' is often followed by an infinitive."
+    },
+    {
+        "main": "sorry",
+        "question": "I am sorry ____ you.",
+        "options": [
+            "bothering",
+            "to bother",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'sorry' is often followed by an infinitive."
+    },
+    {
+        "main": "surprised",
+        "question": "They were surprised ____ him there.",
+        "options": [
+            "seeing",
+            "to see",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'surprised' is often followed by an infinitive."
+    },
+    {
+        "main": "touched",
+        "question": "She was touched ____ their kindness.",
+        "options": [
+            "receiving",
+            "to receive",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'touched' is often followed by an infinitive."
+    },
+    {
+        "main": "upset",
+        "question": "He was upset ____ the argument.",
+        "options": [
+            "having",
+            "to have",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'upset' is often followed by an infinitive."
+    },
+    {
+        "main": "willing",
+        "question": "They are willing ____ extra hours.",
+        "options": [
+            "working",
+            "to work",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'willing' is always followed by an infinitive."
+    },
+    {
+        "main": "able",
+        "question": "She is able ____ fluently.",
+        "options": [
+            "speaking",
+            "to speak",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'able' is always followed by an infinitive."
+    },
+    {
+        "main": "difficult",
+        "question": "It is difficult ____ the answer.",
+        "options": [
+            "finding",
+            "to find",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'difficult' is often followed by an infinitive."
+    },
+    {
+        "main": "impossible",
+        "question": "It was impossible ____ the task on time.",
+        "options": [
+            "finishing",
+            "to finish",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'impossible' is often followed by an infinitive."
+    },
+    {
+        "main": "kind",
+        "question": "It was kind of you ____ me.",
+        "options": [
+            "helping",
+            "to help",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'kind' (when describing a person's behavior) is often followed by an infinitive."
+    },
+    {
+        "main": "nice",
+        "question": "It's nice ____ you.",
+        "options": [
+            "meeting",
+            "to meet",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'nice' (when describing a situation or person's behavior) is often followed by an infinitive."
+    },
+    {
+        "main": "stupid",
+        "question": "It was stupid of him ____ that.",
+        "options": [
+            "saying",
+            "to say",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'stupid' (when describing a person's behavior) is often followed by an infinitive."
+    },
+    {
+        "main": "unlikely",
+        "question": "It is unlikely ____.",
+        "options": [
+            "happening",
+            "to happen",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "The adjective 'unlikely' is often followed by an infinitive."
+    },
+    {
+        "main": "forget",
+        "question": "I will never forget ____ my first love.",
+        "options": [
+            "meeting",
+            "to meet",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "Gerund form ('meeting') refers to a past action, something that happened."
+    },
+    {
+        "main": "forget",
+        "question": "Don't forget ____ the door when you leave.",
+        "options": [
+            "locking",
+            "to lock",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "Infinitive form ('to lock') refers to something that needs to be done."
+    },
+    {
+        "main": "regret",
+        "question": "I regret ____ what I said.",
+        "options": [
+            "saying",
+            "to say",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "Gerund form ('saying') refers to a past action that you now feel sorry about."
+    },
+    {
+        "main": "regret",
+        "question": "I regret ____ you that the event has been cancelled.",
+        "options": [
+            "informing",
+            "to inform",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "Infinitive form ('to inform') expresses regret about having to tell someone something."
+    },
+    {
+        "main": "remember",
+        "question": "I remember ____ to the zoo as a child.",
+        "options": [
+            "going",
+            "to go",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "Gerund form ('going') refers to a past action, something that happened."
+    },
+    {
+        "question": "Remember ____ your keys before you leave.",
+        "options": [
+            "taking",
+            "to take",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "Infinitive form ('to take') refers to something that needs to be done."
+    },
+    {
+        "main": "stop",
+        "question": "She stopped ____ when she saw the accident.",
+        "options": [
+            "talking",
+            "to talk",
+            "both"
+        ],
+        "correct": 0,
+        "explanation": "Gerund form ('talking') refers to the cessation of a continuous action."
+    },
+    {
+        "main": "stop",
+        "question": "He stopped ____ some water.",
+        "options": [
+            "drinking",
+            "to drink",
+            "both"
+        ],
+        "correct": 1,
+        "explanation": "Infinitive form ('to drink') refers to stopping in order to do something else."
+    },
+    {
+        "main": "begin",
+        "question": "It began ____ to rain.",
+        "options": [
+            "raining",
+            "to rain",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('raining') and the infinitive ('to rain') are acceptable with 'begin' with little to no difference in meaning."
+    },
+    {
+        "main": "begin",
+        "question": "He began ____ the project yesterday.",
+        "options": [
+            "working on",
+            "to work on",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('working on') and the infinitive ('to work on') are acceptable with 'begin' with little to no difference in meaning."
+    },
+    {
+        "main": "can't stand",
+        "question": "I can't stand ____ loud noises.",
+        "options": [
+            "hearing",
+            "to hear",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "While the gerund ('hearing') is more common with 'can't stand', the infinitive ('to hear') is sometimes used with little change in meaning."
+    },
+    {
+        "main": "can't stand",
+        "question": "She can't stand ____ him.",
+        "options": [
+            "arguing with",
+            "to argue with",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "While the gerund ('arguing with') is more common with 'can't stand', the infinitive ('to argue with') is sometimes used with little change in meaning."
+    },
+    {
+        "main": "continue",
+        "question": "He continued ____ even after the interruption.",
+        "options": [
+            "speaking",
+            "to speak",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('speaking') and the infinitive ('to speak') are acceptable with 'continue' with little to no difference in meaning."
+    },
+    {
+        "main": "continue",
+        "question": "They continued ____ their research.",
+        "options": [
+            "working on",
+            "to work on",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('working on') and the infinitive ('to work on') are acceptable with 'continue' with little to no difference in meaning."
+    },
+    {
+        "main": "hate",
+        "question": "I hate ____ early in the morning.",
+        "options": [
+            "waking up",
+            "to wake up",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('waking up') and the infinitive ('to wake up') are acceptable with 'hate' with little to no difference in meaning."
+    },
+    {
+        "main": "hate",
+        "question": "She hates ____ crowded places.",
+        "options": [
+            "being in",
+            "to be in",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('being in') and the infinitive ('to be in') are acceptable with 'hate' with little to no difference in meaning."
+    },
+    {
+        "main": "like",
+        "question": "They like ____ in the park.",
+        "options": [
+            "walking",
+            "to walk",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('walking') and the infinitive ('to walk') are acceptable with 'like' with little to no difference in meaning."
+    },
+    {
+        "main": "like",
+        "question": "He likes ____ new recipes.",
+        "options": [
+            "trying",
+            "to try",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('trying') and the infinitive ('to try') are acceptable with 'like' with little to no difference in meaning."
+    },
+    {
+        "main": "love",
+        "question": "She loves ____ music.",
+        "options": [
+            "listening to",
+            "to listen to",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('listening to') and the infinitive ('to listen to') are acceptable with 'love' with little to no difference in meaning."
+    },
+    {
+        "main": "love",
+        "question": "I love ____ time with my family.",
+        "options": [
+            "spending",
+            "to spend",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('spending') and the infinitive ('to spend') are acceptable with 'love' with little to no difference in meaning."
+    },
+    {
+        "main": "prefer",
+        "question": "I prefer ____ tea to coffee.",
+        "options": [
+            "drinking",
+            "to drink",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('drinking') and the infinitive ('to drink') are acceptable with 'prefer' with little to no difference in meaning."
+    },
+    {
+        "main": "prefer",
+        "question": "She prefers ____ at home.",
+        "options": [
+            "staying",
+            "to stay",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('staying') and the infinitive ('to stay') are acceptable with 'prefer' with little to no difference in meaning."
+    },
+    {
+        "main": "start",
+        "question": "It started ____ to snow.",
+        "options": [
+            "snowing",
+            "to snow",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('snowing') and the infinitive ('to snow') are acceptable with 'start' with little to no difference in meaning."
+    },
+    {
+        "main": "start",
+        "question": "They started ____ the project this morning.",
+        "options": [
+            "planning",
+            "to plan",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('planning') and the infinitive ('to plan') are acceptable with 'start' with little to no difference in meaning."
+    },
+    {
+        "main": "try",
+        "question": "He tried ____ the door, but it was locked.",
+        "options": [
+            "opening",
+            "to open",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('opening') and the infinitive ('to open') are acceptable with 'try' in the sense of attempting something."
+    },
+    {
+        "main": "try",
+        "question": "She tried ____ a new recipe.",
+        "options": [
+            "baking",
+            "to bake",
+            "both"
+        ],
+        "correct": 2,
+        "explanation": "Both the gerund ('baking') and the infinitive ('to bake') are acceptable with 'try' in the sense of attempting something."
+    }
+]

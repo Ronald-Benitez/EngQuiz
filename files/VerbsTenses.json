@@ -1,0 +1,1778 @@
+[
+    {
+        "main": "arise",
+        "simple_past": "arose",
+        "past_participle": "arisen",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to get up; to originate"
+    },
+    {
+        "main": "awake",
+        "simple_past": "awoke/awaked",
+        "past_participle": "awoken/awaked",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to stop sleeping"
+    },
+    {
+        "main": "be",
+        "simple_past": "was/were",
+        "past_participle": "been",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to exist; to occur"
+    },
+    {
+        "main": "bear",
+        "simple_past": "bore",
+        "past_participle": "born/borne",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to carry; to endure; to give birth"
+    },
+    {
+        "main": "beat",
+        "simple_past": "beat",
+        "past_participle": "beaten",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to strike repeatedly; to defeat"
+    },
+    {
+        "main": "become",
+        "simple_past": "became",
+        "past_participle": "become",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to start to be"
+    },
+    {
+        "main": "begin",
+        "simple_past": "began",
+        "past_participle": "begun",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to start"
+    },
+    {
+        "main": "bend",
+        "simple_past": "bent",
+        "past_participle": "bent",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to curve; to lean"
+    },
+    {
+        "main": "bet",
+        "simple_past": "bet/betted",
+        "past_participle": "bet/betted",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to risk money on an outcome"
+    },
+    {
+        "main": "bind",
+        "simple_past": "bound",
+        "past_participle": "bound",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to tie tightly"
+    },
+    {
+        "main": "bid",
+        "simple_past": "bid/bade",
+        "past_participle": "bid/bidden",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to offer (in an auction); to command"
+    },
+    {
+        "main": "bite",
+        "simple_past": "bit",
+        "past_participle": "bitten",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to cut with teeth"
+    },
+    {
+        "main": "bleed",
+        "simple_past": "bled",
+        "past_participle": "bled",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to lose blood"
+    },
+    {
+        "main": "blow",
+        "simple_past": "blew",
+        "past_participle": "blown",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to expel air forcefully"
+    },
+    {
+        "main": "break",
+        "simple_past": "broke",
+        "past_participle": "broken",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to separate into pieces; to violate"
+    },
+    {
+        "main": "breed",
+        "simple_past": "bred",
+        "past_participle": "bred",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to produce offspring"
+    },
+    {
+        "main": "bring",
+        "simple_past": "brought",
+        "past_participle": "brought",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to carry to a place"
+    },
+    {
+        "main": "broadcast",
+        "simple_past": "broadcast/broadcasted",
+        "past_participle": "broadcast/broadcasted",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to transmit electronically"
+    },
+    {
+        "main": "build",
+        "simple_past": "built",
+        "past_participle": "built",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to construct"
+    },
+    {
+        "main": "burn",
+        "simple_past": "burnt/burned",
+        "past_participle": "burnt/burned",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to be on fire; to damage by fire"
+    },
+    {
+        "main": "burst",
+        "simple_past": "burst",
+        "past_participle": "burst",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to break open suddenly"
+    },
+    {
+        "main": "buy",
+        "simple_past": "bought",
+        "past_participle": "bought",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to acquire by paying money"
+    },
+    {
+        "main": "cast",
+        "simple_past": "cast",
+        "past_participle": "cast",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to throw; to direct (light, shadow)"
+    },
+    {
+        "main": "catch",
+        "simple_past": "caught",
+        "past_participle": "caught",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to seize and hold; to get an illness"
+    },
+    {
+        "main": "come",
+        "simple_past": "came",
+        "past_participle": "come",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to move towards"
+    },
+    {
+        "main": "cost",
+        "simple_past": "cost",
+        "past_participle": "cost",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to require payment"
+    },
+    {
+        "main": "cut",
+        "simple_past": "cut",
+        "past_participle": "cut",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to divide with a sharp tool"
+    },
+    {
+        "main": "choose",
+        "simple_past": "chose",
+        "past_participle": "chosen",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to select"
+    },
+    {
+        "main": "cling",
+        "simple_past": "clung",
+        "past_participle": "clung",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to hold on tightly"
+    },
+    {
+        "main": "creep",
+        "simple_past": "crept",
+        "past_participle": "crept",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to move slowly and quietly"
+    },
+    {
+        "main": "deal",
+        "simple_past": "dealt",
+        "past_participle": "dealt",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to distribute; to handle"
+    },
+    {
+        "main": "dig",
+        "simple_past": "dug",
+        "past_participle": "dug",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to make a hole"
+    },
+    {
+        "main": "do",
+        "simple_past": "did",
+        "past_participle": "done",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to perform an action"
+    },
+    {
+        "main": "draw",
+        "simple_past": "drew",
+        "past_participle": "drawn",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to create a picture; to pull"
+    },
+    {
+        "main": "dream",
+        "simple_past": "dreamt/dreamed",
+        "past_participle": "dreamt/dreamed",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to experience images during sleep"
+    },
+    {
+        "main": "drink",
+        "simple_past": "drank",
+        "past_participle": "drunk",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to swallow liquid"
+    },
+    {
+        "main": "drive",
+        "simple_past": "drove",
+        "past_participle": "driven",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to operate a vehicle"
+    },
+    {
+        "main": "eat",
+        "simple_past": "ate",
+        "past_participle": "eaten",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to consume food"
+    },
+    {
+        "main": "fall",
+        "simple_past": "fell",
+        "past_participle": "fallen",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to descend rapidly"
+    },
+    {
+        "main": "feed",
+        "simple_past": "fed",
+        "past_participle": "fed",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to give food to"
+    },
+    {
+        "main": "feel",
+        "simple_past": "felt",
+        "past_participle": "felt",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to experience sensation"
+    },
+    {
+        "main": "fight",
+        "simple_past": "fought",
+        "past_participle": "fought",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to engage in a physical struggle"
+    },
+    {
+        "main": "find",
+        "simple_past": "found",
+        "past_participle": "found",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to discover"
+    },
+    {
+        "main": "flee",
+        "simple_past": "fled",
+        "past_participle": "fled",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to run away"
+    },
+    {
+        "main": "fly",
+        "simple_past": "flew",
+        "past_participle": "flown",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to move through the air"
+    },
+    {
+        "main": "forbid",
+        "simple_past": "forbade/forbad",
+        "past_participle": "forbidden",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to prohibit"
+    },
+    {
+        "main": "forget",
+        "simple_past": "forgot",
+        "past_participle": "forgotten/forgot",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to fail to remember"
+    },
+    {
+        "main": "forgive",
+        "simple_past": "forgave",
+        "past_participle": "forgiven",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to stop feeling angry towards"
+    },
+    {
+        "main": "freeze",
+        "simple_past": "froze",
+        "past_participle": "frozen",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to turn into ice"
+    },
+    {
+        "main": "get",
+        "simple_past": "got",
+        "past_participle": "got/gotten",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to obtain; to become"
+    },
+    {
+        "main": "give",
+        "simple_past": "gave",
+        "past_participle": "given",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to transfer possession"
+    },
+    {
+        "main": "go",
+        "simple_past": "went",
+        "past_participle": "gone",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to move away"
+    },
+    {
+        "main": "grow",
+        "simple_past": "grew",
+        "past_participle": "grown",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to increase in size"
+    },
+    {
+        "main": "grind",
+        "simple_past": "ground",
+        "past_participle": "ground",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to crush into small pieces"
+    },
+    {
+        "main": "hang",
+        "simple_past": "hung/hanged",
+        "past_participle": "hung/hanged",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to suspend; to execute by hanging"
+    },
+    {
+        "main": "have",
+        "simple_past": "had",
+        "past_participle": "had",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to possess; to experience"
+    },
+    {
+        "main": "hear",
+        "simple_past": "heard",
+        "past_participle": "heard",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to perceive sound"
+    },
+    {
+        "main": "hide",
+        "simple_past": "hid",
+        "past_participle": "hidden/hid",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to conceal"
+    },
+    {
+        "main": "hit",
+        "simple_past": "hit",
+        "past_participle": "hit",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to strike"
+    },
+    {
+        "main": "hold",
+        "simple_past": "held",
+        "past_participle": "held",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to grasp and keep"
+    },
+    {
+        "main": "hurt",
+        "simple_past": "hurt",
+        "past_participle": "hurt",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to cause pain"
+    },
+    {
+        "main": "keep",
+        "simple_past": "kept",
+        "past_participle": "kept",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to retain possession of"
+    },
+    {
+        "main": "know",
+        "simple_past": "knew",
+        "past_participle": "known",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to have knowledge of"
+    },
+    {
+        "main": "kneel",
+        "simple_past": "knelt/kneeled",
+        "past_participle": "knelt/kneeled",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to go down on one or both knees"
+    },
+    {
+        "main": "knit",
+        "simple_past": "knit/knitted",
+        "past_participle": "knit/knitted",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to make fabric by interlocking loops of yarn"
+    },
+    {
+        "main": "lay",
+        "simple_past": "laid",
+        "past_participle": "laid",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to put down gently"
+    },
+    {
+        "main": "lead",
+        "simple_past": "led",
+        "past_participle": "led",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to guide"
+    },
+    {
+        "main": "lean",
+        "simple_past": "leant/leaned",
+        "past_participle": "leant/leaned",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to incline or bend"
+    },
+    {
+        "main": "leap",
+        "simple_past": "leapt/leaped",
+        "past_participle": "leapt/leaped",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to jump high or a long way"
+    },
+    {
+        "main": "learn",
+        "simple_past": "learnt/learned",
+        "past_participle": "learnt/learned",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to acquire knowledge or skill"
+    },
+    {
+        "main": "leave",
+        "simple_past": "left",
+        "past_participle": "left",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to go away from"
+    },
+    {
+        "main": "lend",
+        "simple_past": "lent",
+        "past_participle": "lent",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to allow to use temporarily"
+    },
+    {
+        "main": "let",
+        "simple_past": "let",
+        "past_participle": "let",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to allow"
+    },
+    {
+        "main": "lie",
+        "simple_past": "lay",
+        "past_participle": "lain",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to be in or assume a horizontal position"
+    },
+    {
+        "main": "light",
+        "simple_past": "lit/lighted",
+        "past_participle": "lit/lighted",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to give light to; to ignite"
+    },
+    {
+        "main": "lose",
+        "simple_past": "lost",
+        "past_participle": "lost",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to be deprived of; to fail to win"
+    },
+    {
+        "main": "mean",
+        "simple_past": "meant",
+        "past_participle": "meant",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to intend; to signify"
+    },
+    {
+        "main": "meet",
+        "simple_past": "met",
+        "past_participle": "met",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to come into contact with"
+    },
+    {
+        "main": "mistake",
+        "simple_past": "mistook",
+        "past_participle": "mistaken",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to identify wrongly"
+    },
+    {
+        "main": "overcome",
+        "simple_past": "overcame",
+        "past_participle": "overcome",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to succeed in dealing with"
+    },
+    {
+        "main": "pay",
+        "simple_past": "paid",
+        "past_participle": "paid",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to give money for goods or services"
+    },
+    {
+        "main": "put",
+        "simple_past": "put",
+        "past_participle": "put",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to place somewhere"
+    },
+    {
+        "main": "read",
+        "simple_past": "read",
+        "past_participle": "read",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to look at and comprehend written words"
+    },
+    {
+        "main": "ride",
+        "simple_past": "rode",
+        "past_participle": "ridden",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to sit on and control a horse or vehicle"
+    },
+    {
+        "main": "ring",
+        "simple_past": "rang",
+        "past_participle": "rung",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to make a clear resonant sound"
+    },
+    {
+        "main": "rise",
+        "simple_past": "rose",
+        "past_participle": "risen",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to come up from a lower position"
+    },
+    {
+        "main": "run",
+        "simple_past": "ran",
+        "past_participle": "run",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to move at a speed faster than a walk"
+    },
+    {
+        "main": "say",
+        "simple_past": "said",
+        "past_participle": "said",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to speak words"
+    },
+    {
+        "main": "see",
+        "simple_past": "saw",
+        "past_participle": "seen",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to perceive with the eyes"
+    },
+    {
+        "main": "seek",
+        "simple_past": "sought",
+        "past_participle": "sought",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to try to find"
+    },
+    {
+        "main": "sell",
+        "simple_past": "sold",
+        "past_participle": "sold",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to exchange for money"
+    },
+    {
+        "main": "send",
+        "simple_past": "sent",
+        "past_participle": "sent",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to cause to go"
+    },
+    {
+        "main": "set",
+        "simple_past": "set",
+        "past_participle": "set",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to place in a specific position"
+    },
+    {
+        "main": "sew",
+        "simple_past": "sewed",
+        "past_participle": "sewn/sewed",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to join fabric with stitches"
+    },
+    {
+        "main": "shake",
+        "simple_past": "shook",
+        "past_participle": "shaken",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to move with short, quick movements"
+    },
+    {
+        "main": "shear",
+        "simple_past": "sheared",
+        "past_participle": "shorn/sheared",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to cut the wool off a sheep"
+    },
+    {
+        "main": "shine",
+        "simple_past": "shone/shined",
+        "past_participle": "shone/shined",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to give out light; to polish"
+    },
+    {
+        "main": "shoot",
+        "simple_past": "shot",
+        "past_participle": "shot",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to fire a weapon"
+    },
+    {
+        "main": "show",
+        "simple_past": "showed",
+        "past_participle": "shown/showed",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to allow to be seen"
+    },
+    {
+        "main": "shrink",
+        "simple_past": "shrank/shrunk",
+        "past_participle": "shrunk/shrunken",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to become smaller"
+    },
+    {
+        "main": "shut",
+        "simple_past": "shut",
+        "past_participle": "shut",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to move to close an opening"
+    },
+    {
+        "main": "sing",
+        "simple_past": "sang",
+        "past_participle": "sung",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to make musical sounds with the voice"
+    },
+    {
+        "main": "sink",
+        "simple_past": "sank/sunk",
+        "past_participle": "sunk/sunken",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to go down below the surface of water"
+    },
+    {
+        "main": "sit",
+        "simple_past": "sat",
+        "past_participle": "sat",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to rest with the body supported by the buttocks"
+    },
+    {
+        "main": "sleep",
+        "simple_past": "slept",
+        "past_participle": "slept",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to be in a state of rest"
+    },
+    {
+        "main": "slide",
+        "simple_past": "slid",
+        "past_participle": "slid",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to move smoothly over a surface"
+    },
+    {
+        "main": "smell",
+        "simple_past": "smelt/smelled",
+        "past_participle": "smelt/smelled",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to perceive odor"
+    },
+    {
+        "main": "snow",
+        "simple_past": "snowed",
+        "past_participle": "snowed",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to fall as snow"
+    },
+    {
+        "main": "speak",
+        "simple_past": "spoke",
+        "past_participle": "spoken",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to say words"
+    },
+    {
+        "main": "speed",
+        "simple_past": "sped/speeded",
+        "past_participle": "sped/speeded",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to move quickly"
+    },
+    {
+        "main": "spell",
+        "simple_past": "spelt/spelled",
+        "past_participle": "spelt/spelled",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to write or say the letters of a word"
+    },
+    {
+        "main": "spend",
+        "simple_past": "spent",
+        "past_participle": "spent",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to pay out money; to pass time"
+    },
+    {
+        "main": "spill",
+        "simple_past": "spilt/spilled",
+        "past_participle": "spilt/spilled",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to cause to flow out"
+    },
+    {
+        "main": "spin",
+        "simple_past": "spun",
+        "past_participle": "spun",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to turn around quickly"
+    },
+    {
+        "main": "spit",
+        "simple_past": "spat/spit",
+        "past_participle": "spat/spit",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to expel saliva from the mouth"
+    },
+    {
+        "main": "split",
+        "simple_past": "split",
+        "past_participle": "split",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to divide into parts"
+    },
+    {
+        "main": "spoil",
+        "simple_past": "spoilt/spoiled",
+        "past_participle": "spoilt/spoiled",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to damage the quality of"
+    },
+    {
+        "main": "spread",
+        "simple_past": "spread",
+        "past_participle": "spread",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to extend over an area"
+    },
+    {
+        "main": "spring",
+        "simple_past": "sprang",
+        "past_participle": "sprung",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to move suddenly upwards or forwards"
+    },
+    {
+        "main": "stand",
+        "simple_past": "stood",
+        "past_participle": "stood",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to be on one's feet"
+    },
+    {
+        "main": "steal",
+        "simple_past": "stole",
+        "past_participle": "stolen",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to take without permission"
+    },
+    {
+        "main": "stick",
+        "simple_past": "stuck",
+        "past_participle": "stuck",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to adhere to a surface; to pierce"
+    },
+    {
+        "main": "sting",
+        "simple_past": "stung",
+        "past_participle": "stung",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to pierce with a sharp point, often venomous"
+    },
+    {
+        "main": "stink",
+        "simple_past": "stank/stunk",
+        "past_participle": "stunk",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to smell very bad"
+    },
+    {
+        "main": "stride",
+        "simple_past": "strode",
+        "past_participle": "stridden",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to walk with long steps"
+    },
+    {
+        "main": "strike",
+        "simple_past": "struck",
+        "past_participle": "struck/stricken",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to hit forcefully; to affect suddenly"
+    },
+    {
+        "main": "swear",
+        "simple_past": "swore",
+        "past_participle": "sworn",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to make a solemn promise; to use offensive language"
+    },
+    {
+        "main": "sweat",
+        "simple_past": "sweat/sweated",
+        "past_participle": "sweat/sweated",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to exude perspiration"
+    },
+    {
+        "main": "sweep",
+        "simple_past": "swept",
+        "past_participle": "swept",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to clean with a brush"
+    },
+    {
+        "main": "swell",
+        "simple_past": "swelled",
+        "past_participle": "swollen/swelled",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to increase in size or volume"
+    },
+    {
+        "main": "swim",
+        "simple_past": "swam",
+        "past_participle": "swum",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to move through water using limbs"
+    },
+    {
+        "main": "swing",
+        "simple_past": "swung",
+        "past_participle": "swung",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to move back and forth while suspended"
+    },
+    {
+        "main": "take",
+        "simple_past": "took",
+        "past_participle": "taken",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to seize; to carry; to convey"
+    },
+    {
+        "main": "teach",
+        "simple_past": "taught",
+        "past_participle": "taught",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to impart knowledge or skill"
+    },
+    {
+        "main": "tear",
+        "simple_past": "tore",
+        "past_participle": "torn",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to pull apart by force"
+    },
+    {
+        "main": "tell",
+        "simple_past": "told",
+        "past_participle": "told",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to communicate information"
+    },
+    {
+        "main": "think",
+        "simple_past": "thought",
+        "past_participle": "thought",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to have a belief or opinion; to ponder"
+    },
+    {
+        "main": "throw",
+        "simple_past": "threw",
+        "past_participle": "thrown",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to propel through the air"
+    },
+    {
+        "main": "thrust",
+        "simple_past": "thrust",
+        "past_participle": "thrust",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to push suddenly and with force"
+    },
+    {
+        "main": "tread",
+        "simple_past": "trod",
+        "past_participle": "trodden/trod",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to walk on"
+    },
+    {
+        "main": "understand",
+        "simple_past": "understood",
+        "past_participle": "understood",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to perceive the meaning of"
+    },
+    {
+        "main": "undergo",
+        "simple_past": "underwent",
+        "past_participle": "undergone",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to experience or be subjected to"
+    },
+    {
+        "main": "undertake",
+        "simple_past": "undertook",
+        "past_participle": "undertaken",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to commit oneself to a task"
+    },
+    {
+        "main": "wake",
+        "simple_past": "woke/waked",
+        "past_participle": "woken/waked",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to stop sleeping; to rouse from sleep"
+    },
+    {
+        "main": "wear",
+        "simple_past": "wore",
+        "past_participle": "worn",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to have on one's body as clothing"
+    },
+    {
+        "main": "weave",
+        "simple_past": "wove/weaved",
+        "past_participle": "woven/weaved",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to form fabric by interlacing threads"
+    },
+    {
+        "main": "weep",
+        "simple_past": "wept",
+        "past_participle": "wept",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to shed tears"
+    },
+    {
+        "main": "wet",
+        "simple_past": "wet/wetted",
+        "past_participle": "wet/wetted",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to cover or soak with liquid"
+    },
+    {
+        "main": "win",
+        "simple_past": "won",
+        "past_participle": "won",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to be victorious"
+    },
+    {
+        "main": "wind",
+        "simple_past": "wound",
+        "past_participle": "wound",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to twist or turn repeatedly; to coil"
+    },
+    {
+        "main": "withdraw",
+        "simple_past": "withdrew",
+        "past_participle": "withdrawn",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to remove or take away"
+    },
+    {
+        "main": "wring",
+        "simple_past": "wrung",
+        "past_participle": "wrung",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to squeeze and twist to remove liquid"
+    },
+    {
+        "main": "write",
+        "simple_past": "wrote",
+        "past_participle": "written",
+        "sound": null,
+        "type": "irregular",
+        "explanation": "to form letters or words on a surface"
+    },
+    {
+        "main": "accept",
+        "simple_past": "accepted",
+        "past_participle": "accepted",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to receive willingly"
+    },
+    {
+        "main": "count",
+        "simple_past": "counted",
+        "past_participle": "counted",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to determine the total number of"
+    },
+    {
+        "main": "date",
+        "simple_past": "dated",
+        "past_participle": "dated",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to mark with a date"
+    },
+    {
+        "main": "end",
+        "simple_past": "ended",
+        "past_participle": "ended",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to come to a final part or conclusion"
+    },
+    {
+        "main": "expect",
+        "simple_past": "expected",
+        "past_participle": "expected",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to regard as likely to happen"
+    },
+    {
+        "main": "intent",
+        "simple_past": "intended",
+        "past_participle": "intended",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to have in mind as a purpose"
+    },
+    {
+        "main": "need",
+        "simple_past": "needed",
+        "past_participle": "needed",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to require because it is essential"
+    },
+    {
+        "main": "plant",
+        "simple_past": "planted",
+        "past_participle": "planted",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to place in the ground to grow"
+    },
+    {
+        "main": "point",
+        "simple_past": "pointed",
+        "past_participle": "pointed",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to direct someone's attention"
+    },
+    {
+        "main": "rent",
+        "simple_past": "rented",
+        "past_participle": "rented",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to pay for the use of something"
+    },
+    {
+        "main": "repeat",
+        "simple_past": "repeated",
+        "past_participle": "repeated",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to say again"
+    },
+    {
+        "main": "resist",
+        "simple_past": "resisted",
+        "past_participle": "resisted",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to withstand the action or effect of"
+    },
+    {
+        "main": "start",
+        "simple_past": "started",
+        "past_participle": "started",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to begin"
+    },
+    {
+        "main": "visit",
+        "simple_past": "visited",
+        "past_participle": "visited",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to go to see a person or place"
+    },
+    {
+        "main": "wait",
+        "simple_past": "waited",
+        "past_participle": "waited",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to stay in one place until something happens"
+    },
+    {
+        "main": "want",
+        "simple_past": "wanted",
+        "past_participle": "wanted",
+        "sound": "id",
+        "type": "regular",
+        "explanation": "to have a desire for"
+    },
+    {
+        "main": "ask",
+        "simple_past": "asked",
+        "past_participle": "asked",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to inquire about something"
+    },
+    {
+        "main": "cook",
+        "simple_past": "cooked",
+        "past_participle": "cooked",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to prepare food by heating it"
+    },
+    {
+        "main": "dance",
+        "simple_past": "danced",
+        "past_participle": "danced",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to move rhythmically to music"
+    },
+    {
+        "main": "dress",
+        "simple_past": "dressed",
+        "past_participle": "dressed",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to put on clothes"
+    },
+    {
+        "main": "erase",
+        "simple_past": "erased",
+        "past_participle": "erased",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to rub out"
+    },
+    {
+        "main": "finish",
+        "simple_past": "finished",
+        "past_participle": "finished",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to bring to an end"
+    },
+    {
+        "main": "help",
+        "simple_past": "helped",
+        "past_participle": "helped",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to make it easier for someone"
+    },
+    {
+        "main": "jump",
+        "simple_past": "jumped",
+        "past_participle": "jumped",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to push oneself off the ground"
+    },
+    {
+        "main": "like",
+        "simple_past": "liked",
+        "past_participle": "liked",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to find agreeable or enjoyable"
+    },
+    {
+        "main": "look",
+        "simple_past": "looked",
+        "past_participle": "looked",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to direct one's gaze"
+    },
+    {
+        "main": "miss",
+        "simple_past": "missed",
+        "past_participle": "missed",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to fail to hit or catch; to feel the absence of"
+    },
+    {
+        "main": "practice",
+        "simple_past": "practiced",
+        "past_participle": "practiced",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to do something repeatedly to improve"
+    },
+    {
+        "main": "push",
+        "simple_past": "pushed",
+        "past_participle": "pushed",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to exert force on something to move it away"
+    },
+    {
+        "main": "shop",
+        "simple_past": "shopped",
+        "past_participle": "shopped",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to buy things in a store"
+    },
+    {
+        "main": "smoke",
+        "simple_past": "smoked",
+        "past_participle": "smoked",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to inhale and exhale the smoke of burning tobacco"
+    },
+    {
+        "main": "stop",
+        "simple_past": "stopped",
+        "past_participle": "stopped",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to cease moving"
+    },
+    {
+        "main": "talk",
+        "simple_past": "talked",
+        "past_participle": "talked",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to speak"
+    },
+    {
+        "main": "use",
+        "simple_past": "used",
+        "past_participle": "used",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to employ for a purpose"
+    },
+    {
+        "main": "walk",
+        "simple_past": "walked",
+        "past_participle": "walked",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to move at a regular pace by lifting and setting down each foot"
+    },
+    {
+        "main": "wash",
+        "simple_past": "washed",
+        "past_participle": "washed",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to clean with water"
+    },
+    {
+        "main": "wish",
+        "simple_past": "wished",
+        "past_participle": "wished",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to want something to be true or to happen"
+    },
+    {
+        "main": "work",
+        "simple_past": "worked",
+        "past_participle": "worked",
+        "sound": "t",
+        "type": "regular",
+        "explanation": "to engage in activity involving mental or physical effort"
+    },
+    {
+        "main": "answer",
+        "simple_past": "answered",
+        "past_participle": "answered",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to say something in response"
+    },
+    {
+        "main": "arrive",
+        "simple_past": "arrived",
+        "past_participle": "arrived",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to reach a place"
+    },
+    {
+        "main": "belong",
+        "simple_past": "belonged",
+        "past_participle": "belonged",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to be the property of"
+    },
+    {
+        "main": "change",
+        "simple_past": "changed",
+        "past_participle": "changed",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to make or become different"
+    },
+    {
+        "main": "clean",
+        "simple_past": "cleaned",
+        "past_participle": "cleaned",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to make free from dirt"
+    },
+    {
+        "main": "climb",
+        "simple_past": "climbed",
+        "past_participle": "climbed",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to go up or over by using one's feet and hands"
+    },
+    {
+        "main": "close",
+        "simple_past": "closed",
+        "past_participle": "closed",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to move to cover an opening"
+    },
+    {
+        "main": "consider",
+        "simple_past": "considered",
+        "past_participle": "considered",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to think carefully about"
+    },
+    {
+        "main": "dare",
+        "simple_past": "dared",
+        "past_participle": "dared",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to have the courage to do something"
+    },
+    {
+        "main": "deliver",
+        "simple_past": "delivered",
+        "past_participle": "delivered",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to bring to a destination"
+    },
+    {
+        "main": "enjoy",
+        "simple_past": "enjoyed",
+        "past_participle": "enjoyed",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to take pleasure in"
+    },
+    {
+        "main": "fill",
+        "simple_past": "filled",
+        "past_participle": "filled",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to make or become full"
+    },
+    {
+        "main": "follow",
+        "simple_past": "followed",
+        "past_participle": "followed",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to go or come after"
+    },
+    {
+        "main": "hurry",
+        "simple_past": "hurried",
+        "past_participle": "hurried",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to move or go quickly"
+    },
+    {
+        "main": "learn",
+        "simple_past": "learned",
+        "past_participle": "learned",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to acquire knowledge or skill"
+    },
+    {
+        "main": "listen",
+        "simple_past": "listened",
+        "past_participle": "listened",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to give one's attention to a sound"
+    },
+    {
+        "main": "live",
+        "simple_past": "lived",
+        "past_participle": "lived",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to reside; to have life"
+    },
+    {
+        "main": "love",
+        "simple_past": "loved",
+        "past_participle": "loved",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to feel deep affection for"
+    },
+    {
+        "main": "name",
+        "simple_past": "named",
+        "past_participle": "named",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to give a name to"
+    },
+    {
+        "main": "open",
+        "simple_past": "opened",
+        "past_participle": "opened",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to move to allow access"
+    },
+    {
+        "main": "order",
+        "simple_past": "ordered",
+        "past_participle": "ordered",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to request something to be done"
+    },
+    {
+        "main": "plan",
+        "simple_past": "planned",
+        "past_participle": "planned",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to decide on a course of action"
+    },
+    {
+        "main": "play",
+        "simple_past": "played",
+        "past_participle": "played",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to engage in activity for enjoyment"
+    },
+    {
+        "main": "rain",
+        "simple_past": "rained",
+        "past_participle": "rained",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to fall as rain"
+    },
+    {
+        "main": "remember",
+        "simple_past": "remembered",
+        "past_participle": "remembered",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to recall to mind"
+    },
+    {
+        "main": "show",
+        "simple_past": "showed",
+        "past_participle": "showed",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to allow to be seen"
+    },
+    {
+        "main": "stay",
+        "simple_past": "stayed",
+        "past_participle": "stayed",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to remain in a place"
+    },
+    {
+        "main": "study",
+        "simple_past": "studied",
+        "past_participle": "studied",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to devote time and attention to learning"
+    },
+    {
+        "main": "travel",
+        "simple_past": "traveled",
+        "past_participle": "traveled",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to go from one place to another"
+    },
+    {
+        "main": "try",
+        "simple_past": "tried",
+        "past_participle": "tried",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to make an effort"
+    },
+    {
+        "main": "turn",
+        "simple_past": "turned",
+        "past_participle": "turned",
+        "sound": "d",
+        "type": "regular",
+        "explanation": "to move in a circular direction"
+    }
+]
