@@ -6,10 +6,13 @@ export type ThemedViewProps = PressableProps & {
     lightColor?: string;
     darkColor?: string;
     style?: any;
+    pressed?: boolean;
 };
 
-export function ThemedPressable({ style = {}, lightColor, darkColor, ...otherProps }: ThemedViewProps) {
-    const backgroundColor = useThemeColor({ light: lightColor, dark: darkColor }, 'backgroundPressable');
+export function ThemedPressable({ style = {}, lightColor, darkColor, pressed, ...otherProps }: ThemedViewProps) {
+    const backgroundColorDefault = useThemeColor({ light: lightColor, dark: darkColor }, 'backgroundPressable');
+    const pressedBackgroundColor = useThemeColor({ light: lightColor, dark: darkColor }, 'backgroundPressablePressed');
+    const backgroundColor = pressed ? pressedBackgroundColor : backgroundColorDefault;
     return <Pressable style={[{ backgroundColor }, style]} {...otherProps}>
         {otherProps.children}
     </Pressable>;

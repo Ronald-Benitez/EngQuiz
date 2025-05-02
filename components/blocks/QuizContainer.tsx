@@ -27,7 +27,7 @@ export default function QuizContainer({ children, quiz }: QuizContainerProps) {
             <ThemedText type="title">{showResult ? "Quiz Finished " : "Choose the correct answer"}</ThemedText>
 
             <ThemedView style={{ flexDirection: 'row', alignItems: 'center', gap: 20 }}>
-                <ThemedText>{current + 1} of {settings.questions}</ThemedText>
+                <ThemedText>{current + 1} of {quiz?.questions?.length || 0}</ThemedText>
                 <ThemedView style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                     <MaterialIcons name="cancel" size={24} color="red" />
                     <ThemedText>{totalWrong || 0}</ThemedText>
@@ -38,7 +38,11 @@ export default function QuizContainer({ children, quiz }: QuizContainerProps) {
                 </ThemedView>
                 <ThemedView style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                     <MaterialIcons name="circle" size={24} color={color} />
-                    <ThemedText>{settings.questions - (current + 1)}</ThemedText>
+                    <ThemedText>{quiz?.questions?.length || 0 - (current + 1)}</ThemedText>
+                </ThemedView>
+                <ThemedView style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                    <MaterialIcons name="check-circle" size={24} color="green" />
+                    <ThemedText>{Math.round((totalCorrect / quiz?.questions?.length || 0) * 100)}%</ThemedText>
                 </ThemedView>
             </ThemedView>
             {
