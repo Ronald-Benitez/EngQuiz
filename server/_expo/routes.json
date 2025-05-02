@@ -14,9 +14,45 @@
       "routeKeys": {}
     },
     {
+      "file": "./(quizzes)/(m1)/InOnAt.tsx",
+      "page": "/(quizzes)/(m1)/InOnAt",
+      "namedRegex": "^(?:/\\(quizzes\\))?(?:/\\(m1\\))?/InOnAt(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(quizzes)/(m1)/VerbTenses.tsx",
+      "page": "/(quizzes)/(m1)/VerbTenses",
+      "namedRegex": "^(?:/\\(quizzes\\))?(?:/\\(m1\\))?/VerbTenses(?:/)?$",
+      "routeKeys": {}
+    },
+    {
       "file": "./(settings)/index.tsx",
       "page": "/(settings)/index",
       "namedRegex": "^(?:/\\(settings\\))?(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(quizzes)/(m1)/TypesOfSentences.tsx",
+      "page": "/(quizzes)/(m1)/TypesOfSentences",
+      "namedRegex": "^(?:/\\(quizzes\\))?(?:/\\(m1\\))?/TypesOfSentences(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(quizzes)/(m1)/PerfectSentences.tsx",
+      "page": "/(quizzes)/(m1)/PerfectSentences",
+      "namedRegex": "^(?:/\\(quizzes\\))?(?:/\\(m1\\))?/PerfectSentences(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(quizzes)/(m1)/SimpleGerundsVSInfinitives.tsx",
+      "page": "/(quizzes)/(m1)/SimpleGerundsVSInfinitives",
+      "namedRegex": "^(?:/\\(quizzes\\))?(?:/\\(m1\\))?/SimpleGerundsVSInfinitives(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(quizzes)/(m1)/ComplexGerundsVSInfinitives.tsx",
+      "page": "/(quizzes)/(m1)/ComplexGerundsVSInfinitives",
+      "namedRegex": "^(?:/\\(quizzes\\))?(?:/\\(m1\\))?/ComplexGerundsVSInfinitives(?:/)?$",
       "routeKeys": {}
     },
     {
@@ -25,24 +61,6 @@
       "namedRegex": "^/_sitemap(?:/)?$",
       "routeKeys": {},
       "generated": true
-    },
-    {
-      "file": "./(quizzes)/lessons/VerbTenses.tsx",
-      "page": "/(quizzes)/lessons/VerbTenses",
-      "namedRegex": "^(?:/\\(quizzes\\))?/lessons/VerbTenses(?:/)?$",
-      "routeKeys": {}
-    },
-    {
-      "file": "./(quizzes)/lessons/SimpleGerundsVSInfinitives.tsx",
-      "page": "/(quizzes)/lessons/SimpleGerundsVSInfinitives",
-      "namedRegex": "^(?:/\\(quizzes\\))?/lessons/SimpleGerundsVSInfinitives(?:/)?$",
-      "routeKeys": {}
-    },
-    {
-      "file": "./(quizzes)/lessons/ComplexGerundsVSInfinitives.tsx",
-      "page": "/(quizzes)/lessons/ComplexGerundsVSInfinitives",
-      "namedRegex": "^(?:/\\(quizzes\\))?/lessons/ComplexGerundsVSInfinitives(?:/)?$",
-      "routeKeys": {}
     }
   ],
   "notFoundRoutes": [
