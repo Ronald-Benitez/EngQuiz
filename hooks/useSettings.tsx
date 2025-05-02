@@ -14,18 +14,22 @@ en-US	English	United States	US English
 en-ZA	English	South Africa	English (South Africa)
 */
 
-type AppSettings = {
+export type AppSettings = {
     automatically: boolean;
     delay: number;
     questions: number;
     accent?: "en-AU" | "en-CA" | "en-GB" | "en-IE" | "en-IN" | "en-NZ" | "en-US" | "en-ZA";
+    max: boolean;
 };
+
+export type UpdateOptions = "questions" | "automatically" | "delay" | "accent" | "max";
 
 const defaultSettings: AppSettings = {
     automatically: false,
     delay: 1000,
     questions: 20,
     accent: "en-US",
+    max: false,
 };
 
 interface AppSettingsContextProps {
@@ -98,7 +102,17 @@ const useAppSettings = () => {
     return context;
 }
 
+const calculateQuestions = (questions: number, settings: AppSettings) => {
+    if (settings) {
+        if (!settings.max) {
+            return questions > settings.questions ? settings.questions : questions;
+        }
+    }
+    return questions;
+}
+
 export {
     AppSettingsProvider,
     useAppSettings,
+    calculateQuestions,
 }

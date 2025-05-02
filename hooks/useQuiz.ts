@@ -12,34 +12,43 @@ export interface UseQuizReturn {
     handleBack: () => void;
     handleNext: () => void;
     handleRestart: () => void;
-    handleSelect: (index: number) => void;
+    handleSelect: (option: string) => void;
     currentQuestion: Question;
     current: number;
     completed: Completed[];
     verifyCompleted: (index: number) => void;
     questions: Question[];
     showResult: boolean;
-    selected: number | null;
+    selected: string | null;
 }
 
 export default function useQuiz({ buildOptions, timer }: UseQuizProps) {
     const [questions, setQuestions] = useState<Question[]>([]);
     const [current, setCurrent] = useState(0);
     const [completed, setCompleted] = useState<Completed[]>([]);
-    const [selected, setSelected] = useState<number | null>(null);
+    const [selected, setSelected] = useState<string | null>(null);
     const [showResult, setShowResult] = useState(false);
     const { settings } = useAppSettings();
 
     useEffect(() => {
-        setQuestions(buildOptions());
+        setQuestions(ramdomizeOptions());
     }, []);
 
-    const handleSelect = (index: number) => {
-        setSelected(index);
+    const ramdomizeOptions = () => {
+        const list = buildOptions();
+        list.forEach((item) => {
+            const options = item.options
+            options.sort(() => Math.random() - 0.5);
+        })
+        return list;
+    }
+
+    const handleSelect = (option: string) => {
+        setSelected(option);
         const completedQuestion = {
             question: currentQuestion,
-            selected: index,
-            isCorrect: index === currentQuestion.correct,
+            selected: option,
+            isCorrect: option === currentQuestion.correct,
         }
 
         const isAlreadyCompleted = completed.some(q => q.question === currentQuestion);
@@ -69,7 +78,7 @@ export default function useQuiz({ buildOptions, timer }: UseQuizProps) {
     };
 
     const handleNext = () => {
-        if (current + 1 < settings.questions) {
+        if (current + 1 < questions.length) {
             setCurrent(prev => prev + 1);
             setSelected(null);
             verifyCompleted(current + 1);

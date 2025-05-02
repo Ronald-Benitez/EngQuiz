@@ -2,6 +2,12 @@ import * as Speach from 'expo-speech';
 
 import { useEffect, useState } from 'react';
 
+export interface UseSpeakReturn {
+    speak: (text: string) => void;
+    isSpeaking: boolean;
+    stop: () => void;
+}
+
 const useSpeak = () => {
     const [isSpeaking, setIsSpeaking] = useState(false);
 
