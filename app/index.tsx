@@ -16,7 +16,7 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <Link href="/(quizzes)/GerundsVSInfinitives">
+        <Link href="/(quizzes)">
           <ThemedText type="link">Go to quizzes!</ThemedText>
         </Link>
       </ThemedView>

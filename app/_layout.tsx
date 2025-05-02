@@ -2,6 +2,8 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { Drawer } from 'expo-router/drawer';
 import { useThemeColor } from '@/hooks/useThemeColor';
 import { AppSettingsProvider } from '@/hooks/useSettings';
+import "expo-font"
+import "@expo/vector-icons"
 
 export default function Layout() {
   const backgroundColor = useThemeColor({}, 'background');

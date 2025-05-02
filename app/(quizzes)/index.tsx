@@ -18,32 +18,41 @@ export default function QuizzesHome() {
       </ThemedView>
 
       <ThemedView style={styles.quizList}>
-        <Link href="/(quizzes)/SimpleGerundsVSInfinitives">
+        <Link href="/(quizzes)/(m1)/SimpleGerundsVSInfinitives">
           <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
             <MaterialIcons name="compare" size={24} color={iconColor} />
             <ThemedText secondary> Gerunds vs Infinitives, simple</ThemedText>
           </ThemedBlock>
         </Link>
-        <Link href="/(quizzes)/ComplexGerundsVSInfinitives">
+        <Link href="/(quizzes)/(m1)/ComplexGerundsVSInfinitives">
           <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
             <MaterialIcons name="compare" size={24} color={iconColor} />
             <ThemedText secondary> Gerunds vs Infinitives, complex</ThemedText>
           </ThemedBlock>
         </Link>
-        <Link href="/(quizzes)/VerbTenses">
+        <Link href="/(quizzes)/(m1)/VerbTenses">
           <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
             <MaterialIcons name="hourglass-empty" size={24} color={iconColor} />
             <ThemedText secondary>Verb Tenses</ThemedText>
           </ThemedBlock>
         </Link>
-        <Link href="/(quizzes)/PrepositionsInOnAt">
+        <Link href="/(quizzes)/(m1)/InOnAt">
           <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-            <MaterialIcons name="place" size={24} color={iconColor} />
-            <ThemedText secondary>Prepositions In, On, At</ThemedText>
+            <MaterialIcons name="location-pin" size={24} color={iconColor} />
+            <ThemedText secondary>In, on, at</ThemedText>
           </ThemedBlock>
         </Link>
-        <Link href="/(quizzes)/Others">
-          <ThemedText type="link">🔍 Other Quizzes</ThemedText>
+        <Link href="/(quizzes)/(m1)/TypesOfSentences">
+          <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+            <MaterialIcons name="compare" size={24} color={iconColor} />
+            <ThemedText secondary>Types of sentences</ThemedText>
+          </ThemedBlock>
+        </Link>
+        <Link href="/(quizzes)/(m1)/PerfectSentences">
+          <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+            <MaterialIcons name="all-inbox" size={24} color={iconColor} />
+            <ThemedText secondary>Perfect sentences</ThemedText>
+          </ThemedBlock>
         </Link>
       </ThemedView>
     </ThemedView>

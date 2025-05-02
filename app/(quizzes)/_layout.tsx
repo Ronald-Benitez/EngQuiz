@@ -47,33 +47,41 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="(m1)/VerbTenses"
+        options={{
+          href: null,
 
-      <Tabs.Screen
-        name="GerundsVSInfinitives"
-        options={{
-          title: 'G VS I',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
       <Tabs.Screen
-        name="VerbTenses"
+        name="(m1)/SimpleGerundsVSInfinitives"
         options={{
-          title: 'Tenses',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          href: null,
         }}
       />
       <Tabs.Screen
-        name="PrepositionsInOnAt"
+        name="(m1)/ComplexGerundsVSInfinitives"
         options={{
-          title: 'P I O A',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          href: null,
         }}
       />
       <Tabs.Screen
-        name="Others"
+        name="(m1)/InOnAt"
         options={{
-          title: 'Others',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="(m1)/TypesOfSentences"
+        options={{
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="(m1)/PerfectSentences"
+        options={{
+          href: null,
         }}
       />
     </Tabs>

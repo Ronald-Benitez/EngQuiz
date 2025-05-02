@@ -7,12 +7,24 @@ import { ThemedView } from '@/components/ThemedView';
 import { Switch } from 'react-native';
 import { Link } from 'expo-router';
 import { ThemedInput } from '@/components/ThemedInput';
-import { useAppSettings } from '@/hooks/useSettings';
+import { useAppSettings, UpdateOptions } from '@/hooks/useSettings';
+import { ThemedPressable } from '@/components/ThemedPressable';
+
+/*
+en-AU	English	Australia	Australian English
+en-CA	English	Canada	Canadian English
+en-GB	English	United Kingdom	British English
+en-IE	English	Ireland	Irish English
+en-IN	English	India	Indian English
+en-NZ	English	New Zealand	New Zealand English
+en-US	English	United States	US English
+en-ZA	English	South Africa	English (South Africa)
+*/
 
 export default function SettingsScrean() {
   const { settings, updateSettings, resetSettings } = useAppSettings();
 
-  const handleUpdate = (key: string, value: string | boolean) => {
+  const handleUpdate = (key: UpdateOptions, value: string | boolean) => {
     const newSettings = { ...settings, [key]: value };
     updateSettings(newSettings);
   }
@@ -27,23 +39,52 @@ export default function SettingsScrean() {
           trackColor={{ false: '#767577', true: '#81b0ff' }}
         />
       </ThemedView>
-      <ThemedView style={[styles.container, styles.col]}>
-        <ThemedText >Delay after answering a question (ms)</ThemedText>
-        <ThemedInput
-          value={settings.delay.toString()}
-          onChangeText={value => handleUpdate('delay', value)}
-          keyboardType="numeric"
-          placeholder="Delay in ms"
+      {settings.automatically && (
+        <ThemedView style={[styles.container, styles.col, { marginTop: 0, paddingTop: 0 }]}>
+          <ThemedText >Delay after answering a question (ms)</ThemedText>
+          <ThemedInput
+            value={settings.delay.toString()}
+            onChangeText={value => handleUpdate('delay', value)}
+            keyboardType="numeric"
+            placeholder="Delay in ms"
+          />
+        </ThemedView>
+      )}
+      <ThemedView style={[styles.container, styles.row]}>
+        <ThemedText >Max questions</ThemedText>
+        <Switch
+          value={settings.max}
+          onValueChange={value => handleUpdate('max', value)}
+          trackColor={{ false: '#767577', true: '#81b0ff' }}
         />
       </ThemedView>
+      {
+        !settings.max && (
+          <ThemedView style={[styles.container, styles.col, { marginTop: 0, paddingTop: 0 }]}>
+            <ThemedText >Questions per quiz</ThemedText>
+            <ThemedInput
+              value={settings.questions.toString()}
+              onChangeText={value => handleUpdate('questions', value)}
+              keyboardType="numeric"
+              placeholder="Number of questions"
+            />
+          </ThemedView>
+        )
+      }
       <ThemedView style={[styles.container, styles.col]}>
-        <ThemedText >Questions per quiz</ThemedText>
-        <ThemedInput
-          value={settings.questions.toString()}
-          onChangeText={value => handleUpdate('questions', value)}
-          keyboardType="numeric"
-          placeholder="Number of questions"
-        />
+        <ThemedText >Accent</ThemedText>
+        <ThemedView style={[{ gap: 8, flexWrap: 'wrap', flexDirection: 'row' }]}>
+          {['en-AU', 'en-CA', 'en-GB', 'en-IE', 'en-IN', 'en-NZ', 'en-US', 'en-ZA'].map((accent) => (
+            <ThemedPressable
+              key={accent}
+              onPress={() => handleUpdate('accent', accent)}
+              style={{ padding: 8, borderRadius: 4 }}
+              pressed={settings.accent === accent}
+            >
+              <ThemedText>{accent}</ThemedText>
+            </ThemedPressable>
+          ))}
+        </ThemedView>
       </ThemedView>
     </ThemedView>
   );
