@@ -2,12 +2,12 @@ export type Question = {
     main: string;
     question: string;
     options: string[];
-    correct: number;
+    correct: string;
     explanation?: string;
 };
 
 export type Completed = {
     question: Question;
-    selected: number;
+    selected: string;
     isCorrect: boolean;
 }
