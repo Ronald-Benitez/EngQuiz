@@ -4,6 +4,9 @@
     "slug": "EngQuiz",
     "version": "1.0.0",
     "orientation": "portrait",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
@@ -21,7 +24,7 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icon.png"
     },
     "plugins": [
       "expo-router",
@@ -36,7 +39,8 @@
       ]
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "baseUrl": "/EngQuiz"
     },
     "extra": {
       "router": {
