@@ -48,38 +48,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="(m1)/VerbTenses"
-        options={{
-          href: null,
-
-        }}
-      />
-      <Tabs.Screen
-        name="(m1)/SimpleGerundsVSInfinitives"
-        options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="(m1)/ComplexGerundsVSInfinitives"
-        options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="(m1)/InOnAt"
-        options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="(m1)/TypesOfSentences"
-        options={{
-          href: null,
-        }}
-      />
-      <Tabs.Screen
-        name="(m1)/PerfectSentences"
+        name="quiz/[name]"
         options={{
           href: null,
         }}

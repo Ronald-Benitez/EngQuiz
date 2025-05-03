@@ -29,10 +29,13 @@ export default function useQuiz({ buildOptions, timer }: UseQuizProps) {
     const [selected, setSelected] = useState<string | null>(null);
     const [showResult, setShowResult] = useState(false);
     const { settings } = useAppSettings();
+    const [reload, setReload] = useState(false)
 
     useEffect(() => {
-        setQuestions(ramdomizeOptions());
-    }, []);
+        if (!questions || questions?.length < 1) {
+            setQuestions(ramdomizeOptions());
+        }
+    }, [buildOptions, reload]);
 
     const ramdomizeOptions = () => {
         const list = buildOptions();
@@ -68,8 +71,8 @@ export default function useQuiz({ buildOptions, timer }: UseQuizProps) {
     };
 
     const handleRestart = () => {
-        const reshuffled = buildOptions()
-        setQuestions(reshuffled);
+        setReload(!reload)
+        setQuestions([]);
         setCurrent(0);
         setSelected(null);
         setShowResult(false);
