@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { useAppSettings } from '@/hooks/useSettings';
-import { Completed, Question } from '@/interfaces';
-import { UseTimerReturn } from '@/hooks/useTimer';
+import { useAppSettings } from '@/src/hooks/useSettings';
+import { Completed, Question } from '@/src/interfaces';
+import { UseTimerReturn } from '@/src/hooks/useTimer';
 
 interface UseQuizProps {
     buildOptions: () => Question[];

@@ -1,12 +1,12 @@
 import { StyleSheet, View, Pressable } from 'react-native';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import { ThemedText } from '@/components/themed/ThemedText';
+import { ThemedView } from '@/components/themed/ThemedView';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-import { useThemeColor } from '@/hooks/useThemeColor';
-import { ThemedBlock } from '@/components/ThemedBlock';
+import { useThemeColor } from '@/src/hooks/useThemeColor';
+import { ThemedBlock } from '@/components/themed/ThemedBlock';
 import { ScrollView } from 'react-native-gesture-handler';
-import { Completed } from '@/interfaces';
-import useSpeak from '@/hooks/useSpeak';
+import { Completed } from '@/src/interfaces';
+import useSpeak from '@/src/hooks/useSpeak';
 
 export interface ResultsBlockProps {
     handleRestart: () => void;

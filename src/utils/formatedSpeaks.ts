@@ -1,5 +1,5 @@
-import { Completed } from "@/interfaces";
-import { UseSpeakReturn } from "@/hooks/useSpeak";
+import { Completed } from "@/src/interfaces";
+import { UseSpeakReturn } from "@/src/hooks/useSpeak";
 
 export const formatedSplittedSpeak = (speak: UseSpeakReturn) => (item: Completed) => {
     speak.stop();

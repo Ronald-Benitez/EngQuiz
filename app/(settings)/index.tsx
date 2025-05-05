@@ -1,14 +1,10 @@
-import { Image, StyleSheet, Platform } from 'react-native';
-
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import { StyleSheet } from 'react-native';
+import { ThemedText } from '@/components/themed/ThemedText';
+import { ThemedView } from '@/components/themed/ThemedView';
 import { Switch } from 'react-native';
-import { Link } from 'expo-router';
-import { ThemedInput } from '@/components/ThemedInput';
-import { useAppSettings, UpdateOptions } from '@/hooks/useSettings';
-import { ThemedPressable } from '@/components/ThemedPressable';
+import { ThemedInput } from '@/components/themed/ThemedInput';
+import { useAppSettings, UpdateOptions } from '@/src/hooks/useSettings';
+import { ThemedPressable } from '@/components/themed/ThemedPressable';
 
 /*
 en-AU	English	Australia	Australian English

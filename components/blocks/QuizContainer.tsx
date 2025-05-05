@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
-import { useAppSettings } from '@/hooks/useSettings';
+import { ThemedText } from '@/components/themed/ThemedText';
+import { ThemedView } from '@/components/themed/ThemedView';
+import { useAppSettings } from '@/src/hooks/useSettings';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-import { useThemeColor } from '@/hooks/useThemeColor';
-import { UseQuizReturn } from '@/hooks/useQuiz';
+import { useThemeColor } from '@/src/hooks/useThemeColor';
+import { UseQuizReturn } from '@/src/hooks/useQuiz';
 
 export interface QuizContainerProps {
     children?: React.ReactNode;

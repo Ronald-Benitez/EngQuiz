@@ -1,5 +1,5 @@
-import { calculateQuestions, AppSettings } from "@/hooks/useSettings";
-import { Question } from "@/interfaces";
+import { calculateQuestions, AppSettings } from "@/src/hooks/useSettings";
+import { Question } from "@/src/interfaces";
 
 export const buildOptions = (questionsData: Question[], settings: AppSettings) => () => {
     const shuffled = [...questionsData].sort(() => Math.random() - 0.5);

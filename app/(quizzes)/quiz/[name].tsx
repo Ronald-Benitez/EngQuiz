@@ -1,7 +1,7 @@
-import { useAppSettings } from '@/hooks/useSettings';
-import useTimer from '@/hooks/useTimer';
-import useSpeak from '@/hooks/useSpeak';
-import useQuiz from '@/hooks/useQuiz';
+import { useAppSettings } from '@/src/hooks/useSettings';
+import useTimer from '@/src/hooks/useTimer';
+import useSpeak from '@/src/hooks/useSpeak';
+import useQuiz from '@/src/hooks/useQuiz';
 import QuizContainer from '@/components/blocks/QuizContainer';
 import ResultsBlock from '@/components/blocks/ResultsBlock';
 import QuestionsBlock from '@/components/blocks/QuestionsBlock';
@@ -14,32 +14,32 @@ const optionsConfig = {
     SimpleGerundsVSInfinitives: {
         buildOptions,
         formatedSpeak: formatedBasicSpeak,
-        import: () => import("@/files/SimpleGerundsVSInfinitives.json")
+        import: () => import("@/src/files/SimpleGerundsVSInfinitives.json")
     },
     ComplexGerundsVSInfinitives: {
         buildOptions,
         formatedSpeak: formatedGerundsInfinitivesSpeak,
-        import: () => import("@/files/ComplexGerundsVSInfinitives.json")
+        import: () => import("@/src/files/ComplexGerundsVSInfinitives.json")
     },
     InOnAt: {
         buildOptions,
         formatedSpeak: formatedSplittedSpeak,
-        import: () => import("@/files/InOnAt.json")
+        import: () => import("@/src/files/InOnAt.json")
     },
     PerfectSentences: {
         buildOptions,
         formatedSpeak: formatedSplittedSpeak,
-        import: () => import("@/files/PerfectSentences.json")
+        import: () => import("@/src/files/PerfectSentences.json")
     },
     TypeOfSentences: {
         buildOptions,
         formatedSpeak: formatedTypeSentencesSpeak,
-        import: () => import("@/files/TypesOfSentences.json")
+        import: () => import("@/src/files/TypesOfSentences.json")
     },
     VerbTenses: {
         buildOptions: buildVerbOptions,
         formatedSpeak: formatedBasicSpeak,
-        import: () => import("@/files/VerbsTenses.json")
+        import: () => import("@/src/files/VerbsTenses.json")
     }
 } as const;
 

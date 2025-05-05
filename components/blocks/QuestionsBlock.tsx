@@ -1,14 +1,14 @@
 import { StyleSheet, Pressable, ScrollView } from 'react-native';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
-import { ThemedPressable } from '@/components/ThemedPressable';
+import { ThemedText } from '@/components/themed/ThemedText';
+import { ThemedView } from '@/components/themed/ThemedView';
+import { ThemedPressable } from '@/components/themed/ThemedPressable';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-import { useThemeColor } from '@/hooks/useThemeColor';
-import { ThemedBlock } from '@/components/ThemedBlock';
-import { UseTimerReturn } from '@/hooks/useTimer';
-import useSpeak from '@/hooks/useSpeak';
+import { useThemeColor } from '@/src/hooks/useThemeColor';
+import { ThemedBlock } from '@/components/themed/ThemedBlock';
+import { UseTimerReturn } from '@/src/hooks/useTimer';
+import useSpeak from '@/src/hooks/useSpeak';
 
-import { UseQuizReturn } from '@/hooks/useQuiz';
+import { UseQuizReturn } from '@/src/hooks/useQuiz';
 
 interface QuestionsBlockProps {
   quiz: UseQuizReturn;

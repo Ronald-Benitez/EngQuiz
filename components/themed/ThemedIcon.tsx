@@ -15,7 +15,7 @@ import Zocial from '@expo/vector-icons/Zocial';
 import { type IconProps } from '@expo/vector-icons/build/createIconSet';
 import { type Icon } from '@expo/vector-icons/build/createIconSet';
 
-import { useThemeColor } from '@/hooks/useThemeColor';
+import { useThemeColor } from '@/src/hooks/useThemeColor';
 
 export type ThemedIconProps =  {
   lightColor?: string;

@@ -1,7 +1,7 @@
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { Drawer } from 'expo-router/drawer';
-import { useThemeColor } from '@/hooks/useThemeColor';
-import { AppSettingsProvider } from '@/hooks/useSettings';
+import { useThemeColor } from '@/src/hooks/useThemeColor';
+import { AppSettingsProvider } from '@/src/hooks/useSettings';
 
 export default function Layout() {
   const backgroundColor = useThemeColor({}, 'background');
@@ -43,7 +43,7 @@ export default function Layout() {
           name="index" // This is the name of the page and must match the url from root
           options={{
             drawerLabel: 'Home',
-            title: 'overview',
+            title: 'Home',
           }}
         />
         <Drawer.Screen

@@ -1,10 +1,10 @@
 import { Image, StyleSheet } from 'react-native';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import { ThemedText } from '@/components/themed/ThemedText';
+import { ThemedView } from '@/components/themed/ThemedView';
 import { Link } from 'expo-router';
-import { ThemedBlock } from '@/components/ThemedBlock';
-import { useThemeColor } from '@/hooks/useThemeColor';
+import { ThemedBlock } from '@/components/themed/ThemedBlock';
+import { useThemeColor } from '@/src/hooks/useThemeColor';
 import { Collapsible } from '@/components/Collapsible';
 
 interface QuizItem {
@@ -15,7 +15,7 @@ interface QuizItem {
 
 const List: { title: string, quizzes: QuizItem[] }[] = [
   {
-    title: "Block 1",
+    title: "Section 1",
     quizzes: [
       {
         title: "Gerunds vs Infinitives, simple",
