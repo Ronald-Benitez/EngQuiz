@@ -14,32 +14,32 @@ const optionsConfig = {
     SimpleGerundsVSInfinitives: {
         buildOptions,
         formatedSpeak: formatedBasicSpeak,
-        import: () => import("@/src/files/SimpleGerundsVSInfinitives.json")
+        import: () => import("@/src/files/quizzes/SimpleGerundsVSInfinitives.json")
     },
     ComplexGerundsVSInfinitives: {
         buildOptions,
         formatedSpeak: formatedGerundsInfinitivesSpeak,
-        import: () => import("@/src/files/ComplexGerundsVSInfinitives.json")
+        import: () => import("@/src/files/quizzes/ComplexGerundsVSInfinitives.json")
     },
     InOnAt: {
         buildOptions,
         formatedSpeak: formatedSplittedSpeak,
-        import: () => import("@/src/files/InOnAt.json")
+        import: () => import("@/src/files/quizzes/InOnAt.json")
     },
     PerfectSentences: {
         buildOptions,
         formatedSpeak: formatedSplittedSpeak,
-        import: () => import("@/src/files/PerfectSentences.json")
+        import: () => import("@/src/files/quizzes/PerfectSentences.json")
     },
     TypeOfSentences: {
         buildOptions,
         formatedSpeak: formatedTypeSentencesSpeak,
-        import: () => import("@/src/files/TypesOfSentences.json")
+        import: () => import("@/src/files/quizzes/TypesOfSentences.json")
     },
     VerbTenses: {
         buildOptions: buildVerbOptions,
         formatedSpeak: formatedBasicSpeak,
-        import: () => import("@/src/files/VerbsTenses.json")
+        import: () => import("@/src/files/quizzes/VerbsTenses.json")
     }
 } as const;
 
