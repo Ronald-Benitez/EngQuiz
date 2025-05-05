@@ -58,7 +58,7 @@ export default function QuizzesHome() {
   return (
     <ThemedView style={styles.container}>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">English Quizzes</ThemedText>
+        <ThemedText type="title">Quizzes</ThemedText>
       </ThemedView>
 
       {
@@ -69,7 +69,7 @@ export default function QuizzesHome() {
                 item?.quizzes?.map((quiz, index) => (
                   <Link href={
                     {
-                      pathname: "/quiz/[name]",
+                      pathname: "/quizzes/quiz/[name]",
                       params: { name: quiz.href }
                     }
                   } key={index}>
