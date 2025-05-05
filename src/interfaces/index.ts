@@ -11,3 +11,15 @@ export type Completed = {
     selected: string;
     isCorrect: boolean;
 }
+
+export type Tip = {
+    title: string,
+    description: string,
+    examples: string[]
+}
+
+export interface TipsFile {
+    title: string,
+    description: string,
+    tips: Tip[]
+}
