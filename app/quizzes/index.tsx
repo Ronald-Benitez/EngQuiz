@@ -6,6 +6,7 @@ import { Link } from 'expo-router';
 import { ThemedBlock } from '@/components/themed/ThemedBlock';
 import { useThemeColor } from '@/src/hooks/useThemeColor';
 import { Collapsible } from '@/components/Collapsible';
+import { ScrollView } from 'react-native-gesture-handler';
 
 interface QuizItem {
   title: string;
@@ -48,6 +49,21 @@ const List: { title: string, quizzes: QuizItem[] }[] = [
         icon: "all-inbox"
       }
     ],
+  },
+  {
+    title: "Section 2",
+    quizzes: [
+      {
+        title: "Idiomatic",
+        href: "Idiomatic",
+        icon: "place"
+      },
+      {
+        title: "Types of conditional sentences",
+        href: "TypesOfConditional",
+        icon: "compare"
+      }
+    ]
   }
 
 ]
@@ -57,33 +73,36 @@ export default function QuizzesHome() {
 
   return (
     <ThemedView style={styles.container}>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Quizzes</ThemedText>
-      </ThemedView>
-
-      {
-        List?.map((item, key) => (
-          <Collapsible title={item?.title} key={key}>
-            <ThemedView style={styles.quizList}>
-              {
-                item?.quizzes?.map((quiz, index) => (
-                  <Link href={
-                    {
-                      pathname: "/quizzes/quiz/[name]",
-                      params: { name: quiz.href }
-                    }
-                  } key={index}>
-                    <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-                      <MaterialIcons name={quiz?.icon} size={24} color={iconColor} />
-                      <ThemedText secondary>{quiz.title}</ThemedText>
-                    </ThemedBlock>
-                  </Link>
-                ))
-              }
-            </ThemedView>
-          </Collapsible>
-        ))
-      }
+      <ScrollView style={{ flex: 1 }}>
+        <ThemedView style={styles.titleContainer}>
+          <ThemedText type="title">Quizzes</ThemedText>
+        </ThemedView>
+        <ThemedView style={{ gap: 20 }}>
+          {
+            List?.map((item, key) => (
+              <Collapsible title={item?.title} key={key}>
+                <ThemedView style={styles.quizList}>
+                  {
+                    item?.quizzes?.map((quiz, index) => (
+                      <Link href={
+                        {
+                          pathname: "/quizzes/quiz/[name]",
+                          params: { name: quiz.href }
+                        }
+                      } key={index}>
+                        <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                          <MaterialIcons name={quiz?.icon} size={24} color={iconColor} />
+                          <ThemedText secondary>{quiz.title}</ThemedText>
+                        </ThemedBlock>
+                      </Link>
+                    ))
+                  }
+                </ThemedView>
+              </Collapsible>
+            ))
+          }
+        </ThemedView>
+      </ScrollView>
     </ThemedView>
   );
 }
@@ -104,6 +123,7 @@ const styles = StyleSheet.create({
   quizList: {
     gap: 12,
     paddingHorizontal: 12,
+    marginVertical: 10
   },
   reactLogo: {
     height: 178,

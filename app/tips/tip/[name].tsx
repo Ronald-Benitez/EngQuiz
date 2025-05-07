@@ -21,6 +21,9 @@ const optionsConfig = {
     TypeOfSentences: {
         import: () => import("@/src/files/tips/TypesOfSentences.json")
     },
+    TypesOfConditional: {
+        import: () => import("@/src/files/tips/TypesOfConditionals.json")
+    }
 } as const;
 
 type OptionsConfig = typeof optionsConfig;
@@ -34,7 +37,7 @@ export default function DynamicQuiz() {
     const [optionConfig, setOptionConfig] = useState<OptionsConfig[OptionName]>(optionsConfig[name]);
     const speak = useSpeak();
 
-    if (!Object.keys(optionsConfig).includes(name)) return <Redirect href="/tips/index" />
+    if (!Object.keys(optionsConfig).includes(name)) return <Redirect href="/tips" />
 
     useEffect(() => {
         setOptionConfig(optionsConfig[name])
@@ -48,7 +51,7 @@ export default function DynamicQuiz() {
                 const module = await optionConfig.import()
                 setFile(module.default);
             } catch (error) {
-                return <Redirect href="/tips/index" />
+                return <Redirect href="/tips" />
             }
         };
         fetchFile()

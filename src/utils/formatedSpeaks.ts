@@ -8,7 +8,6 @@ export const formatedSplittedSpeak = (speak: UseSpeakReturn) => (item: Completed
     const question = item?.question?.question.replace(/\(.*?\)/g, "");
     const correctBlocks = item?.question?.correct?.split("/") || [""];
     const questionBlocks = question.split("___") || [""];
-    console.log(correctBlocks, questionBlocks, item?.question?.question, item?.question?.correct);
 
     const textToListen = questionBlocks.map((block, index) => {
         return `${block} ${correctBlocks[index] || ""}`;
@@ -18,6 +17,10 @@ export const formatedSplittedSpeak = (speak: UseSpeakReturn) => (item: Completed
 }
 
 export const formatedBasicSpeak = (speak: UseSpeakReturn) => (item: Completed) => {
+    if (item?.question?.question?.includes("___")) {
+        return formatedSplittedSpeak(speak)(item)
+    }
+
     speak.stop();
     const textToListen = `${item?.question?.question} ${item?.question?.correct}`;
     speak.speak(textToListen);

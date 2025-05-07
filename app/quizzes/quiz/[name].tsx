@@ -40,6 +40,16 @@ const optionsConfig = {
         buildOptions: buildVerbOptions,
         formatedSpeak: formatedBasicSpeak,
         import: () => import("@/src/files/quizzes/VerbsTenses.json")
+    },
+    Idiomatic: {
+        buildOptions: buildOptions,
+        formatedSpeak: formatedBasicSpeak,
+        import: () => import("@/src/files/quizzes/Idiomatics.json")
+    },
+    TypesOfConditional: {
+        buildOptions: buildOptions,
+        formatedSpeak: formatedBasicSpeak,
+        import: () => import("@/src/files/quizzes/TypesOfConditionals.json")
     }
 } as const;
 
@@ -55,7 +65,7 @@ export default function DynamicQuiz() {
     const timer = useTimer();
     const speak = useSpeak();
 
-    if (!Object.keys(optionsConfig).includes(name)) return <Redirect href="/(quizzes)" />
+    if (!Object.keys(optionsConfig).includes(name)) return <Redirect href="/quizzes" />
 
     useEffect(() => {
         setOptionConfig(optionsConfig[name])
@@ -69,7 +79,7 @@ export default function DynamicQuiz() {
                 setQuestionsData(module.default);
                 quiz?.handleRestart()
             } catch (error) {
-                return <Redirect href="/(quizzes)" />
+                return <Redirect href="/quizzes" />
             }
         };
         fetchQuestions()
