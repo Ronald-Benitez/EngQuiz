@@ -1,6 +1,7 @@
 import * as Speach from 'expo-speech';
 
 import { createContext, useContext, useEffect, useState } from 'react';
+import { useAppSettings } from './useSettings';
 
 export interface UseSpeakReturn {
     speak: (text: string) => void;
@@ -10,19 +11,18 @@ export interface UseSpeakReturn {
 
 const SpeakContext = createContext<UseSpeakReturn | undefined>(undefined);
 
-
-
 const SpeakProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [isSpeaking, setIsSpeaking] = useState(false);
+    const { settings } = useAppSettings()
 
     const speak = (text: string) => {
         stop()
         setIsSpeaking(true);
-        const cleanText = text.replace("${}", " ")
+        const cleanText = text.replace("${}", " ").replaceAll("*", "")
         Speach.speak(cleanText, {
             onDone: () => setIsSpeaking(false),
             onStopped: () => setIsSpeaking(false),
-            language: "en-US"
+            language: settings?.accent || "en-US"
         });
     };
 
