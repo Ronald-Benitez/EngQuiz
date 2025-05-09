@@ -674,7 +674,7 @@
         "main": "very_complex_location_time_transport_at_on_in",
         "question": "Having spent the morning exploring the local market, which is always bustling ___ Saturdays ___ the main square, she decided to return to her accommodation ___ a brightly colored 'chicken bus' just as the midday sun reached its peak.",
         "options": [
-            "in/at/on",
+            "on/at/in",
             "on/in/at",
             "at/on/in"
         ],
@@ -752,7 +752,7 @@
         "question": "Relying ___ the informal network of shared rides that operates ___ the periphery of the main transportation system, many villagers manage to participate ___ the weekly market.",
         "options": [
             "in/on/at",
-            "on/in/at",
+            "on/on/at",
             "at/on/in"
         ],
         "correct": "on/on/at",
@@ -775,7 +775,7 @@
         "options": [
             "at/on/in",
             "on/in/at",
-            "in/at/on"
+            "on/in/in"
         ],
         "correct": "on/in/in",
         "explanation": "'On' refers to a condition or basis ('on the understanding'), 'in' refers to a place of activity ('the fields'), and 'in' refers to a limited timeframe ('the narrow window')."

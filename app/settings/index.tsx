@@ -80,7 +80,7 @@ export default function SettingsScrean() {
             <ThemedView style={[styles.container, styles.col, { marginTop: 0, paddingTop: 0 }]}>
               <ThemedText >Questions per quiz</ThemedText>
               <ThemedInput
-                value={settings.questions.toString()}
+                value={settings?.questions?.toString()}
                 onChangeText={value => handleUpdate('questions', value)}
                 keyboardType="numeric"
                 placeholder="Number of questions"
@@ -88,6 +88,15 @@ export default function SettingsScrean() {
             </ThemedView>
           )
         }
+        <ThemedView style={[styles.container, styles.col, { marginTop: 0, paddingTop: 0 }]}>
+          <ThemedText >Animation duration (ms)</ThemedText>
+          <ThemedInput
+            value={settings?.animationDuration?.toString()}
+            onChangeText={value => handleUpdate('animationDuration', value)}
+            keyboardType="numeric"
+            placeholder="Duration in ms"
+          />
+        </ThemedView>
         <ThemedView style={[styles.container, styles.col]}>
           <ThemedText >Accent</ThemedText>
           <ThemedView style={[{ gap: 8, flexDirection: 'column' }]}>

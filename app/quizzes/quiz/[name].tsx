@@ -66,9 +66,9 @@ type OptionsConfig = typeof optionsConfig;
 type OptionName = keyof OptionsConfig;
 
 const animationsOption = [
-    require('@/assets/lottie/confetti.json'),
-    require('@/assets/lottie/fireworks.json'),
-    require('@/assets/lottie/sad.json'),
+    () => require('@/assets/lottie/confetti.json'),
+    () => require('@/assets/lottie/fireworks.json'),
+    () => require('@/assets/lottie/bad.json'),
 ]
 
 export default function DynamicQuiz() {
@@ -118,15 +118,15 @@ export default function DynamicQuiz() {
             const totalCorrect = completed.filter(q => q.isCorrect)?.length;
             const percentage = totalCorrect / quiz?.questions?.length
             if (percentage >= 0.8) {
-                setFile(animationsOption[0])
+                setFile(animationsOption[0]())
             } else if (percentage >= 0.6) {
-                setFile(animationsOption[1])
+                setFile(animationsOption[1]())
             } else {
-                setFile(animationsOption[2])
+                setFile(animationsOption[2]())
             }
             setTimeout(() => {
                 setShowAnimation(false)
-            }, 1500)
+            }, settings?.animationDuration || 2000)
         }
     }, [showResult])
 

@@ -20,9 +20,10 @@ export type AppSettings = {
     questions: number;
     accent?: "en-AU" | "en-CA" | "en-GB" | "en-IE" | "en-IN" | "en-NZ" | "en-US" | "en-ZA";
     max: boolean;
+    animationDuration: number;
 };
 
-export type UpdateOptions = "questions" | "automatically" | "delay" | "accent" | "max";
+export type UpdateOptions = keyof AppSettings;
 
 const defaultSettings: AppSettings = {
     automatically: false,
@@ -30,6 +31,7 @@ const defaultSettings: AppSettings = {
     questions: 20,
     accent: "en-US",
     max: false,
+    animationDuration: 2000
 };
 
 interface AppSettingsContextProps {

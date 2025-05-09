@@ -8,9 +8,9 @@ export const buildOptions = (questionsData: Question[], settings: AppSettings) =
 
 
 const OptionsToAsk = [
-    "For the verb ___, the simple past option is:",
-    "For the verb ___, the past participle option is:",
-    "For the verb ___, the regular sound option is:",
+    "Simple past of ___:",
+    "Past participle ___:",
+    "Regular sound of ___:",
 ]
 
 const OptionsList = [
