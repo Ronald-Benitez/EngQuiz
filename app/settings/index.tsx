@@ -47,69 +47,100 @@ export default function SettingsScrean() {
 
   return (
     <ThemedView style={{ flex: 1, paddingTop: 40 }}>
-      <ScrollView>
-        <ThemedView style={[styles.container, styles.row]}>
-          <ThemedText >Continue automatically</ThemedText>
-          <Switch
-            value={settings.automatically}
-            onValueChange={value => handleUpdate('automatically', value)}
-            trackColor={{ false: '#767577', true: '#81b0ff' }}
-          />
-        </ThemedView>
-        {settings.automatically && (
-          <ThemedView style={[styles.container, styles.col, { marginTop: 0, paddingTop: 0 }]}>
-            <ThemedText >Delay after answering a question (ms)</ThemedText>
-            <ThemedInput
-              value={settings.delay.toString()}
-              onChangeText={value => handleUpdate('delay', value)}
-              keyboardType="numeric"
-              placeholder="Delay in ms"
+      <ScrollView showsVerticalScrollIndicator={false}>
+        <ThemedView secondary style={styles.block}>
+          <ThemedView style={[styles.container, styles.row]}>
+            <ThemedText >Continue automatically</ThemedText>
+            <Switch
+              value={settings.automatically}
+              onValueChange={value => handleUpdate('automatically', value)}
+              trackColor={{ false: '#767577', true: '#81b0ff' }}
             />
           </ThemedView>
-        )}
-        <ThemedView style={[styles.container, styles.row]}>
-          <ThemedText >Max questions</ThemedText>
-          <Switch
-            value={settings.max}
-            onValueChange={value => handleUpdate('max', value)}
-            trackColor={{ false: '#767577', true: '#81b0ff' }}
-          />
-        </ThemedView>
-        {
-          !settings.max && (
+          {settings.automatically && (
             <ThemedView style={[styles.container, styles.col, { marginTop: 0, paddingTop: 0 }]}>
-              <ThemedText >Questions per quiz</ThemedText>
+              <ThemedText >Delay after answering a question (ms)</ThemedText>
               <ThemedInput
-                value={settings?.questions?.toString()}
-                onChangeText={value => handleUpdate('questions', value)}
+                value={settings.delay.toString()}
+                onChangeText={value => handleUpdate('delay', value)}
                 keyboardType="numeric"
-                placeholder="Number of questions"
+                placeholder="Delay in ms"
               />
             </ThemedView>
-          )
-        }
-        <ThemedView style={[styles.container, styles.col, { marginTop: 0, paddingTop: 0 }]}>
-          <ThemedText >Animation duration (ms)</ThemedText>
-          <ThemedInput
-            value={settings?.animationDuration?.toString()}
-            onChangeText={value => handleUpdate('animationDuration', value)}
-            keyboardType="numeric"
-            placeholder="Duration in ms"
-          />
+          )}
         </ThemedView>
-        <ThemedView style={[styles.container, styles.col]}>
-          <ThemedText >Accent</ThemedText>
-          <ThemedView style={[{ gap: 8, flexDirection: 'column' }]}>
-            {languages.map((accent) => (
-              <ThemedPressable
-                key={accent.code}
-                onPress={() => handleUpdate('accent', accent.code)}
-                style={{ padding: 8, borderRadius: 4 }}
-                pressed={settings?.accent === accent.code}
-              >
-                <ThemedText>({accent.code}) {accent.description}</ThemedText>
-              </ThemedPressable>
-            ))}
+        <ThemedView secondary style={styles.block}>
+
+          <ThemedView style={[styles.container, styles.row]}>
+            <ThemedText >Listen mode</ThemedText>
+            <Switch
+              value={settings.listenMode}
+              onValueChange={value => handleUpdate('listenMode', value)}
+              trackColor={{ false: '#767577', true: '#81b0ff' }}
+            />
+          </ThemedView>
+          {
+            settings?.listenMode && (
+              <ThemedView style={[styles.container, styles.row, { marginTop: 0, paddingTop: 0 }]}>
+                <ThemedText >Show questions</ThemedText>
+                <Switch
+                  value={settings.showQuestionInListenMode}
+                  onValueChange={value => handleUpdate('showQuestionInListenMode', value)}
+                  trackColor={{ false: '#767577', true: '#81b0ff' }}
+                />
+              </ThemedView>
+            )
+          }
+        </ThemedView>
+        <ThemedView secondary style={styles.block}>
+          <ThemedView style={[styles.container, styles.row]}>
+            <ThemedText >Max questions</ThemedText>
+            <Switch
+              value={settings.max}
+              onValueChange={value => handleUpdate('max', value)}
+              trackColor={{ false: '#767577', true: '#81b0ff' }}
+            />
+          </ThemedView>
+          {
+            !settings.max && (
+              <ThemedView style={[styles.container, styles.col, { marginTop: 0, paddingTop: 0 }]}>
+                <ThemedText >Questions per quiz</ThemedText>
+                <ThemedInput
+                  value={settings?.questions?.toString()}
+                  onChangeText={value => handleUpdate('questions', value)}
+                  keyboardType="numeric"
+                  placeholder="Number of questions"
+                />
+              </ThemedView>
+            )
+          }
+        </ThemedView>
+        <ThemedView secondary style={styles.block}>
+          <ThemedView style={[styles.container, styles.col, { marginTop: 0, paddingTop: 0 }]}>
+            <ThemedText >Animation duration (ms)</ThemedText>
+            <ThemedInput
+              value={settings?.animationDuration?.toString()}
+              onChangeText={value => handleUpdate('animationDuration', value)}
+              keyboardType="numeric"
+              placeholder="Duration in ms"
+            />
+          </ThemedView>
+        </ThemedView>
+        <ThemedView secondary style={styles.block}>
+          <ThemedView style={[styles.container, styles.col]}>
+            <ThemedText >Accent</ThemedText>
+            <ThemedView style={[{ gap: 8, flexDirection: 'column' }]}>
+              {languages.map((accent) => (
+                <ThemedPressable
+                  key={accent.code}
+                  onPress={() => handleUpdate('accent', accent.code)}
+                  style={{ padding: 8, borderRadius: 4 }}
+                  pressed={settings?.accent === accent.code}
+                >
+                  <ThemedText>({accent.code}) {accent.description}</ThemedText>
+                </ThemedPressable>
+              ))}
+            </ThemedView>
           </ThemedView>
         </ThemedView>
       </ScrollView>
@@ -134,10 +165,15 @@ const styles = StyleSheet.create({
     left: 0,
     position: 'absolute',
   },
+  block: {
+    marginHorizontal: 40,
+    padding: 20,
+    marginVertical: 10,
+    gap: 10
+  },
   container: {
-    paddingHorizontal: 40,
-    paddingVertical: 16,
     gap: 12,
+    backgroundColor: "transparent"
   },
   row: {
     flexDirection: 'row',

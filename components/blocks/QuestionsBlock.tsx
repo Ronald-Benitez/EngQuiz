@@ -7,8 +7,11 @@ import { useThemeColor } from '@/src/hooks/useThemeColor';
 import { ThemedBlock } from '@/components/themed/ThemedBlock';
 import { UseTimerReturn } from '@/src/hooks/useTimer';
 import useSpeak from '@/src/hooks/useSpeak';
+import { useAppSettings } from '@/src/hooks/useSettings';
+import { ThemedSpeakButton } from '../themed/ThemedSpeakButton';
 
 import { UseQuizReturn } from '@/src/hooks/useQuiz';
+import { useEffect, useState } from 'react';
 
 interface QuestionsBlockProps {
   quiz: UseQuizReturn;
@@ -20,9 +23,21 @@ export default function QuestionsBlock({ quiz, timer, hideCurrent }: QuestionsBl
   const color = useThemeColor({}, 'text');
   const correctColor = useThemeColor({}, 'correct');
   const wrongColor = useThemeColor({}, 'incorrect');
-  const { speak, isSpeaking, stop: stopSpeak } = useSpeak();
+  const speak = useSpeak();
+  const [showQuestion, setShowQuestion] = useState(false)
+  const { settings } = useAppSettings()
 
   const currentQuestion = quiz?.currentQuestion;
+
+
+  useEffect(() => {
+    if (settings?.listenMode) {
+      speak.speak(currentQuestion?.question?.replaceAll("___", "_"))
+    }
+    setShowQuestion(false)
+  }, [quiz?.currentQuestion])
+
+  const showQuestionVal = !settings.listenMode ? true : settings.showQuestionInListenMode || showQuestion
 
   return (
     <ScrollView style={{ flex: 1, width: '100%', }} showsVerticalScrollIndicator={false} showsHorizontalScrollIndicator={false}>
@@ -34,24 +49,29 @@ export default function QuestionsBlock({ quiz, timer, hideCurrent }: QuestionsBl
                 <ThemedText style={{ fontWeight: 'light' }}>Current:</ThemedText>
                 <ThemedText style={{ textTransform: "capitalize", fontWeight: "normal" }}>{currentQuestion?.main}</ThemedText>
               </ThemedBlock>
-              <Pressable onPress={() => speak(currentQuestion?.main)}>
-                <ThemedBlock type='secondary' style={{ width: 45, height: 45, padding: 0, justifyContent: "center", alignItems: "center" }}>
-                  <MaterialIcons name="volume-up" size={20} color={color} />
-                </ThemedBlock>
-              </Pressable>
+              <ThemedSpeakButton speak={speak} text={currentQuestion?.main} />
             </ThemedView>
           )
         }
 
         <ThemedView style={{ flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 20 }}>
-          <ThemedBlock type='secondary' style={{ flexDirection: 'row', alignItems: 'center', justifyContent: "space-between", gap: 8, paddingVertical: 10, flex: 1 }}>
-            <ThemedText>{currentQuestion?.question}</ThemedText>
-          </ThemedBlock>
-          <Pressable onPress={() => speak(currentQuestion?.question?.replaceAll("_", ""))}>
-            <ThemedBlock type='secondary' style={{ width: 45, height: 45, padding: 0, justifyContent: "center", alignItems: "center" }}>
-              <MaterialIcons name="volume-up" size={20} color={color} />
-            </ThemedBlock>
-          </Pressable>
+          {
+            showQuestionVal && (
+              <ThemedBlock type='secondary' style={{ flexDirection: 'row', alignItems: 'center', justifyContent: "space-between", gap: 8, paddingVertical: 10, flex: 1 }}>
+                <ThemedText>{currentQuestion?.question}</ThemedText>
+              </ThemedBlock>
+            )
+          }
+          {
+            !showQuestion && (
+              <Pressable onPress={() => setShowQuestion(true)}>
+                <ThemedBlock type='secondary' style={{ width: 45, height: 45, padding: 0, justifyContent: "center", alignItems: "center" }}>
+                  <MaterialIcons name="remove-red-eye" size={20} color={color} />
+                </ThemedBlock>
+              </Pressable>
+            )
+          }
+          <ThemedSpeakButton speak={speak} text={currentQuestion?.question.replaceAll("_", "")} />
         </ThemedView>
 
         <ThemedView style={styles.optionsContainer}>
