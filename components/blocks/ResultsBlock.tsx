@@ -48,13 +48,13 @@ export default function ResultsBlock({ handleRestart, completed, speak, time }: 
                 </ThemedView>
                 {
                     item.question.explanation && (
-                        <ThemedBlock type='secondary' style={{ padding: 10, marginTop: 10, flexDirection: "row", gap:8, alignItems: "center" }}>
+                        <ThemedBlock type='secondary' style={{ padding: 10, marginTop: 10, flexDirection: "row", gap: 8, alignItems: "center" }}>
                             <Pressable onPress={() => speakText(item?.question?.explanation || "")}>
                                 <ThemedBlock type='secondary' style={{ width: 45, height: 45, padding: 0, justifyContent: "center", alignItems: "center" }}>
                                     <MaterialIcons name="volume-up" size={20} color={color} />
                                 </ThemedBlock>
                             </Pressable>
-                            <ThemedText>{item?.question?.explanation}</ThemedText>
+                            <ThemedText style={{ width: "80%" }}>{item?.question?.explanation}</ThemedText>
                         </ThemedBlock>
                     )
                 }

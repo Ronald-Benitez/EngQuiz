@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { HelloWave } from '@/components/HelloWave';
+import { HelloWave } from '@/components/animations/HelloWave';
 import { ThemedText } from '@/components/themed/ThemedText';
 import { ThemedView } from '@/components/themed/ThemedView';
 import { ThemedBlock } from '@/components/themed/ThemedBlock';

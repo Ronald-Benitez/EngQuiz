@@ -62,7 +62,11 @@ export default function DynamicQuiz() {
 
 
     if (!file) {
-        return <div>Loading configuration...</div>;
+        return (
+            <ThemedView style={{ flex: 1, alignItems: "center", justifyContent: "center", gap: 20 }}>
+                <ThemedText>...loading</ThemedText>
+            </ThemedView>
+        )
     }
 
     return (

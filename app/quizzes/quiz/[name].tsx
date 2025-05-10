@@ -9,7 +9,11 @@ import { buildOptions, buildVerbOptions } from '@/src/utils/buildsOptions';
 import { formatedBasicSpeak, formatedGerundsInfinitivesSpeak, formatedSplittedSpeak, formatedTypeSentencesSpeak } from '@/src/utils/formatedSpeaks';
 import { Redirect, useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
-import LottieView from 'lottie-react-native';
+import Fireworks from '@/components/animations/Fireworks';
+import Confetti from '@/components/animations/Confetti';
+import SadTears from '@/components/animations/SadTears';
+import SadFace from '@/components/animations/SadFace';
+import { ThemedView } from '@/components/themed/ThemedView';
 
 const optionsConfig = {
     SimpleGerundsVSInfinitives: {
@@ -65,12 +69,6 @@ const optionsConfig = {
 type OptionsConfig = typeof optionsConfig;
 type OptionName = keyof OptionsConfig;
 
-const animationsOption = [
-    () => require('@/assets/lottie/confetti.json'),
-    () => require('@/assets/lottie/fireworks.json'),
-    () => require('@/assets/lottie/bad.json'),
-]
-
 export default function DynamicQuiz() {
     const { name: nameParam } = useLocalSearchParams();
     const name = nameParam as OptionName;
@@ -78,7 +76,7 @@ export default function DynamicQuiz() {
     const [optionConfig, setOptionConfig] = useState<OptionsConfig[OptionName]>(optionsConfig[name]);
     const { settings } = useAppSettings();
     const [showAnimation, setShowAnimation] = useState(false)
-    const [file, setFile] = useState('@/assets/lottie/confetti.json')
+    const [percentage, setPercentage] = useState(0)
 
     const timer = useTimer();
     const speak = useSpeak();
@@ -110,20 +108,15 @@ export default function DynamicQuiz() {
     const { handleRestart, completed, showResult } = quiz;
 
     if (!questionsData) {
-        return <div>Loading configuration...</div>;
+        return <ThemedView style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>Loading configuration...</ThemedView>;
     }
+    
     useEffect(() => {
         if (showResult) {
             setShowAnimation(true)
             const totalCorrect = completed.filter(q => q.isCorrect)?.length;
-            const percentage = totalCorrect / quiz?.questions?.length
-            if (percentage >= 0.8) {
-                setFile(animationsOption[0]())
-            } else if (percentage >= 0.6) {
-                setFile(animationsOption[1]())
-            } else {
-                setFile(animationsOption[2]())
-            }
+            const value = totalCorrect / quiz?.questions?.length
+            setPercentage(value)
             setTimeout(() => {
                 setShowAnimation(false)
             }, settings?.animationDuration || 2000)
@@ -133,17 +126,7 @@ export default function DynamicQuiz() {
     return (
         <QuizContainer quiz={quiz}>
             {
-                showAnimation && (
-                    <LottieView
-                        autoPlay
-                        style={{
-                            width: 200,
-                            height: 200,
-                            backgroundColor: 'transparent',
-                        }}
-                        source={file}
-                    />
-                )
+                showAnimation && <ShowAnimation percentage={percentage} />
             }
             {
                 showResult ?
@@ -153,4 +136,19 @@ export default function DynamicQuiz() {
             }
         </QuizContainer>
     );
+}
+
+const ShowAnimation = ({ percentage }: { percentage: number }) => {
+    if (percentage >= 0.8) {
+        return <Fireworks />
+    } else if (percentage >= 0.6) {
+        return <Confetti />
+    } else {
+        return (
+            <>
+                <SadTears />
+                <SadFace />
+            </>
+        )
+    }
 }
