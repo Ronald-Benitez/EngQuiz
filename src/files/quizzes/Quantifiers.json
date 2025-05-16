@@ -1,0 +1,722 @@
+[
+    {
+        "main": "Countable Nouns (Singular)",
+        "question": "There is ________ apple on the table.",
+        "options": [
+            "a",
+            "some",
+            "any",
+            "much"
+        ],
+        "correct": "a",
+        "explanation": "We use 'a' before singular countable nouns that start with a consonant sound."
+    },
+    {
+        "main": "Countable Nouns (Plural)",
+        "question": "I saw ________ birds flying in the sky.",
+        "options": [
+            "few",
+            "little",
+            "much",
+            "a lot of"
+        ],
+        "correct": "few",
+        "explanation": "'Few' is used with plural countable nouns to indicate a small number."
+    },
+    {
+        "main": "Countable Nouns (Plural)",
+        "question": "Do you have ________ brothers or sisters?",
+        "options": [
+            "any",
+            "some",
+            "much",
+            "little"
+        ],
+        "correct": "any",
+        "explanation": "'Any' is often used in questions with plural countable nouns."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "She added ________ sugar to her coffee.",
+        "options": [
+            "a few",
+            "a little",
+            "many",
+            "few"
+        ],
+        "correct": "a little",
+        "explanation": "'A little' is used with non-countable nouns to indicate a small amount."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "There isn't ________ milk left in the fridge.",
+        "options": [
+            "many",
+            "much",
+            "few",
+            "a few"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with non-countable nouns in negative sentences."
+    },
+    {
+        "main": "Countable and Non-countable",
+        "question": "They have ________ books and ________ time to read them.",
+        "options": [
+            "many / little",
+            "much / few",
+            "few / much",
+            "little / many"
+        ],
+        "correct": "many / little",
+        "explanation": "'Many' is for plural countable nouns (books), and 'little' is for non-countable nouns (time)."
+    },
+    {
+        "main": "Countable and Non-countable",
+        "question": "We need to buy ________ eggs and ________ flour for the cake.",
+        "options": [
+            "some / some",
+            "a few / much",
+            "much / a few",
+            "a little / a little"
+        ],
+        "correct": "some / some",
+        "explanation": "'Some' can be used with both plural countable nouns (eggs) and non-countable nouns (flour)."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "________ people enjoy listening to music.",
+        "options": [
+            "A lot of",
+            "A little",
+            "Much",
+            "Few"
+        ],
+        "correct": "A lot of",
+        "explanation": "'A lot of' is used with both plural countable and non-countable nouns to indicate a large quantity."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "He doesn't have ________ free time this week.",
+        "options": [
+            "many",
+            "few",
+            "much",
+            "a few"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with non-countable nouns (time) in negative sentences."
+    },
+    {
+        "main": "Countable Nouns (Plural)",
+        "question": "There are ________ students in the classroom today.",
+        "options": [
+            "a little",
+            "many",
+            "much",
+            "little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with plural countable nouns to indicate a large number."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "How ________ information did you find about the topic?",
+        "options": [
+            "many",
+            "few",
+            "much",
+            "a few"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with non-countable nouns like 'information' in questions."
+    },
+    {
+        "main": "Countable Nouns (Singular)",
+        "question": "She has ________ interesting book to read.",
+        "options": [
+            "some",
+            "any",
+            "a",
+            "much"
+        ],
+        "correct": "an",
+        "explanation": "We use 'an' before singular countable nouns that start with a vowel sound."
+    },
+    {
+        "main": "Countable Nouns (Plural)",
+        "question": "They bought ________ new chairs for the dining room.",
+        "options": [
+            "little",
+            "much",
+            "a few",
+            "a little"
+        ],
+        "correct": "a few",
+        "explanation": "'A few' is used with plural countable nouns to indicate a small number."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "We need ________ help with this project.",
+        "options": [
+            "many",
+            "few",
+            "some",
+            "a few"
+        ],
+        "correct": "some",
+        "explanation": "'Some' can be used with non-countable nouns in affirmative sentences to indicate an unspecified quantity."
+    },
+    {
+        "main": "Countable and Non-countable",
+        "question": "He drank ________ water and ate ________ biscuits.",
+        "options": [
+            "much / a few",
+            "many / a little",
+            "a little / a few",
+            "a few / much"
+        ],
+        "correct": "a little / a few",
+        "explanation": "'A little' is for non-countable nouns (water), and 'a few' is for plural countable nouns (biscuits)."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "There wasn't ________ traffic on the road this morning.",
+        "options": [
+            "many",
+            "a few",
+            "much",
+            "few"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with the non-countable noun 'traffic' in negative sentences."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "Did you take ________ photos on your vacation?",
+        "options": [
+            "much",
+            "little",
+            "many",
+            "a little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with the plural countable noun 'photos' in questions."
+    },
+    {
+        "main": "Countable Nouns (Singular)",
+        "question": "I saw ________ elephant at the zoo.",
+        "options": [
+            "a",
+            "some",
+            "an",
+            "much"
+        ],
+        "correct": "an",
+        "explanation": "We use 'an' before singular countable nouns that start with a vowel sound."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "She doesn't have ________ patience with loud noises.",
+        "options": [
+            "many",
+            "a few",
+            "much",
+            "few"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with the non-countable noun 'patience' in negative sentences."
+    },
+    {
+        "main": "Countable Nouns (Plural)",
+        "question": "How ________ languages can you speak?",
+        "options": [
+            "much",
+            "little",
+            "many",
+            "a little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with the plural countable noun 'languages' in questions."
+    },
+    {
+        "main": "Countable and Non-countable",
+        "question": "He has ________ experience in marketing and ________ good ideas.",
+        "options": [
+            "much / few",
+            "many / little",
+            "little / many",
+            "much / a few"
+        ],
+        "correct": "much / a few",
+        "explanation": "'Much' is used with the non-countable noun 'experience', and 'a few' with the plural countable noun 'ideas'."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "There is ________ rain today than yesterday.",
+        "options": [
+            "many",
+            "few",
+            "less",
+            "fewer"
+        ],
+        "correct": "less",
+        "explanation": "'Less' is used for non-countable nouns to indicate a smaller quantity."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "We have ________ apples left than oranges.",
+        "options": [
+            "less",
+            "much",
+            "fewer",
+            "little"
+        ],
+        "correct": "fewer",
+        "explanation": "'Fewer' is used for plural countable nouns to indicate a smaller number."
+    },
+    {
+        "main": "Countable Nouns (Singular)",
+        "question": "He needs ________ new computer for his work.",
+        "options": [
+            "some",
+            "any",
+            "a",
+            "much"
+        ],
+        "correct": "a",
+        "explanation": "We use 'a' before singular countable nouns that start with a consonant sound."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "She drank ________ juice for breakfast.",
+        "options": [
+            "many",
+            "few",
+            "some",
+            "a few"
+        ],
+        "correct": "some",
+        "explanation": "'Some' is used with non-countable nouns in affirmative sentences."
+    },
+    {
+        "main": "Countable Nouns (Plural)",
+        "question": "They don't have ________ pets in their apartment.",
+        "options": [
+            "much",
+            "little",
+            "many",
+            "a little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with plural countable nouns in negative sentences."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "How ________ progress have you made on the project?",
+        "options": [
+            "many",
+            "few",
+            "much",
+            "a few"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with the non-countable noun 'progress' in questions."
+    },
+    {
+        "main": "Countable and Non-countable",
+        "question": "I have ________ close friends and ________ free time to spend with them.",
+        "options": [
+            "much / few",
+            "many / little",
+            "little / many",
+            "few / much"
+        ],
+        "correct": "many / little",
+        "explanation": "'Many' is used with the plural countable noun 'friends', and 'little' with the non-countable noun 'time'."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "There is ________ salt in this soup.",
+        "options": [
+            "many",
+            "a few",
+            "a little",
+            "few"
+        ],
+        "correct": "a little",
+        "explanation": "'A little' is used with the non-countable noun 'salt' to indicate a small amount."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "Did you see ________ interesting movies recently?",
+        "options": [
+            "much",
+            "little",
+            "many",
+            "a little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with the plural countable noun 'movies' in questions."
+    },
+    {
+        "main": "Countable Nouns (Singular)",
+        "question": "She wants to buy ________ new dress for the party.",
+        "options": [
+            "some",
+            "any",
+            "a",
+            "much"
+        ],
+        "correct": "a",
+        "explanation": "We use 'a' before singular countable nouns that start with a consonant sound."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "He added ________ milk to his cereal.",
+        "options": [
+            "many",
+            "few",
+            "some",
+            "a few"
+        ],
+        "correct": "some",
+        "explanation": "'Some' is used with non-countable nouns in affirmative sentences."
+    },
+    {
+        "main": "Countable Nouns (Plural)",
+        "question": "There aren't ________ clouds in the sky today.",
+        "options": [
+            "much",
+            "little",
+            "many",
+            "a little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with plural countable nouns in negative sentences."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "How ________ money do you have in your wallet?",
+        "options": [
+            "many",
+            "few",
+            "much",
+            "a few"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with the non-countable noun 'money' in questions."
+    },
+    {
+        "main": "Countable and Non-countable",
+        "question": "They have ________ experience in cooking and ________ delicious recipes.",
+        "options": [
+            "much / few",
+            "many / little",
+            "little / many",
+            "much / a few"
+        ],
+        "correct": "much / many",
+        "explanation": "'Much' is used with the non-countable noun 'experience', and 'many' with the plural countable noun 'recipes'."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "There was ________ noise coming from the street.",
+        "options": [
+            "many",
+            "a few",
+            "a little",
+            "few"
+        ],
+        "correct": "a little",
+        "explanation": "'A little' is used with the non-countable noun 'noise' to indicate a small amount."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "Did you read ________ interesting articles online?",
+        "options": [
+            "much",
+            "little",
+            "many",
+            "a little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with the plural countable noun 'articles' in questions."
+    },
+    {
+        "main": "Countable Nouns (Singular)",
+        "question": "I need ________ new pen to write with.",
+        "options": [
+            "some",
+            "any",
+            "a",
+            "much"
+        ],
+        "correct": "a",
+        "explanation": "We use 'a' before singular countable nouns that start with a consonant sound."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "She doesn't drink ________ coffee in the evening.",
+        "options": [
+            "many",
+            "a few",
+            "much",
+            "few"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with the non-countable noun 'coffee' in negative sentences."
+    },
+    {
+        "main": "Countable Nouns (Plural)",
+        "question": "How ________ emails do you receive every day?",
+        "options": [
+            "much",
+            "little",
+            "many",
+            "a little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with the plural countable noun 'emails' in questions."
+    },
+    {
+        "main": "Countable and Non-countable",
+        "question": "He has ________ knowledge of history and ________ interesting facts to share.",
+        "options": [
+            "much / few",
+            "many / little",
+            "little / many",
+            "much / many"
+        ],
+        "correct": "much / many",
+        "explanation": "'Much' is used with the non-countable noun 'knowledge', and 'many' with the plural countable noun 'facts'."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "There was ________ excitement in the room when the winner was announced.",
+        "options": [
+            "many",
+            "a few",
+            "a little",
+            "few"
+        ],
+        "correct": "a little",
+        "explanation": "'A little' is used with the non-countable noun 'excitement' to indicate a small amount."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "Did you meet ________ new people at the conference?",
+        "options": [
+            "much",
+            "little",
+            "many",
+            "a little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with the plural countable noun 'people' in questions."
+    },
+    {
+        "main": "Countable Nouns (Singular)",
+        "question": "She found ________ old photograph in the album.",
+        "options": [
+            "some",
+            "any",
+            "an",
+            "much"
+        ],
+        "correct": "an",
+        "explanation": "We use 'an' before singular countable nouns that start with a vowel sound."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "He doesn't eat ________ bread with his meals.",
+        "options": [
+            "many",
+            "a few",
+            "much",
+            "few"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with the non-countable noun 'bread' in negative sentences."
+    },
+    {
+        "main": "Countable Nouns (Plural)",
+        "question": "How ________ songs are on your playlist?",
+        "options": [
+            "much",
+            "little",
+            "many",
+            "a little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with the plural countable noun 'songs' in questions."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "We need ________ information about the new product.",
+        "options": [
+            "many",
+            "few",
+            "some",
+            "a few"
+        ],
+        "correct": "some",
+        "explanation": "'Some' is used with non-countable nouns in affirmative sentences."
+    },
+    {
+        "main": "Countable and Non-countable",
+        "question": "She has ________ talent for music and ________ beautiful songs.",
+        "options": [
+            "much / few",
+            "many / little",
+            "little / many",
+            "much / many"
+        ],
+        "correct": "much / many",
+        "explanation": "'Much' is used with the non-countable noun 'talent', and 'many' with the plural countable noun 'songs'."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "There is ________ traffic on the highway during rush hour.",
+        "options": [
+            "many",
+            "a few",
+            "a lot of",
+            "few"
+        ],
+        "correct": "a lot of",
+        "explanation": "'A lot of' is used with both non-countable nouns like 'traffic' to indicate a large quantity."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "Did you have ________ trouble finding parking?",
+        "options": [
+            "many",
+            "little",
+            "much",
+            "a little"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with the non-countable noun 'trouble' in questions."
+    },
+    {
+        "main": "Countable Nouns (Singular)",
+        "question": "He saw ________ bird sitting on the windowsill.",
+        "options": [
+            "some",
+            "any",
+            "a",
+            "much"
+        ],
+        "correct": "a",
+        "explanation": "We use 'a' before singular countable nouns that start with a consonant sound."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "She put ________ salt in the soup.",
+        "options": [
+            "many",
+            "few",
+            "a little",
+            "a few"
+        ],
+        "correct": "a little",
+        "explanation": "'A little' is used with non-countable nouns to indicate a small amount."
+    },
+    {
+        "main": "Countable Nouns (Plural)",
+        "question": "There are ________ interesting books in the library.",
+        "options": [
+            "little",
+            "much",
+            "many",
+            "a little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with plural countable nouns to indicate a large number."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "How ________ time do we have left?",
+        "options": [
+            "many",
+            "few",
+            "much",
+            "a few"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with the non-countable noun 'time' in questions."
+    },
+    {
+        "main": "Countable and Non-countable",
+        "question": "They have ________ pets and ________ space for them.",
+        "options": [
+            "much / few",
+            "many / little",
+            "little / many",
+            "few / much"
+        ],
+        "correct": "many / little",
+        "explanation": "'Many' is used with the plural countable noun 'pets', and 'little' with the non-countable noun 'space'."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "There wasn't ________ sugar in my tea.",
+        "options": [
+            "many",
+            "a few",
+            "much",
+            "few"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with the non-countable noun 'sugar' in negative sentences."
+    },
+    {
+        "main": "Quantifiers - General",
+        "question": "Did you buy ________ souvenirs on your trip?",
+        "options": [
+            "much",
+            "little",
+            "many",
+            "a little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with the plural countable noun 'souvenirs' in questions."
+    },
+    {
+        "main": "Countable Nouns (Singular)",
+        "question": "He needs ________ new shirt for the interview.",
+        "options": [
+            "some",
+            "any",
+            "a",
+            "much"
+        ],
+        "correct": "a",
+        "explanation": "We use 'a' before singular countable nouns that start with a consonant sound."
+    },
+    {
+        "main": "Non-countable Nouns",
+        "question": "She doesn't have ________ experience in this field.",
+        "options": [
+            "many",
+            "a few",
+            "much",
+            "few"
+        ],
+        "correct": "much",
+        "explanation": "'Much' is used with the non-countable noun 'experience' in negative sentences."
+    },
+    {
+        "main": "Countable Nouns (Plural)",
+        "question": "How ________ questions did you ask the teacher?",
+        "options": [
+            "much",
+            "little",
+            "many",
+            "a little"
+        ],
+        "correct": "many",
+        "explanation": "'Many' is used with the plural countable noun 'questions' in questions."
+    }
+]
