@@ -62,6 +62,16 @@ const List: { title: string, quizzes: QuizItem[] }[] = [
         title: "Types of conditional sentences",
         href: "TypesOfConditional",
         icon: "compare"
+      },
+      {
+        title: "Quantifiers",
+        href: "Quantifiers",
+        icon: "calculate"
+      },
+      {
+        title: "Negative prefixes",
+        href: "NegativePrefixes",
+        icon: "minimize"
       }
     ]
   }
@@ -81,20 +91,33 @@ export default function QuizzesHome() {
           {
             List?.map((item, key) => (
               <Collapsible title={item?.title} key={key}>
-                <ThemedView style={styles.quizList}>
+                <ThemedView style={[styles.quizList]}>
                   {
                     item?.quizzes?.map((quiz, index) => (
-                      <Link href={
-                        {
-                          pathname: "/quizzes/quiz/[name]",
-                          params: { name: quiz.href }
+                      <ThemedView style={{ flex: 1, flexDirection: "row", width: "100%", gap: 5, marginVertical: 10, alignItems: "center" }} key={index}>
+                        <Link href={
+                          {
+                            pathname: "/quizzes/quiz/[name]",
+                            params: { name: quiz.href }
+                          }
                         }
-                      } key={index}>
-                        <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-                          <MaterialIcons name={quiz?.icon} size={24} color={iconColor} />
-                          <ThemedText secondary>{quiz.title}</ThemedText>
-                        </ThemedBlock>
-                      </Link>
+                          style={{ flex: 1 }}>
+                          <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                            <MaterialIcons name={quiz?.icon} size={24} color={iconColor} />
+                            <ThemedText secondary>{quiz.title}</ThemedText>
+                          </ThemedBlock>
+                        </Link>
+                        <Link href={
+                          {
+                            pathname: "/quizzes/statistics/[name]",
+                            params: { name: quiz.href }
+                          }
+                        } >
+                          <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                            <MaterialIcons name="bar-chart" size={24} color={iconColor} />
+                          </ThemedBlock>
+                        </Link>
+                      </ThemedView>
                     ))
                   }
                 </ThemedView>
@@ -121,9 +144,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   quizList: {
-    gap: 12,
     paddingHorizontal: 12,
-    marginVertical: 10
+    marginVertical: 10,
+    flexDirection: "column"
   },
   reactLogo: {
     height: 178,
