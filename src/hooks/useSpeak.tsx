@@ -18,7 +18,7 @@ const SpeakProvider: React.FC<{ children: React.ReactNode }> = ({ children }) =>
     const speak = (text: string) => {
         stop()
         setIsSpeaking(true);
-        const cleanText = text.replace("${}", " ").replaceAll("*", "")
+        const cleanText = text.replace("${}", " ").replaceAll("*", "").replaceAll("-", "").replaceAll("_", "")
         Speach.speak(cleanText, {
             onDone: () => setIsSpeaking(false),
             onStopped: () => setIsSpeaking(false),
