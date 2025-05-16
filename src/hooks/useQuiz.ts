@@ -2,10 +2,12 @@ import { useEffect, useState } from 'react';
 import { useAppSettings } from '@/src/hooks/useSettings';
 import { Completed, Question } from '@/src/interfaces';
 import { UseTimerReturn } from '@/src/hooks/useTimer';
+import { useAppRecords } from '@/src/hooks/useRecords';
 
 interface UseQuizProps {
     buildOptions: () => Question[];
     timer: UseTimerReturn;
+    quizName: string
 }
 
 export interface UseQuizReturn {
@@ -22,14 +24,15 @@ export interface UseQuizReturn {
     selected: string | null;
 }
 
-export default function useQuiz({ buildOptions, timer }: UseQuizProps) {
+export default function useQuiz({ buildOptions, timer, quizName }: UseQuizProps) {
     const [questions, setQuestions] = useState<Question[]>([]);
     const [current, setCurrent] = useState(0);
     const [completed, setCompleted] = useState<Completed[]>([]);
     const [selected, setSelected] = useState<string | null>(null);
     const [showResult, setShowResult] = useState(false);
     const { settings } = useAppSettings();
-    const [reload, setReload] = useState(false)
+    const [reload, setReload] = useState(false);
+    const records = useAppRecords()
 
     useEffect(() => {
         if (!questions || questions?.length < 1) {
@@ -90,6 +93,17 @@ export default function useQuiz({ buildOptions, timer }: UseQuizProps) {
             timer.stop();
         }
     }
+
+    useEffect(() => {
+        if (showResult) {
+            records.updateRecords(quizName, {
+                questions: questions?.length,
+                date: new Date().toISOString(),
+                errors: completed?.filter(e => !e.isCorrect)?.length,
+                corrects: completed?.filter(e => e.isCorrect)?.length
+            })
+        }
+    }, [showResult])
 
     const handleBack = () => {
         if (current > 0) {

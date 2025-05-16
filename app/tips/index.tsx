@@ -46,6 +46,16 @@ const List: { title: string, tips: TipItem[] }[] = [
         title: "Types of conditional sentences",
         href: "TypesOfConditional",
         icon: "type-specimen"
+      },
+      {
+        title: "Quantifiers",
+        href: "Quantifiers",
+        icon: "calculate"
+      },
+      {
+        title: "Negative prefixes to form antonyms",
+        href: "NegativePrefixes",
+        icon: "not-interested"
       }
     ]
   }

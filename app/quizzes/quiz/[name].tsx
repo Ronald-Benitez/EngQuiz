@@ -63,6 +63,18 @@ const optionsConfig = {
         formatedSpeak: formatedBasicSpeak,
         import: () => import("@/src/files/quizzes/TypesOfConditionals.json"),
         hideCurrent: false
+    },
+    Quantifiers: {
+        buildOptions: buildOptions,
+        formatedSpeak: formatedSplittedSpeak,
+        import: () => import("@/src/files/quizzes/Quantifiers.json"),
+        hideCurrent: true
+    },
+    NegativePrefixes: {
+        buildOptions: buildOptions,
+        formatedSpeak: formatedBasicSpeak,
+        import: () => import("@/src/files/quizzes/NegativePrefixes.json"),
+        hideCurrent: true
     }
 } as const;
 
@@ -104,13 +116,13 @@ export default function DynamicQuiz() {
         }
     }, [optionConfig]);
 
-    const quiz = useQuiz({ buildOptions: optionConfig.buildOptions(questionsData, settings), timer });
+    const quiz = useQuiz({ buildOptions: optionConfig.buildOptions(questionsData, settings), timer, quizName: name });
     const { handleRestart, completed, showResult } = quiz;
 
     if (!questionsData) {
         return <ThemedView style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>Loading configuration...</ThemedView>;
     }
-    
+
     useEffect(() => {
         if (showResult) {
             setShowAnimation(true)

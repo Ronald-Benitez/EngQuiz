@@ -49,7 +49,9 @@ export default function TabLayout() {
       <Tabs.Screen
         name="tip/[name]"
         options={{
-          href: null,
+          tabBarItemStyle: {
+            display: 'none'
+          }
         }}
       />
     </Tabs>

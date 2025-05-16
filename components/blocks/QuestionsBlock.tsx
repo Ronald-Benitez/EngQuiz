@@ -63,7 +63,7 @@ export default function QuestionsBlock({ quiz, timer, hideCurrent }: QuestionsBl
             )
           }
           {
-            !showQuestion && (
+            !showQuestionVal && (
               <Pressable onPress={() => setShowQuestion(true)}>
                 <ThemedBlock type='secondary' style={{ width: 45, height: 45, padding: 0, justifyContent: "center", alignItems: "center" }}>
                   <MaterialIcons name="remove-red-eye" size={20} color={color} />

@@ -23,6 +23,12 @@ const optionsConfig = {
     },
     TypesOfConditional: {
         import: () => import("@/src/files/tips/TypesOfConditionals.json")
+    },
+    Quantifiers: {
+        import: () => import("@/src/files/tips/Quantifiers.json")
+    },
+    NegativePrefixes: {
+        import: () => import("@/src/files/tips/NegativePrefixes.json")
     }
 } as const;
 
