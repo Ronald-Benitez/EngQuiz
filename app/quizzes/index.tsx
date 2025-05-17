@@ -101,7 +101,7 @@ export default function QuizzesHome() {
                             params: { name: quiz.href }
                           }
                         }
-                          style={{ flex: 1 }}>
+                          style={{ flex: 5 }}>
                           <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                             <MaterialIcons name={quiz?.icon} size={24} color={iconColor} />
                             <ThemedText secondary>{quiz.title}</ThemedText>
@@ -112,7 +112,7 @@ export default function QuizzesHome() {
                             pathname: "/quizzes/statistics/[name]",
                             params: { name: quiz.href }
                           }
-                        } >
+                        } style={{ flex: 1 }}>
                           <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                             <MaterialIcons name="bar-chart" size={24} color={iconColor} />
                           </ThemedBlock>
@@ -146,7 +146,8 @@ const styles = StyleSheet.create({
   quizList: {
     paddingHorizontal: 12,
     marginVertical: 10,
-    flexDirection: "column"
+    flexDirection: "column",
+    gap: 10
   },
   reactLogo: {
     height: 178,
