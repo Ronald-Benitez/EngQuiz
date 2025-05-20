@@ -2,7 +2,7 @@
   "expo": {
     "name": "EngQuiz",
     "slug": "EngQuiz",
-    "version": "1.0.1",
+    "version": "1.0.2",
     
     "orientation": "portrait",
     "assetBundlePatterns": [
@@ -21,7 +21,7 @@
         "backgroundColor": "#000000"
       },
       "package": "com.empanada.EngQuiz",
-      "versionCode": 3
+      "versionCode": 6
     },
     "web": {
       "bundler": "metro",

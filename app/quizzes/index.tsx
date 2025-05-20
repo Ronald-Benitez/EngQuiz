@@ -113,7 +113,7 @@ export default function QuizzesHome() {
                             params: { name: quiz.href }
                           }
                         } style={{ flex: 1 }}>
-                          <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                          <ThemedBlock style={{ flexDirection: 'row', alignItems: 'center', justifyContent: "center", gap: 8 }}>
                             <MaterialIcons name="bar-chart" size={24} color={iconColor} />
                           </ThemedBlock>
                         </Link>
