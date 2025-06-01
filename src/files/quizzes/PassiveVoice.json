@@ -1,0 +1,840 @@
+[
+    {
+        "main": "Identify Passive Sentence",
+        "question": "Which of the following sentences is in the **passive voice**?",
+        "options": [
+            "The chef cooked a delicious meal.",
+            "A delicious meal was cooked by the chef.",
+            "The chef will cook a delicious meal.",
+            "The chef has cooked a delicious meal."
+        ],
+        "correct": "A delicious meal was cooked by the chef.",
+        "explanation": "In option B, the subject 'A delicious meal' receives the action of the verb 'was cooked,' making it passive. The agent ('by the chef') is also present."
+    },
+    {
+        "main": "Active to Passive",
+        "question": "Transform the following active sentence into the **passive voice**: 'The wind damaged the old tree.'",
+        "options": [
+            "The old tree damaged the wind.",
+            "The old tree was damaged by the wind.",
+            "The wind was damaging the old tree.",
+            "The old tree is damaging the wind."
+        ],
+        "correct": "The old tree was damaged by the wind.",
+        "explanation": "To transform to passive voice, the object of the active sentence ('the old tree') becomes the subject, followed by 'to be' (past tense 'was') and the past participle ('damaged'), and the original subject ('the wind') becomes the agent in a 'by' phrase."
+    },
+    {
+        "main": "Missing Agent",
+        "question": "Which sentence correctly uses the **passive voice** without explicitly stating the agent?",
+        "options": [
+            "Someone stole my wallet yesterday.",
+            "My wallet was stolen yesterday.",
+            "Yesterday, my wallet stole someone.",
+            "They stole my wallet yesterday."
+        ],
+        "correct": "My wallet was stolen yesterday.",
+        "explanation": "Option B is in the passive voice ('was stolen') and the doer of the action (the thief) is not mentioned, which is a common use of the passive voice when the agent is unknown or unimportant."
+    },
+    {
+        "main": "Identify Passive Construction",
+        "question": "In which sentence is the emphasis placed on the action received, rather than the doer?",
+        "options": [
+            "The students completed the assignment.",
+            "The assignment was completed by the students.",
+            "The teacher assigned the homework.",
+            "All students must complete the assignment."
+        ],
+        "correct": "The assignment was completed by the students.",
+        "explanation": "Option B uses the passive voice, putting the emphasis on 'the assignment' and the action 'was completed,' making it the focus rather than 'the students' who did the completing."
+    },
+    {
+        "main": "Correct Passive Form",
+        "question": "Choose the sentence that is correctly written in the **passive voice**.",
+        "options": [
+            "They built the bridge in 2005.",
+            "The bridge was built in 2005.",
+            "In 2005, built the bridge.",
+            "The bridge building was in 2005."
+        ],
+        "correct": "The bridge was built in 2005.",
+        "explanation": "Option B correctly uses the 'to be' verb ('was') followed by the past participle ('built') to form the passive voice. The subject 'The bridge' receives the action."
+    },
+    {
+        "main": "Passive with Modal",
+        "question": "Which sentence correctly uses a modal verb in the **passive voice**?",
+        "options": [
+            "The work should be finished soon.",
+            "They should finish the work soon.",
+            "The work should finishes soon.",
+            "Soon, the work should be finish."
+        ],
+        "correct": "The work should be finished soon.",
+        "explanation": "Passive voice with a modal verb follows the structure: Modal + be + Past Participle. 'Should be finished' correctly applies this."
+    },
+    {
+        "main": "Reporting Passive",
+        "question": "Choose the sentence that uses the **passive voice** for reporting something generally believed.",
+        "options": [
+            "People say that he is a genius.",
+            "It is said that he is a genius.",
+            "He says that he is a genius.",
+            "They are saying that he is a genius."
+        ],
+        "correct": "It is said that he is a genius.",
+        "explanation": "'It is said that...' is a common impersonal passive construction used to report general beliefs or opinions without specifying the speaker."
+    },
+    {
+        "main": "Gerund in Passive",
+        "question": "Which sentence correctly uses a gerund in the **passive voice**?",
+        "options": [
+            "He dislikes being told what to do.",
+            "He dislikes telling what to do.",
+            "Being told what to do dislikes him.",
+            "He dislikes to be told what to do."
+        ],
+        "correct": "He dislikes being told what to do.",
+        "explanation": "The passive gerund form is 'being + past participle'. In this sentence, the subject 'He' is the recipient of the action 'being told'."
+    },
+    {
+        "main": "Infinitive in Passive",
+        "question": "Transform the infinitive phrase 'to clean the room' into the **passive voice** within a sentence.",
+        "options": [
+            "The room needs to clean.",
+            "The room needs to be cleaned.",
+            "They need to clean the room.",
+            "Cleaning the room is needed."
+        ],
+        "correct": "The room needs to be cleaned.",
+        "explanation": "The passive infinitive form is 'to be + past participle'. 'To be cleaned' correctly expresses that the room is the recipient of the cleaning action."
+    },
+    {
+        "main": "Past Perfect Passive",
+        "question": "Which sentence uses the **past perfect passive voice**?",
+        "options": [
+            "The letter was written.",
+            "The letter had been written before I arrived.",
+            "The letter has been written.",
+            "They had written the letter."
+        ],
+        "correct": "The letter had been written before I arrived.",
+        "explanation": "The past perfect passive voice is formed with 'had + been + past participle'. It indicates an action that was completed before another past action or point in time."
+    },
+    {
+        "main": "Present Perfect Passive",
+        "question": "Which sentence is in the **present perfect passive voice**?",
+        "options": [
+            "The book was read by many.",
+            "Many have read the book.",
+            "The book has been read by many.",
+            "The book is being read."
+        ],
+        "correct": "The book has been read by many.",
+        "explanation": "The present perfect passive voice is formed with 'has/have + been + past participle'. In this sentence, 'The book' is the object of the action 'has been read'."
+    },
+    {
+        "main": "Future Passive",
+        "question": "Transform 'They will announce the results tomorrow' into the **passive voice**.",
+        "options": [
+            "The results will announce tomorrow.",
+            "The results will be announced tomorrow.",
+            "Tomorrow, they will be announced results.",
+            "Announcing the results will be done tomorrow."
+        ],
+        "correct": "The results will be announced tomorrow.",
+        "explanation": "The future simple passive voice is formed with 'will + be + past participle'. The object 'the results' becomes the subject receiving the action."
+    },
+    {
+        "main": "Passive for Accidents",
+        "question": "Which sentence uses the **passive voice** to describe an accident without blaming anyone?",
+        "options": [
+            "John broke the vase.",
+            "The vase was broken.",
+            "Someone broke the vase.",
+            "The vase is breaking."
+        ],
+        "correct": "The vase was broken.",
+        "explanation": "Using the passive voice ('was broken') allows you to describe the event (the vase being broken) without explicitly stating who performed the action, which is common when the agent is unknown or when avoiding blame."
+    },
+    {
+        "main": "Passive in Formal Writing",
+        "question": "Which sentence is more likely to be found in formal or scientific writing due to its use of the **passive voice**?",
+        "options": [
+            "Scientists discovered a new planet.",
+            "A new planet was discovered.",
+            "We discovered a new planet.",
+            "The discovery of a new planet occurred."
+        ],
+        "correct": "A new planet was discovered.",
+        "explanation": "The passive voice is often used in scientific and formal writing to emphasize the action or the result, rather than the doer of the action, promoting objectivity."
+    },
+    {
+        "main": "Identifying Active vs Passive",
+        "question": "Identify the **active voice** sentence among the following.",
+        "options": [
+            "The car was repaired by the mechanic.",
+            "The report is being written.",
+            "The mechanic repaired the car.",
+            "Many mistakes have been made."
+        ],
+        "correct": "The mechanic repaired the car.",
+        "explanation": "In active voice, the subject ('The mechanic') performs the action ('repaired'). Options A, B, and D are all in the passive voice."
+    },
+    {
+        "main": "Passive with 'Get'",
+        "question": "Which sentence uses 'get' to form the **passive voice**?",
+        "options": [
+            "She got a new job.",
+            "The package got delivered late.",
+            "They got tired after the game.",
+            "He gets angry easily."
+        ],
+        "correct": "The package got delivered late.",
+        "explanation": "While 'get' can replace 'be' in informal passive constructions, especially to describe something that happens or changes. Here, 'the package' receives the action of 'delivered'."
+    },
+    {
+        "main": "Passive in Commands/Requests",
+        "question": "Which sentence is a command or request in the **passive voice**?",
+        "options": [
+            "Please close the door.",
+            "Let the door be closed.",
+            "You should close the door.",
+            "The door is closed by you."
+        ],
+        "correct": "Let the door be closed.",
+        "explanation": "'Let + object + be + past participle' is a common way to form passive commands or requests."
+    },
+    {
+        "main": "Passive Voice with 'It is believed'",
+        "question": "Choose the most appropriate sentence to convey a general belief using the **passive voice**.",
+        "options": [
+            "People believe that aliens exist.",
+            "It is believed that aliens exist.",
+            "We believe that aliens exist.",
+            "Aliens are believed by many."
+        ],
+        "correct": "It is believed that aliens exist.",
+        "explanation": "The construction 'It is believed that...' (or 'It is said that...', 'It is known that...') is a standard way to express general opinions or beliefs in the passive voice, without specifying who holds the belief."
+    },
+    {
+        "main": "Causative Passive",
+        "question": "Which sentence shows a **causative passive** construction (meaning someone causes something to be done for them)?",
+        "options": [
+            "She cut her hair.",
+            "Her hair was cut by a stylist.",
+            "She had her hair cut.",
+            "A stylist cuts her hair."
+        ],
+        "correct": "She had her hair cut.",
+        "explanation": "The causative passive uses 'have/get + object + past participle' to indicate that the subject arranged for someone else to perform the action (e.g., 'She didn't cut her hair herself; she arranged for someone else to do it')."
+    },
+    {
+        "main": "Identifying Active vs Passive",
+        "question": "Select the sentence that is in the **active voice**.",
+        "options": [
+            "The ball was kicked by the child.",
+            "A new policy has been implemented.",
+            "The child kicked the ball.",
+            "Mistakes were made."
+        ],
+        "correct": "The child kicked the ball.",
+        "explanation": "In an active voice sentence, the subject ('The child') performs the action ('kicked'). Options A, B, and D are all examples of the passive voice."
+    },
+    {
+        "main": "Passive with Prepositions",
+        "question": "Which sentence correctly uses the **passive voice** with a prepositional verb?",
+        "options": [
+            "The matter was looked into by the committee.",
+            "The committee looked into the matter.",
+            "They looked into the matter.",
+            "Looking into the matter was done."
+        ],
+        "correct": "The matter was looked into by the committee.",
+        "explanation": "When a phrasal or prepositional verb (like 'look into') is used in the passive voice, the preposition stays with the verb. The object 'the matter' receives the action."
+    },
+    {
+        "main": "Passive for Emphasis",
+        "question": "Which sentence uses the **passive voice** to emphasize the product, not the producer?",
+        "options": [
+            "Our factory produces high-quality goods.",
+            "High-quality goods are produced in our factory.",
+            "We produce high-quality goods in our factory.",
+            "Producing high-quality goods is our factory's job."
+        ],
+        "correct": "High-quality goods are produced in our factory.",
+        "explanation": "By using the passive voice ('are produced'), the focus shifts from 'Our factory' (the doer) to 'High-quality goods' (the recipient of the action), emphasizing the product itself."
+    },
+    {
+        "main": "Passive Reporting Verb",
+        "question": "Choose the sentence that uses a passive reporting verb structure.",
+        "options": [
+            "People claim that he is innocent.",
+            "He is claimed to be innocent.",
+            "They claim his innocence.",
+            "His innocence is claimed by people."
+        ],
+        "correct": "He is claimed to be innocent.",
+        "explanation": "This structure ('Subject + is/are + past participle of reporting verb + to-infinitive') is a common way to report general beliefs or statements in the passive voice."
+    },
+    {
+        "main": "Identify Passive Voice",
+        "question": "Which of the following sentences is in the **passive voice**?",
+        "options": [
+            "The artist painted a beautiful portrait.",
+            "A beautiful portrait was painted by the artist.",
+            "The artist is painting a beautiful portrait.",
+            "The artist will paint a beautiful portrait."
+        ],
+        "correct": "A beautiful portrait was painted by the artist.",
+        "explanation": "In this sentence, the subject 'A beautiful portrait' is receiving the action 'was painted,' and the doer of the action is indicated by the 'by' phrase."
+    },
+    {
+        "main": "Transform to Passive",
+        "question": "Transform the active sentence 'The storm destroyed many houses' into the **passive voice**.",
+        "options": [
+            "Many houses destroyed the storm.",
+            "Many houses were destroyed by the storm.",
+            "The storm was destroyed by many houses.",
+            "Destroying many houses was the storm."
+        ],
+        "correct": "Many houses were destroyed by the storm.",
+        "explanation": "To change an active sentence to passive, the object of the active sentence ('many houses') becomes the subject, followed by a form of 'to be' ('were') and the past participle ('destroyed'). The original subject ('the storm') becomes the agent in a 'by' phrase."
+    },
+    {
+        "main": "Passive with 'Being'",
+        "question": "Which sentence uses the **present continuous passive voice**?",
+        "options": [
+            "The house is being built.",
+            "The house was built.",
+            "They are building the house.",
+            "The house has been built."
+        ],
+        "correct": "The house is being built.",
+        "explanation": "The present continuous passive voice is formed with 'is/are + being + past participle'. It indicates an action that is currently in progress and being performed on the subject."
+    },
+    {
+        "main": "Passive with Perfect Modals",
+        "question": "Which sentence uses a **perfect modal in the passive voice**?",
+        "options": [
+            "They should have completed the work.",
+            "The work should have been completed.",
+            "The work should be completed.",
+            "They should complete the work."
+        ],
+        "correct": "The work should have been completed.",
+        "explanation": "The structure for a perfect modal in the passive voice is 'modal + have + been + past participle'. This indicates an action that should have been finished by a certain time or in the past."
+    },
+    {
+        "main": "Passive for Impersonal Statements",
+        "question": "Which sentence uses the **passive voice** to make an impersonal statement?",
+        "options": [
+            "Someone stole my car.",
+            "My car was stolen.",
+            "The police found my car.",
+            "I lost my car."
+        ],
+        "correct": "My car was stolen.",
+        "explanation": "Using the passive voice ('was stolen') allows for a focus on the event (the car being stolen) rather than identifying the doer, making it an impersonal statement."
+    },
+    {
+        "main": "Identify Passive vs. Active",
+        "question": "Which of the following is an **active voice** sentence?",
+        "options": [
+            "The ball was caught by the fielder.",
+            "The decision was made by the team.",
+            "The fielder caught the ball.",
+            "Many efforts have been made."
+        ],
+        "correct": "The fielder caught the ball.",
+        "explanation": "In active voice, the subject ('The fielder') performs the action ('caught'). Options A, B, and D are all in the passive voice."
+    },
+    {
+        "main": "Transform to Passive (Future)",
+        "question": "Change 'Someone will clean the office tomorrow' to the **passive voice**.",
+        "options": [
+            "The office will clean tomorrow.",
+            "The office will be cleaned tomorrow.",
+            "Tomorrow, someone will be cleaned the office.",
+            "Cleaning the office will be done tomorrow."
+        ],
+        "correct": "The office will be cleaned tomorrow.",
+        "explanation": "The future simple passive voice is formed with 'will + be + past participle'. The object 'the office' becomes the subject receiving the action, and the agent 'someone' is omitted as it's not specific."
+    },
+    {
+        "main": "Passive with Gerunds",
+        "question": "Which sentence correctly uses a gerund in the **passive voice**?",
+        "options": [
+            "She enjoys praising others.",
+            "She enjoys being praised.",
+            "Praising her is enjoyable.",
+            "She enjoys to be praised."
+        ],
+        "correct": "She enjoys being praised.",
+        "explanation": "The passive form of a gerund is 'being + past participle'. In this sentence, 'she' is the recipient of the praise, not the one giving it."
+    },
+    {
+        "main": "Passive with Infinitives",
+        "question": "Choose the sentence that correctly uses an infinitive in the **passive voice**.",
+        "options": [
+            "He wants to finish the project.",
+            "The project wants to be finished.",
+            "He wants the project to finish.",
+            "He wants to be finishing the project."
+        ],
+        "correct": "The project wants to be finished.",
+        "explanation": "The passive form of an infinitive is 'to be + past participle'. Here, 'the project' is the object that needs to be finished, not the one doing the finishing."
+    },
+    {
+        "main": "Passive for Medical Context",
+        "question": "Which sentence is typically used in a medical context to describe a procedure in **passive voice**?",
+        "options": [
+            "Doctors performed the surgery.",
+            "The surgery was performed.",
+            "They perform surgery.",
+            "Performing surgery is common."
+        ],
+        "correct": "The surgery was performed.",
+        "explanation": "In medical and scientific contexts, the passive voice is often preferred to focus on the action or procedure itself ('the surgery was performed') rather than the specific person who carried it out."
+    },
+    {
+        "main": "Passive Reporting Verb 'Know'",
+        "question": "Transform 'People know that she is honest' into the **passive voice** starting with 'She'.",
+        "options": [
+            "She is known that she is honest.",
+            "She is known to be honest.",
+            "She knows to be honest.",
+            "It is known that she is honest."
+        ],
+        "correct": "She is known to be honest.",
+        "explanation": "When the subject of the reported clause becomes the subject of the passive sentence, the structure is 'Subject + is/are + known/said/believed + to + infinitive (be + adjective/noun)'. Option D is also passive, but it doesn't start with 'She'."
+    },
+    {
+        "main": "Identify Active Sentence",
+        "question": "Which sentence is in the **active voice**?",
+        "options": [
+            "The ball is being thrown by the boy.",
+            "The cake was eaten quickly.",
+            "The boy throws the ball.",
+            "Mistakes have been made."
+        ],
+        "correct": "The boy throws the ball.",
+        "explanation": "In the active voice, the subject ('The boy') performs the action ('throws'). Options A, B, and D are all examples of the passive voice."
+    },
+    {
+        "main": "Passive with Sensory Verbs",
+        "question": "Which sentence uses the **passive voice** with a verb of perception (sensory verb)?",
+        "options": [
+            "I heard them open the door.",
+            "The door was heard to open.",
+            "They opened the door quietly.",
+            "Hearing the door open was unusual."
+        ],
+        "correct": "The door was heard to open.",
+        "explanation": "When verbs of perception (see, hear, feel, etc.) are used in the passive voice, they are typically followed by 'to' + the base form of the verb. 'The door' is the object of the perception."
+    },
+    {
+        "main": "Passive with Causative 'Make'",
+        "question": "Transform 'They made him work overtime' into the **passive voice**.",
+        "options": [
+            "He was made to work overtime.",
+            "He made to work overtime.",
+            "Overtime was made by him.",
+            "Working overtime was made by them."
+        ],
+        "correct": "He was made to work overtime.",
+        "explanation": "When 'make' (causative) is used in the active voice followed by a bare infinitive, in the passive voice, it becomes 'be made + to-infinitive'."
+    },
+    {
+        "main": "Passive for Rules/Regulations",
+        "question": "Which sentence effectively uses the **passive voice** to state a rule or regulation?",
+        "options": [
+            "Visitors must sign in.",
+            "Signing in is required.",
+            "Visitors are required to sign in.",
+            "They require visitors to sign in."
+        ],
+        "correct": "Visitors are required to sign in.",
+        "explanation": "The passive construction 'Subject + are/is + required + to-infinitive' is commonly used to express obligations or rules in an impersonal and formal way."
+    },
+    {
+        "main": "Ambiguous Passive Sentence",
+        "question": "Which sentence is **ambiguous** due to the passive voice and the omission of the agent?",
+        "options": [
+            "The new policy was announced.",
+            "The manager announced the new policy.",
+            "Everyone knew about the new policy.",
+            "The new policy will be announced soon."
+        ],
+        "correct": "The new policy was announced.",
+        "explanation": "While grammatically correct, the passive voice without an agent ('by whom?') can sometimes lead to ambiguity about who performed the action, making it less clear than an active voice sentence."
+    },
+    {
+        "main": "Passive Voice in History",
+        "question": "Which sentence would most likely be found in a historical account, using the **passive voice**?",
+        "options": [
+            "Napoleon led the French army.",
+            "The French army was led by Napoleon.",
+            "Napoleon was a great leader.",
+            "The French army fought many battles."
+        ],
+        "correct": "The French army was led by Napoleon.",
+        "explanation": "The passive voice is often used in historical or academic writing to emphasize the subject that underwent the action ('The French army') rather than the historical figure who performed it ('Napoleon')."
+    },
+    {
+        "main": "Passive with 'Has Been'",
+        "question": "Which sentence uses the **present perfect passive voice** correctly?",
+        "options": [
+            "The new bridge has been opened.",
+            "The new bridge opened.",
+            "They have opened the new bridge.",
+            "Opening the new bridge has happened."
+        ],
+        "correct": "The new bridge has been opened.",
+        "explanation": "The present perfect passive voice is formed with 'has/have + been + past participle'. It indicates an action that occurred at an unspecified time in the past and has relevance to the present. Here, the bridge is the recipient of the action."
+    },
+    {
+        "main": "Passive for Procedures",
+        "question": "Choose the most appropriate sentence to describe a standardized procedure in the **passive voice**.",
+        "options": [
+            "Employees must follow safety protocols.",
+            "Safety protocols must be followed.",
+            "Following safety protocols is important.",
+            "We follow safety protocols."
+        ],
+        "correct": "Safety protocols must be followed.",
+        "explanation": "The passive voice is often used in instructions, rules, or procedures to emphasize the action or outcome without specifying who performs it. 'Must be followed' clearly indicates an obligation for the protocols."
+    },
+    {
+        "main": "Passive with 'Is Said To'",
+        "question": "Transform 'People say that he is a talented artist' into the **passive voice**, starting with 'He'.",
+        "options": [
+            "He is said that he is a talented artist.",
+            "He is said to be a talented artist.",
+            "He says he is a talented artist.",
+            "It is said that he is a talented artist."
+        ],
+        "correct": "He is said to be a talented artist.",
+        "explanation": "This common passive reporting structure ('Subject + is/are + said + to + infinitive') is used when the subject of the reported clause becomes the subject of the main passive sentence."
+    },
+    {
+        "main": "Identify Passive Sentence",
+        "question": "Which of these sentences is in the **passive voice**?",
+        "options": [
+            "The dog chased the cat.",
+            "The cat was chased by the dog.",
+            "The dog is chasing the cat.",
+            "The cat chased the dog."
+        ],
+        "correct": "The cat was chased by the dog.",
+        "explanation": "In option B, the subject 'The cat' receives the action of the verb 'was chased', making it passive. The doer of the action is in the 'by' phrase."
+    },
+    {
+        "main": "Transform to Passive (Past Simple)",
+        "question": "Change 'The audience enjoyed the play' into the **passive voice**.",
+        "options": [
+            "The play enjoyed the audience.",
+            "The play was enjoyed by the audience.",
+            "Enjoying the play was done by the audience.",
+            "The audience was enjoyed by the play."
+        ],
+        "correct": "The play was enjoyed by the audience.",
+        "explanation": "To form the past simple passive, the object of the active sentence ('the play') becomes the subject, followed by 'was/were' ('was' for singular 'play') and the past participle ('enjoyed'), with the original subject ('the audience') in a 'by' phrase."
+    },
+    {
+        "main": "Passive with 'Could Have Been'",
+        "question": "Which sentence uses the **past modal passive voice** ('could have been')?",
+        "options": [
+            "He could have finished the project.",
+            "The project could have been finished.",
+            "The project could be finished.",
+            "They could have finished the project."
+        ],
+        "correct": "The project could have been finished.",
+        "explanation": "The past modal passive voice is formed with 'modal + have + been + past participle'. It indicates a possibility that existed in the past but wasn't realized. Here, 'the project' is the object of the action."
+    },
+    {
+        "main": "Passive for Consequences",
+        "question": "Choose the sentence that uses the **passive voice** to describe a consequence without naming the responsible party.",
+        "options": [
+            "Someone broke the window.",
+            "The window was broken.",
+            "They broke the window.",
+            "The broken window caused a draft."
+        ],
+        "correct": "The window was broken.",
+        "explanation": "Using the passive voice ('was broken') allows for focusing on the event or consequence ('the window being broken') rather than who caused it, which is often used when the agent is unknown or irrelevant."
+    },
+    {
+        "main": "Identifying Passive Construction",
+        "question": "Which of these sentences is constructed in the **passive voice**?",
+        "options": [
+            "The manager approved the proposal.",
+            "The proposal was approved by the manager.",
+            "The manager will approve the proposal.",
+            "Approving the proposal took time."
+        ],
+        "correct": "The proposal was approved by the manager.",
+        "explanation": "In this sentence, the subject 'The proposal' receives the action 'was approved'. The doer of the action, 'the manager,' is mentioned in a 'by' phrase, indicating passive voice."
+    },
+    {
+        "main": "Active to Passive Transformation",
+        "question": "Convert the active sentence 'Scientists discovered a new species' into the **passive voice**.",
+        "options": [
+            "A new species discovered scientists.",
+            "A new species was discovered by scientists.",
+            "Discovering a new species was done by scientists.",
+            "Scientists were discovered by a new species."
+        ],
+        "correct": "A new species was discovered by scientists.",
+        "explanation": "To transform to passive voice, the object of the active sentence ('a new species') becomes the subject, followed by a form of 'to be' ('was') and the past participle ('discovered'), with the original subject ('scientists') introduced by 'by'."
+    },
+    {
+        "main": "Purpose of Passive Voice",
+        "question": "Why would the **passive voice** be used in the sentence: 'The experiment was conducted in a controlled environment.'?",
+        "options": [
+            "To emphasize the scientists who conducted it.",
+            "To make the sentence shorter.",
+            "To focus on the experiment and its conditions, not the doer.",
+            "To express uncertainty about who conducted it."
+        ],
+        "correct": "To focus on the experiment and its conditions, not the doer.",
+        "explanation": "The passive voice is often used in scientific or formal writing to maintain objectivity and emphasize the action or the recipient of the action, rather than the person or thing performing the action."
+    },
+    {
+        "main": "Passive with 'Have Something Done'",
+        "question": "Which sentence correctly uses the **causative passive** to show someone arranged for a service?",
+        "options": [
+            "I fix my car myself.",
+            "I had my car fixed.",
+            "My car was fixed by me.",
+            "I will fix my car."
+        ],
+        "correct": "I had my car fixed.",
+        "explanation": "The causative passive structure 'have/get + object + past participle' indicates that the subject arranged for someone else to perform the action. In this case, I arranged for someone else to fix my car."
+    },
+    {
+        "main": "Passive for General Truths",
+        "question": "Which sentence uses the **passive voice** to state a generally accepted truth or fact?",
+        "options": [
+            "Water boils at 100 degrees Celsius.",
+            "It is known that water boils at 100 degrees Celsius.",
+            "Scientists know that water boils at 100 degrees Celsius.",
+            "Water is boiling at 100 degrees Celsius."
+        ],
+        "correct": "It is known that water boils at 100 degrees Celsius.",
+        "explanation": "The impersonal passive construction 'It is known that...' (or 'It is believed that...', 'It is said that...') is commonly used to introduce generally accepted facts or common knowledge without specifying the source."
+    },
+    {
+        "main": "Identifying Active or Passive",
+        "question": "Is the sentence 'The decision was made after careful consideration' in the **active** or **passive voice**?",
+        "options": [
+            "Active Voice",
+            "Passive Voice"
+        ],
+        "correct": "Passive Voice",
+        "explanation": "The sentence uses 'was made', a form of 'to be' + past participle, and the subject 'The decision' is receiving the action, not performing it. The doer of the action is not specified."
+    },
+    {
+        "main": "Transforming to Passive (Present Simple)",
+        "question": "Transform the sentence 'Students write essays' into the **passive voice**.",
+        "options": [
+            "Essays write students.",
+            "Essays are written by students.",
+            "Students are written essays.",
+            "Writing essays is done by students."
+        ],
+        "correct": "Essays are written by students.",
+        "explanation": "To form the present simple passive, the object of the active sentence ('essays') becomes the subject, followed by 'is/are' ('are' for plural 'essays') and the past participle ('written'). The original subject ('students') is in a 'by' phrase."
+    },
+    {
+        "main": "When Passive is Preferred",
+        "question": "In which scenario would the **passive voice** generally be preferred?",
+        "options": [
+            "When you want to emphasize who performed the action.",
+            "When the doer of the action is unknown or unimportant.",
+            "When you want to make your writing more direct and concise.",
+            "When describing personal experiences."
+        ],
+        "correct": "When the doer of the action is unknown or unimportant.",
+        "explanation": "The passive voice is particularly useful when the focus is on the action or the recipient of the action, and the person or thing performing the action is either unknown, unimportant, or obvious from the context."
+    },
+    {
+        "main": "Passive with 'Used To'",
+        "question": "Which sentence correctly uses 'used to' in the **passive voice**?",
+        "options": [
+            "This house used to be owned by my grandparents.",
+            "My grandparents used to own this house.",
+            "This house used to own my grandparents.",
+            "This house was used to own by my grandparents."
+        ],
+        "correct": "This house used to be owned by my grandparents.",
+        "explanation": "The structure for 'used to' in the passive voice is 'used to be + past participle'. It describes a past state or habit that is no longer true, with the subject receiving the action."
+    },
+    {
+        "main": "Passive with Perfect Continuous",
+        "question": "Which sentence is in the **present perfect continuous passive voice**?",
+        "options": [
+            "The road has been repaired.",
+            "They have been repairing the road.",
+            "The road has been being repaired for weeks.",
+            "The road was being repaired."
+        ],
+        "correct": "The road has been being repaired for weeks.",
+        "explanation": "The present perfect continuous passive voice is formed with 'has/have + been + being + past participle'. It indicates an action that started in the past, has continued up to the present, and is still ongoing."
+    },
+    {
+        "main": "Passive for Public Announcements",
+        "question": "Which sentence is best suited for a public announcement using the **passive voice**?",
+        "options": [
+            "We kindly ask passengers to remain seated.",
+            "Passengers are kindly requested to remain seated.",
+            "Please, passengers, remain seated.",
+            "Passengers should remain seated."
+        ],
+        "correct": "Passengers are kindly requested to remain seated.",
+        "explanation": "The passive voice is often used in formal announcements or instructions to be impersonal and polite, focusing on the request itself rather than who is making it."
+    },
+    {
+        "main": "Identifying Passive Voice",
+        "question": "Which of the following sentences exemplifies the **passive voice**?",
+        "options": [
+            "The gardener waters the flowers daily.",
+            "The flowers are watered daily by the gardener.",
+            "Daily, the gardener waters the flowers.",
+            "The gardener is watering the flowers."
+        ],
+        "correct": "The flowers are watered daily by the gardener.",
+        "explanation": "In this sentence, 'The flowers' (the subject) are receiving the action 'are watered', making it passive. The agent ('by the gardener') is also present."
+    },
+    {
+        "main": "Transform to Passive (Modal)",
+        "question": "Transform the active sentence 'You must submit the report by Friday' into the **passive voice**.",
+        "options": [
+            "The report must submit by Friday.",
+            "The report must be submitted by Friday.",
+            "You must be submitted the report by Friday.",
+            "Submitting the report must be by Friday."
+        ],
+        "correct": "The report must be submitted by Friday.",
+        "explanation": "To transform an active sentence with a modal verb into the passive voice, the structure is 'modal + be + past participle'. 'The report' is the object receiving the action of 'submitted'."
+    },
+    {
+        "main": "Passive with 'Could Be'",
+        "question": "Which sentence correctly uses the **modal passive voice** ('could be')?",
+        "options": [
+            "They could find the solution.",
+            "The solution could be found.",
+            "The solution could finds them.",
+            "Finding the solution could be easy."
+        ],
+        "correct": "The solution could be found.",
+        "explanation": "The modal passive voice uses 'modal + be + past participle'. Here, 'the solution' is the recipient of the action 'found', indicating a possibility."
+    },
+    {
+        "main": "Passive for Emphasis on Object",
+        "question": "Choose the sentence where the **passive voice** is used to emphasize the object of the action.",
+        "options": [
+            "The team won the championship.",
+            "The championship was won by the team.",
+            "Winning the championship was their goal.",
+            "The team played well in the championship."
+        ],
+        "correct": "The championship was won by the team.",
+        "explanation": "By putting 'The championship' as the subject of the passive sentence, the emphasis shifts from 'the team' (the doer) to the championship itself."
+    },
+    {
+        "main": "Identify Passive Sentence",
+        "question": "Which of these sentences is in the **passive voice**?",
+        "options": [
+            "The children played in the park.",
+            "The park was played in by the children.",
+            "Playing in the park is fun for children.",
+            "The children enjoyed the park."
+        ],
+        "correct": "The park was played in by the children.",
+        "explanation": "In option B, the subject 'The park' receives the action 'was played in', making it passive. The preposition 'in' remains with the verb form."
+    },
+    {
+        "main": "Active to Passive Conversion",
+        "question": "Convert the active sentence 'The company launched a new product' into the **passive voice**.",
+        "options": [
+            "A new product launched the company.",
+            "A new product was launched by the company.",
+            "The company was launched by a new product.",
+            "Launching a new product was done by the company."
+        ],
+        "correct": "A new product was launched by the company.",
+        "explanation": "To convert to passive voice, the object of the active sentence ('a new product') becomes the subject, followed by 'was' and the past participle ('launched'), with the original subject ('the company') in a 'by' phrase."
+    },
+    {
+        "main": "When to Avoid Passive",
+        "question": "In which situation is it generally advisable to **avoid** the passive voice?",
+        "options": [
+            "When the doer of the action is unknown.",
+            "When trying to be objective in scientific writing.",
+            "When you want to make your writing more direct and forceful.",
+            "When describing an accident and not wanting to assign blame."
+        ],
+        "correct": "When you want to make your writing more direct and forceful.",
+        "explanation": "The active voice is usually more direct, clear, and concise. While passive voice has its uses, it can often make writing sound more formal, indirect, or less dynamic if not used appropriately."
+    },
+    {
+        "main": "Passive with 'Is Being'",
+        "question": "Which sentence uses the **present continuous passive voice**?",
+        "options": [
+            "The car is being washed.",
+            "The car was washed.",
+            "They are washing the car.",
+            "The car has been washed."
+        ],
+        "correct": "The car is being washed.",
+        "explanation": "The present continuous passive voice ('is/are being + past participle') indicates an action that is currently in progress and is being performed on the subject ('the car')."
+    },
+    {
+        "main": "Transform to Passive (Future Perfect)",
+        "question": "Transform the active sentence 'They will have completed the project by next month' into the **passive voice**.",
+        "options": [
+            "The project will have completed by next month.",
+            "The project will have been completed by next month.",
+            "By next month, they will have been completed the project.",
+            "Completing the project will have been done by next month."
+        ],
+        "correct": "The project will have been completed by next month.",
+        "explanation": "The future perfect passive voice is formed with 'will have been + past participle'. The object 'the project' becomes the subject that will have received the action by a future time."
+    },
+    {
+        "main": "Passive for Reporting Crime",
+        "question": "Which sentence is typically used in a news report about a crime using the **passive voice**?",
+        "options": [
+            "Police arrested the suspect.",
+            "The suspect was arrested.",
+            "Someone arrested the suspect.",
+            "They arrested the suspect."
+        ],
+        "correct": "The suspect was arrested.",
+        "explanation": "In news reporting, especially about crimes, the passive voice is frequently used to focus on the victim or the action ('the suspect was arrested') rather than necessarily highlighting the arresting party, which is often obvious."
+    },
+    {
+        "main": "Identifying Active Sentence",
+        "question": "Which of these sentences is in the **active voice**?",
+        "options": [
+            "The cake was baked by my sister.",
+            "The letter has been sent.",
+            "My sister baked the cake.",
+            "Rules must be followed."
+        ],
+        "correct": "My sister baked the cake.",
+        "explanation": "In an active voice sentence, the subject ('My sister') performs the action ('baked'). Options A, B, and D are all in the passive voice."
+    },
+    {
+        "main": "Passive Voice with 'It is believed'",
+        "question": "Choose the sentence that correctly expresses a general belief using the **passive voice**.",
+        "options": [
+            "People believe that honesty is the best policy.",
+            "It is believed that honesty is the best policy.",
+            "Honesty is believed by people to be the best policy.",
+            "They believe honesty is the best policy."
+        ],
+        "correct": "It is believed that honesty is the best policy.",
+        "explanation": "The impersonal passive construction 'It is believed that...' is a standard and formal way to state widely held opinions or truths without attributing them to a specific person or group."
+    }
+]

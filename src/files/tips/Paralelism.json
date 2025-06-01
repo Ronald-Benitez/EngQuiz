@@ -1,0 +1,82 @@
+{
+    "title": "Understanding Parallelism in English Sentences",
+    "description": "Parallelism is about making sure that similar ideas in a sentence or group of sentences are expressed in the same grammatical form. It creates a sense of balance, rhythm, and clarity, making your writing easier to read and understand. When parts of a sentence are parallel, they 'match' in structure, just like two train tracks running side-by-side.",
+    "tips": [
+      {
+        "title": "Matching Grammatical Forms",
+        "description": "When you have a list of items, phrases, or clauses, make sure they all use the same grammatical structure (e.g., all nouns, all verbs in the same tense, all gerunds, all infinitives, all prepositional phrases).",
+        "examples": [
+          "Incorrect: She enjoys **running**, **to swim**, and **baking**.",
+          "Correct: She enjoys **running**, **swimming**, and **baking**.",
+          "Incorrect: He wanted **to earn** money, **to save** it, and then **investing** it.",
+          "Correct: He wanted **to earn** money, **to save** it, and then **to invest** it."
+        ]
+      },
+      {
+        "title": "Parallelism with Conjunctions (and, but, or, nor)",
+        "description": "When you connect two or more elements with coordinating conjunctions like *and*, *but*, *or*, or *nor*, those elements should be parallel in structure.",
+        "examples": [
+          "Incorrect: The report was **thorough** but **lacked clarity**.",
+          "Correct: The report was **thorough** but **unclear**.",
+          "Incorrect: She is not only a talented singer **but also writes songs**.",
+          "Correct: She is not only a talented singer **but also a gifted songwriter**."
+        ]
+      },
+      {
+        "title": "Parallelism in Lists and Series",
+        "description": "This is one of the most common places to use parallelism. Ensure all items in a list have the same grammatical form.",
+        "examples": [
+          "Incorrect: My goals are to **learn a new language**, **travel the world**, and **experience different cultures**.",
+          "Correct: My goals are **to learn a new language**, **to travel the world**, and **to experience different cultures**.",
+          "Incorrect: The job requires **attention to detail**, **problem-solving skills**, and **being good at communication**.",
+          "Correct: The job requires **attention to detail**, **problem-solving skills**, and **strong communication abilities**."
+        ]
+      },
+      {
+        "title": "Parallelism with Paired Conjunctions",
+        "description": "Paired conjunctions (also known as correlative conjunctions) like *either...or*, *neither...nor*, *both...and*, *not only...but also*, and *whether...or* require parallel structures after each part of the pair.",
+        "examples": [
+          "Incorrect: He is **not only handsome** but also **a genius**.",
+          "Correct: He is **not only handsome** but also **intelligent**.",
+          "Incorrect: You can **either study** hard or **your grades will suffer**.",
+          "Correct: You can **either study hard** or **face poor grades**."
+        ]
+      },
+      {
+        "title": "Parallelism in Comparisons",
+        "description": "When you're comparing two or more things, make sure the items being compared are grammatically similar.",
+        "examples": [
+          "Incorrect: Running is **more difficult than to walk**.",
+          "Correct: Running is **more difficult than walking**.",
+          "Incorrect: Her performance was **as good as if he had practiced for weeks**.",
+          "Correct: Her performance was **as good as his practiced one**."
+        ]
+      },
+      {
+        "title": "Parallelism in Clauses",
+        "description": "When you use multiple clauses (groups of words with a subject and a verb) to express related ideas, they should ideally be parallel in structure.",
+        "examples": [
+          "Incorrect: **What you say** and **that you do things** are important.",
+          "Correct: **What you say** and **what you do** are important.",
+          "Incorrect: She believed **that the project would succeed** and **also that the team would work well together**.",
+          "Correct: She believed **that the project would succeed** and **that the team would work well together**."
+        ]
+      },
+      {
+        "title": "Parallelism for Emphasis and Rhythm",
+        "description": "Beyond mere correctness, parallelism can be used as a stylistic device to add emphasis, create a sense of rhythm, and make your writing more memorable.",
+        "examples": [
+          "Incorrect: **He came**, **he saw**, and then **conquering was done by him**.",
+          "Correct: **He came**, **he saw**, **he conquered**."
+        ]
+      },
+      {
+        "title": "Recognizing Faulty Parallelism",
+        "description": "Be vigilant for sentences where parts that should be parallel are not. This often occurs in lists, comparisons, and with conjunctions.",
+        "examples": [
+          "Faulty: The new policy will **reduce expenses**, **improve efficiency**, and **it makes customers happier**.",
+          "Correct: The new policy will **reduce expenses**, **improve efficiency**, and **increase customer satisfaction**."
+        ]
+      }
+    ]
+  }
