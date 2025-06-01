@@ -18,6 +18,7 @@ export type AppSettings = {
     automatically: boolean;
     delay: number;
     questions: number;
+    resumeQuestions: number;
     accent?: "en-AU" | "en-CA" | "en-GB" | "en-IE" | "en-IN" | "en-NZ" | "en-US" | "en-ZA";
     max: boolean;
     animationDuration: number;
@@ -31,6 +32,7 @@ const defaultSettings: AppSettings = {
     automatically: false,
     delay: 1000,
     questions: 20,
+    resumeQuestions: 10,
     accent: "en-US",
     max: false,
     animationDuration: 2000,
@@ -117,8 +119,13 @@ const calculateQuestions = (questions: number, settings: AppSettings) => {
     return questions;
 }
 
+const calculateResumeQuestions = (questions: number, settings: AppSettings) => {
+    return questions > settings.resumeQuestions ? settings.resumeQuestions : questions;
+}
+
 export {
     AppSettingsProvider,
     useAppSettings,
     calculateQuestions,
+    calculateResumeQuestions,
 }

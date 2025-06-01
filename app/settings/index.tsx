@@ -114,6 +114,15 @@ export default function SettingsScrean() {
               </ThemedView>
             )
           }
+           <ThemedView style={[styles.container, styles.col, { marginTop: 0, paddingTop: 0 }]}>
+            <ThemedText >Questions per resume</ThemedText>
+            <ThemedInput
+                  value={settings?.resumeQuestions?.toString()}
+                  onChangeText={value => handleUpdate('resumeQuestions', value)}
+                  keyboardType="numeric"
+                  placeholder="Number of questions per resume"
+                />
+          </ThemedView>
         </ThemedView>
         <ThemedView secondary style={styles.block}>
           <ThemedView style={[styles.container, styles.col, { marginTop: 0, paddingTop: 0 }]}>

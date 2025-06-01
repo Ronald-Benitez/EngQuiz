@@ -62,6 +62,14 @@ export default function TabLayout() {
           }
         }}
       />
+      <Tabs.Screen
+        name="resume/[name]"
+        options={{
+          tabBarItemStyle: {
+            display: 'none'
+          }
+        }}
+      />
     </Tabs>
   );
 }

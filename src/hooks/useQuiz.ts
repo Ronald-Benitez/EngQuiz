@@ -42,7 +42,7 @@ export default function useQuiz({ buildOptions, timer, quizName }: UseQuizProps)
 
     const ramdomizeOptions = () => {
         const list = buildOptions();
-        list.forEach((item) => {
+        list?.forEach((item) => {
             const options = item.options
             options.sort(() => Math.random() - 0.5);
         })
