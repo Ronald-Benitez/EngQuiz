@@ -72,6 +72,21 @@ const List: { title: string, quizzes: QuizItem[] }[] = [
         title: "Negative prefixes",
         href: "NegativePrefixes",
         icon: "minimize"
+      },
+      {
+        title: "Passive voice",
+        href: "PassiveVoice",
+        icon: "spoke"
+      },
+      {
+        title: "Modal verbs",
+        href: "ModalVerbs",
+        icon: "sync"
+      },
+      {
+        title: "Resume",
+        href: "SectionTwoResume",
+        icon: "analytics"
       }
     ]
   }
@@ -97,7 +112,7 @@ export default function QuizzesHome() {
                       <ThemedView style={{ flex: 1, flexDirection: "row", width: "100%", gap: 5, marginVertical: 10, alignItems: "center" }} key={index}>
                         <Link href={
                           {
-                            pathname: "/quizzes/quiz/[name]",
+                            pathname: quiz?.title == "Resume" ? "/quizzes/resume/[name]" : "/quizzes/quiz/[name]",
                             params: { name: quiz.href }
                           }
                         }

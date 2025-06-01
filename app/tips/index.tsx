@@ -56,7 +56,27 @@ const List: { title: string, tips: TipItem[] }[] = [
         title: "Negative prefixes to form antonyms",
         href: "NegativePrefixes",
         icon: "not-interested"
-      }
+      },
+      {
+        title: "Parallelism",
+        href: "Parallelism",
+        icon: "compare-arrows"
+      },
+      {
+        title: "Paired conjuctions",
+        href: "PairedConjunctions",
+        icon: "link"
+      },
+      {
+        title: "Passive voice",
+        href: "PassiveVoice",
+        icon: "spoke"
+      },
+      {
+        title: "Modal verbs",
+        href: "ModalVerbs",
+        icon: "sync"
+      },
     ]
   }
 

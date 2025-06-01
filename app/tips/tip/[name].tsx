@@ -29,7 +29,20 @@ const optionsConfig = {
     },
     NegativePrefixes: {
         import: () => import("@/src/files/tips/NegativePrefixes.json")
-    }
+    },
+    Parallelism: {
+        import: () => import("@/src/files/tips/Paralelism.json")
+    },
+    PairedConjunctions: {
+        import: () => import("@/src/files/tips/PairedConjunctions.json")
+    },
+    PassiveVoice: {
+        import: () => import("@/src/files/tips/PassiveVoice.json")
+    },
+    ModalVerbs: {
+        import: () => import("@/src/files/tips/ModalVerbs.json")
+    },
+
 } as const;
 
 type OptionsConfig = typeof optionsConfig;

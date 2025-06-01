@@ -75,7 +75,31 @@ const optionsConfig = {
         formatedSpeak: formatedBasicSpeak,
         import: () => import("@/src/files/quizzes/NegativePrefixes.json"),
         hideCurrent: true
-    }
+    },
+     Parallelism: {
+        buildOptions: buildOptions,
+        formatedSpeak: formatedBasicSpeak,
+        import: () => import("@/src/files/quizzes/Parallelism.json"),
+        hideCurrent: true
+    },
+    PairedConjunctions: {
+        buildOptions: buildOptions,
+        formatedSpeak: formatedBasicSpeak,
+        import: () => import("@/src/files/quizzes/PairedConjunctions.json"),
+        hideCurrent: true
+    },
+    PassiveVoice: {
+        buildOptions: buildOptions,
+        formatedSpeak: formatedBasicSpeak,
+        import: () => import("@/src/files/quizzes/PassiveVoice.json"),
+        hideCurrent: true
+    },
+    ModalVerbs: {
+        buildOptions: buildOptions,
+        formatedSpeak: formatedBasicSpeak,
+        import: () => import("@/src/files/quizzes/ModalVerbs.json"),
+        hideCurrent: true
+    },
 } as const;
 
 type OptionsConfig = typeof optionsConfig;

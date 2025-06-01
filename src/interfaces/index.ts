@@ -1,9 +1,9 @@
 export type Question = {
-    main: string;
-    question: string;
-    options: string[];
-    correct: string;
-    explanation?: string;
+    main: string;       //short description (one to five words)
+    question: string;   //questions that will be showed to the user
+    options: string[];  //list of possible options
+    correct: string;    //correct option
+    explanation?: string;   //explanation of the correct option
 };
 
 export type Completed = {
